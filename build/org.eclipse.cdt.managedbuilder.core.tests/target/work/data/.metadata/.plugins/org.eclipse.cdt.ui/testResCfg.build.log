@@ -1,0 +1,44 @@
+11:46:14 **** Build of configuration Dbg for project testResCfg ****
+make -k all 
+Building file: ../source2/source21/Class21.cpp
+Invoking: compiler.gnu.cpp
+g++ -DRESSPEC -I../headers -O0 -g3 -Wall -c -o "source2/source21/Class21.o" "../source2/source21/Class21.cpp" && \
+echo -n 'source2/source21/Class21.d' source2/source21/ > 'source2/source21/Class21.d' && \
+g++ -MM -MG -P -w -DRESSPEC -I../headers -O0 -g3 -Wall -c   "../source2/source21/Class21.cpp" >> 'source2/source21/Class21.d'
+Finished building: ../source2/source21/Class21.cpp
+ 
+Building file: ../source2/Class2.cpp
+Invoking: compiler.gnu.cpp
+g++ -I../headers -O0 -g3 -Wall -c -fmessage-length=0 -o "source2/Class2.o" "../source2/Class2.cpp" && \
+echo -n 'source2/Class2.d' source2/ > 'source2/Class2.d' && \
+g++ -MM -MG -P -w -I../headers -O0 -g3 -Wall -c -fmessage-length=0   "../source2/Class2.cpp" >> 'source2/Class2.d'
+Finished building: ../source2/Class2.cpp
+ 
+Building file: ../source1/Class1.cpp
+Invoking: compiler.gnu.cpp
+g++ -I../headers -O0 -g3 -Wall -c -fmessage-length=0 -o "source1/Class1.o" "../source1/Class1.cpp" && \
+echo -n 'source1/Class1.d' source1/ > 'source1/Class1.d' && \
+g++ -MM -MG -P -w -I../headers -O0 -g3 -Wall -c -fmessage-length=0   "../source1/Class1.cpp" >> 'source1/Class1.d'
+In file included from ../source1/Class1.cpp:1:0:
+../headers/Class1.h:4:20: fatal error: class2.h: 没有那个文件或目录
+ #include "class2.h"
+                    ^
+compilation terminated.
+source1/subdir.mk:18: recipe for target 'source1/Class1.o' failed
+make: *** [source1/Class1.o] Error 1
+Building file: ../main.cpp
+Invoking: compiler.gnu.cpp
+g++ -I../headers -O0 -g3 -Wall -c -fmessage-length=0 -o "main.o" "../main.cpp" && \
+echo -n 'main.d' ./ > 'main.d' && \
+g++ -MM -MG -P -w -I../headers -O0 -g3 -Wall -c -fmessage-length=0   "../main.cpp" >> 'main.d'
+In file included from ../main.cpp:1:0:
+../headers/Class1.h:4:20: fatal error: class2.h: 没有那个文件或目录
+ #include "class2.h"
+                    ^
+compilation terminated.
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+make: Target 'all' not remade because of errors.
+
+11:46:14 Build Finished (took 211ms)
+

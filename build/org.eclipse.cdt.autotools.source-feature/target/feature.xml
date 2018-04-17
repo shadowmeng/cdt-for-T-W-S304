@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.cdt.autotools.source"
+      label="%featureName"
+      version="9.3.0.201611250806"
+      provider-name="%provider">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.cdt.autotools.core.source"
+         download-size="74"
+         install-size="224"
+         version="2.0.0.201611250806"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.autotools.ui.source"
+         download-size="397"
+         install-size="1073"
+         version="2.0.0.201611250806"
+         unpack="false"/>
+
+</feature>

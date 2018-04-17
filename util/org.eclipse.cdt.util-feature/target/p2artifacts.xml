@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='binary' id='org.eclipse.cdt.util_root' version='9.3.0.201611250806'>
+    <properties size='5'>
+      <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+      <property name='maven-artifactId' value='org.eclipse.cdt.util'/>
+      <property name='maven-version' value='9.3.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='root'/>
+      <property name='maven-extension' value='zip'/>
+    </properties>
+  </artifact>
+  <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.util' version='9.3.0.201611250806'>
+    <properties size='6'>
+      <property name='artifact.size' value='12141'/>
+      <property name='download.size' value='12141'/>
+      <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+      <property name='maven-artifactId' value='org.eclipse.cdt.util'/>
+      <property name='maven-version' value='9.3.0-SNAPSHOT'/>
+      <property name='download.contentType' value='application/zip'/>
+    </properties>
+  </artifact>
+</artifacts>

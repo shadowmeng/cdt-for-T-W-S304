@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.cdt.dsf.gdb.tests.AllTests
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.426 sec - in org.eclipse.cdt.dsf.gdb.tests.AllTests
+testParentIdParsing(org.eclipse.cdt.dsf.mi.service.command.output.MIThreadTests)  Time elapsed: 0.032 sec
+testOsIdParsing(org.eclipse.cdt.dsf.mi.service.command.output.MIThreadTests)  Time elapsed: 0 sec
+pathWithSlashesShouldNotBeSubstituted(org.eclipse.cdt.dsf.mi.service.command.commands.TestMIBreakInsertCommand)  Time elapsed: 0.094 sec
+multipleParametersShouldHaveCorrectSeparators(org.eclipse.cdt.dsf.mi.service.command.commands.TestMICommandConstructCommand)  Time elapsed: 0.002 sec
+pathWithSpaceShouldNotBe(org.eclipse.cdt.dsf.mi.service.command.commands.TestMIGDBSetSysroot)  Time elapsed: 0.004 sec
+pathWithDoubleQuotesShouldNotBe(org.eclipse.cdt.dsf.mi.service.command.commands.TestMIGDBSetSysroot)  Time elapsed: 0.001 sec
+testGDBVersionFromText(org.eclipse.cdt.dsf.gdb.tests.LaunchUtilsTest)  Time elapsed: 0.02 sec
+testGDBVersionComparison(org.eclipse.cdt.dsf.gdb.tests.LaunchUtilsTest)  Time elapsed: 0.002 sec
+testTranscodeString(org.eclipse.cdt.dsf.mi.service.command.output.MIStringHandlerTests)  Time elapsed: 0.033 sec
+testParseSpecialCodePoint(org.eclipse.cdt.dsf.mi.service.command.output.MIStringHandlerTests)  Time elapsed: 0 sec
+testParseString(org.eclipse.cdt.dsf.mi.service.command.output.MIStringHandlerTests)  Time elapsed: 0.002 sec
+testEscapeString(org.eclipse.cdt.dsf.mi.service.command.output.MIStringHandlerTests)  Time elapsed: 0.037 sec
+testIsSpecialChar(org.eclipse.cdt.dsf.mi.service.command.output.MIStringHandlerTests)  Time elapsed: 0 sec
+testIsSpecialCodePoint(org.eclipse.cdt.dsf.mi.service.command.output.MIStringHandlerTests)  Time elapsed: 0 sec
+testParseSpecialChar(org.eclipse.cdt.dsf.mi.service.command.output.MIStringHandlerTests)  Time elapsed: 0 sec
+testTranslateCString(org.eclipse.cdt.dsf.mi.service.command.output.MIStringHandlerTests)  Time elapsed: 0.002 sec
+testStatFileDoesNotExist(org.eclipse.cdt.dsf.gdb.tests.ProcStatParserTest)  Time elapsed: 0.002 sec
+testStatFileDoesntParse(org.eclipse.cdt.dsf.gdb.tests.ProcStatParserTest)  Time elapsed: 0.001 sec
+testProcStatParse1(org.eclipse.cdt.dsf.gdb.tests.ProcStatParserTest)  Time elapsed: 0.003 sec
+testProcStatParse2(org.eclipse.cdt.dsf.gdb.tests.ProcStatParserTest)  Time elapsed: 0 sec
+testProcStatParse3(org.eclipse.cdt.dsf.gdb.tests.ProcStatParserTest)  Time elapsed: 0 sec
+testProcStatParseOneSetOfCounters(org.eclipse.cdt.dsf.gdb.tests.ProcStatParserTest)  Time elapsed: 0 sec
+testFileParts(org.eclipse.cdt.dsf.gdb.tests.FilePartsTest)  Time elapsed: 0.141 sec

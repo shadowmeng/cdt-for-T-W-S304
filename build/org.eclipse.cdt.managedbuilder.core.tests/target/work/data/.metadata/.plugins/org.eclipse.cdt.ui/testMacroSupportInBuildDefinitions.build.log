@@ -1,0 +1,16 @@
+11:46:26 **** Build of configuration Default for project testMacroSupportInBuildDefinitions ****
+make all 
+Building file: ../somefile.foo
+Invoking: Foo Tool
+cp "../somefile.foo" "this_is_a_test_prefix_with_a_macro_for_the_project_name_between_here_testMacroSupportInBuildDefinitions_and_heresomefile.bar"
+Finished building: ../somefile.foo
+ 
+Building target: testMacroSupportInBuildDefinitions.tar
+Invoking: Bar Tool
+tar cvf testMacroSupportInBuildDefinitions.tar  ./this_is_a_test_prefix_with_a_macro_for_the_project_name_between_here_testMacroSupportInBuildDefinitions_and_heresomefile.bar 
+./this_is_a_test_prefix_with_a_macro_for_the_project_name_between_here_testMacroSupportInBuildDefinitions_and_heresomefile.bar
+Finished building target: testMacroSupportInBuildDefinitions.tar
+ 
+
+11:46:26 Build Finished (took 53ms)
+

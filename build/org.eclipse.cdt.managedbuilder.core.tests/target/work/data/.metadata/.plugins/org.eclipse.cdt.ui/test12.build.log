@@ -1,0 +1,16 @@
+11:46:05 **** Build of configuration Release for project test12 ****
+Info: Configuration "Release" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: test12.exe
+Invoking: Cygwin C++ Linker
+g++  -o "test12.exe"  ./test.o   
+Finished building target: test12.exe
+ 
+
+11:46:06 Build Finished (took 569ms)
+

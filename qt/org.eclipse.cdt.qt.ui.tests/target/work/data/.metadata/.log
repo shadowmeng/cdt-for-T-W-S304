@@ -1,0 +1,227 @@
+!SESSION 2016-11-25 16:32:51.978 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_45-internal
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -application org.eclipse.tycho.surefire.osgibooter.uitest -testproperties /home/mengjingshi/Documents/workspace/org.eclipse.cdt/qt/org.eclipse.cdt.qt.ui.tests/target/surefire.properties
+Command-line arguments:  -data /home/mengjingshi/Documents/workspace/org.eclipse.cdt/qt/org.eclipse.cdt.qt.ui.tests/target/work/data -application org.eclipse.tycho.surefire.osgibooter.uitest -testproperties /home/mengjingshi/Documents/workspace/org.eclipse.cdt/qt/org.eclipse.cdt.qt.ui.tests/target/surefire.properties
+
+!ENTRY org.eclipse.compare.win32 4 0 2016-11-25 16:32:53.197
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.compare.win32 [246]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=win32)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2016-11-25 16:32:55.457
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2016-11-25 16:32:55.458
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:02.581
+!MESSAGE Indexed '__QGadgetTests__' (0 sources, 2 headers) in 0.591 sec: 72 declarations; 32 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:02.711
+!MESSAGE Indexed '__QGadgetTests__' (0 sources, 4 headers) in 0.122 sec: 87 declarations; 41 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:03.012
+!MESSAGE Indexed '__QGadgetTests__' (0 sources, 2 headers) in 0.05 sec: 72 declarations; 32 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:03.084
+!MESSAGE Indexed '__QGadgetTests__' (0 sources, 4 headers) in 0.067 sec: 82 declarations; 42 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:03.190
+!MESSAGE Indexed '__QGadgetTests__' (0 sources, 2 headers) in 0.035 sec: 72 declarations; 32 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:03.245
+!MESSAGE Indexed '__QGadgetTests__' (0 sources, 4 headers) in 0.04 sec: 74 declarations; 34 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:03.373
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 2 headers) in 0.05 sec: 72 declarations; 32 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:03.429
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 4 headers) in 0.035 sec: 82 declarations; 49 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:03.554
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 2 headers) in 0.029 sec: 72 declarations; 32 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:03.837
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 4 headers) in 0.225 sec: 93 declarations; 559 references; 0 unresolved inclusions; 0 syntax errors; 4 unresolved names (0.61%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:03.889
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:03.927
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 2 headers) in 0.019 sec: 72 declarations; 32 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:03.984
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 4 headers) in 0.047 sec: 87 declarations; 43 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:04.070
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 2 headers) in 0.021 sec: 72 declarations; 32 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:04.097
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 4 headers) in 0.024 sec: 82 declarations; 43 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:04.135
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:04.175
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 2 headers) in 0.018 sec: 72 declarations; 32 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:04.215
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 4 headers) in 0.032 sec: 76 declarations; 37 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:04.266
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 0 headers) in 0.002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:04.298
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 2 headers) in 0.027 sec: 72 declarations; 32 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:04.342
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 4 headers) in 0.03 sec: 78 declarations; 41 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:04.382
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:04.419
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 2 headers) in 0.022 sec: 72 declarations; 32 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:04.460
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 4 headers) in 0.036 sec: 94 declarations; 57 references; 0 unresolved inclusions; 0 syntax errors; 2 unresolved names (1.3%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:04.520
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 2 headers) in 0.019 sec: 72 declarations; 32 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:04.557
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 4 headers) in 0.032 sec: 77 declarations; 36 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:04.623
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 2 headers) in 0.018 sec: 72 declarations; 32 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:04.660
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 4 headers) in 0.031 sec: 80 declarations; 38 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:04.727
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 2 headers) in 0.021 sec: 72 declarations; 32 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:04.766
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 4 headers) in 0.028 sec: 80 declarations; 42 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:04.805
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:04.836
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 2 headers) in 0.02 sec: 72 declarations; 32 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:04.890
+!MESSAGE Indexed '__QObjectTests__' (0 sources, 4 headers) in 0.05 sec: 102 declarations; 70 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:05.047
+!MESSAGE Indexed '__QtIndexTests__' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:05.081
+!MESSAGE Indexed '__QtIndexTests__' (0 sources, 2 headers) in 0.019 sec: 72 declarations; 32 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:05.116
+!MESSAGE Indexed '__QtIndexTests__' (0 sources, 4 headers) in 0.026 sec: 74 declarations; 35 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:05.156
+!MESSAGE Indexed '__QtIndexTests__' (0 sources, 4 headers) in 0.026 sec: 75 declarations; 36 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:05.211
+!MESSAGE Indexed '__QtRegressionTests__' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:05.244
+!MESSAGE Indexed '__QtRegressionTests__' (0 sources, 2 headers) in 0.019 sec: 72 declarations; 32 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:05.300
+!MESSAGE Indexed '__QtRegressionTests__' (0 sources, 4 headers) in 0.052 sec: 88 declarations; 38 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:05.400
+!MESSAGE Indexed '__QtRegressionTests__' (0 sources, 2 headers) in 0.015 sec: 72 declarations; 32 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:05.434
+!MESSAGE Indexed '__QtRegressionTests__' (0 sources, 4 headers) in 0.031 sec: 84 declarations; 41 references; 0 unresolved inclusions; 3 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:05.499
+!MESSAGE Indexed '__QtRegressionTests__' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:05.538
+!MESSAGE Indexed '__QtRegressionTests__' (0 sources, 2 headers) in 0.021 sec: 72 declarations; 32 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:05.600
+!MESSAGE Indexed '__QtRegressionTests__' (0 sources, 4 headers) in 0.05 sec: 236 declarations; 119 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:05.638
+!MESSAGE Indexed '__QtRegressionTests__' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:05.659
+!MESSAGE Indexed '__QtRegressionTests__' (0 sources, 2 headers) in 0.018 sec: 72 declarations; 32 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:05.691
+!MESSAGE Indexed '__QtRegressionTests__' (0 sources, 4 headers) in 0.021 sec: 97 declarations; 58 references; 0 unresolved inclusions; 8 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:05.749
+!MESSAGE Indexed '__QtRegressionTests__' (0 sources, 2 headers) in 0.017 sec: 72 declarations; 32 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:05.774
+!MESSAGE Indexed '__QtRegressionTests__' (0 sources, 4 headers) in 0.022 sec: 79 declarations; 46 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:09.981
+!MESSAGE Indexed '__QmlRegistrationTests__' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:10.015
+!MESSAGE Indexed '__QmlRegistrationTests__' (0 sources, 2 headers) in 0.016 sec: 72 declarations; 32 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:10.103
+!MESSAGE Indexed '__QmlRegistrationTests__' (0 sources, 4 headers) in 0.027 sec: 74 declarations; 36 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:10.172
+!MESSAGE Indexed '__QmlRegistrationTests__' (0 sources, 2 headers) in 0.019 sec: 72 declarations; 32 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:10.217
+!MESSAGE Indexed '__QmlRegistrationTests__' (0 sources, 4 headers) in 0.029 sec: 82 declarations; 61 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:10.273
+!MESSAGE Indexed '__QmlRegistrationTests__' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:10.294
+!MESSAGE Indexed '__QmlRegistrationTests__' (0 sources, 2 headers) in 0.015 sec: 72 declarations; 32 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:10.324
+!MESSAGE Indexed '__QmlRegistrationTests__' (0 sources, 4 headers) in 0.027 sec: 77 declarations; 50 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:10.388
+!MESSAGE Indexed '__QmlRegistrationTests__' (0 sources, 2 headers) in 0.016 sec: 72 declarations; 32 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:33:10.423
+!MESSAGE Indexed '__QmlRegistrationTests__' (0 sources, 4 headers) in 0.026 sec: 81 declarations; 54 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-11-25 16:33:11.759
+!MESSAGE The workspace will exit with unsaved changes in this session.
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-11-25 16:33:13.339
+!MESSAGE An internal error occurred during: "Decoration Calculation".
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: The application has not been initialized.
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:110)
+	at org.eclipse.core.internal.runtime.InternalPlatform.assertInitialized(InternalPlatform.java:139)
+	at org.eclipse.core.internal.runtime.InternalPlatform.getAdapterManager(InternalPlatform.java:160)
+	at org.eclipse.core.runtime.Platform.getAdapterManager(Platform.java:601)
+	at org.eclipse.ui.internal.ObjectContributorManager.getCommonClasses(ObjectContributorManager.java:680)
+	at org.eclipse.ui.internal.ObjectContributorManager.getContributors(ObjectContributorManager.java:584)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecoratorsFor(LightweightDecoratorManager.java:331)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:358)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:367)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:327)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

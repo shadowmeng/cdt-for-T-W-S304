@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.cdt.make.ui.tests;singleton:=true
+Bundle-Name: org.eclipse.cdt.make.ui.tests
+Bundle-Version: 1.0.0.201801250330
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.cd
+ t.make.ui,org.junit;bundle-version="4.10.0",org.eclipse.cdt.core.test
+ s
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.cdt.make.ui.tests.MakeUITestsPlugin
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/cdt/or
+ g.eclipse.cdt.git;path="build/org.eclipse.cdt.make.ui.tests";commitId
+ =5801b60b191e6a0df24f9176534d2fc47182318c
+Bundle-Vendor: Eclipse.org
+

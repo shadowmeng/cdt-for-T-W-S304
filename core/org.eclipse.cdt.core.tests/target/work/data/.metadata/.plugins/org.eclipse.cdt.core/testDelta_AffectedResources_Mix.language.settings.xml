@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project>
+	<configuration id="org.eclipse.cdt.core.tests.configuration" name="org.eclipse.cdt.core.tests.configuration Name">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider id="test.provider.1.id">
+				<resource project-relative-path="file1.cpp">
+					<entry kind="macro" name="MACRO" value="value"/>
+				</resource>
+				<resource project-relative-path="file2.cpp">
+					<entry kind="macro" name="MACRO" value="value"/>
+				</resource>
+				<resource project-relative-path="Folder">
+					<entry kind="macro" name="MACRO" value="value"/>
+				</resource>
+			</provider>
+		</extension>
+	</configuration>
+</project>

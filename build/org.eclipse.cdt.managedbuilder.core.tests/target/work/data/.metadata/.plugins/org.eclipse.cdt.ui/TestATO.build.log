@@ -1,0 +1,12 @@
+11:46:25 **** Build of configuration Debug for project TestATO ****
+make -k all 
+Building file: ../TestATO.c
+Invoking: AssignToOption Compiler
+ATOC -opt../TestATO.cop  "TestATO.obj" "../TestATO.c"
+/bin/sh: ATOC: 未找到命令
+subdir.mk:22: recipe for target 'TestATO.obj' failed
+make: *** [TestATO.obj] Error 127
+make: Target 'all' not remade because of errors.
+
+11:46:25 Build Finished (took 53ms)
+

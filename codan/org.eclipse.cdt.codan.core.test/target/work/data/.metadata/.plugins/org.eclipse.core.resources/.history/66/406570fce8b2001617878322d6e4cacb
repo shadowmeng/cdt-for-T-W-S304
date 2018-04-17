@@ -1,0 +1,4 @@
+	 main() {
+	   int a=1,b=3;
+	   if (b+a && a>b || b-a) b--; // error here
+	 }

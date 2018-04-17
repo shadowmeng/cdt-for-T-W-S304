@@ -1,0 +1,22 @@
+11:46:23 **** Build of configuration X for project test30_2 ****
+make all 
+Invoking: tar-create
+tar -cf new.tar  ../f1.cpp ../f2.cpp   ../a1.asm 
+tar: 从成员名中删除开头的“../”
+Finished building: new.tar
+ 
+Invoking: tar-list
+tar -tf  new.tar  > new.log
+Finished building: new.log
+ 
+Building target: test30_2.tmp
+Invoking: cat
+cat  new.log 
+f1.cpp
+f2.cpp
+a1.asm
+Finished building target: test30_2.tmp
+ 
+
+11:46:23 Build Finished (took 101ms)
+

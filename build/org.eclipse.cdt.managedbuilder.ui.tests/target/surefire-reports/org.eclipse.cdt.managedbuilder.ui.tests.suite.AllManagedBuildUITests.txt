@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.cdt.managedbuilder.ui.tests.suite.AllManagedBuildUITests
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.371 sec - in org.eclipse.cdt.managedbuilder.ui.tests.suite.AllManagedBuildUITests
+testOneVisiblePage(org.eclipse.cdt.managedbuilder.ui.tests.TestCustomPageManager)  Time elapsed: 0.241 sec
+testNatureA(org.eclipse.cdt.managedbuilder.ui.tests.TestCustomPageManager)  Time elapsed: 0.003 sec
+testNatureB(org.eclipse.cdt.managedbuilder.ui.tests.TestCustomPageManager)  Time elapsed: 0 sec
+testToolchainC(org.eclipse.cdt.managedbuilder.ui.tests.TestCustomPageManager)  Time elapsed: 0 sec
+testToolchainCv20(org.eclipse.cdt.managedbuilder.ui.tests.TestCustomPageManager)  Time elapsed: 0 sec
+testProjectTypeD(org.eclipse.cdt.managedbuilder.ui.tests.TestCustomPageManager)  Time elapsed: 0 sec
+testProjectTypeE(org.eclipse.cdt.managedbuilder.ui.tests.TestCustomPageManager)  Time elapsed: 0.001 sec
+testToolchainF(org.eclipse.cdt.managedbuilder.ui.tests.TestCustomPageManager)  Time elapsed: 0 sec
+testMultiplePages(org.eclipse.cdt.managedbuilder.ui.tests.TestCustomPageManager)  Time elapsed: 0.001 sec
+testOperation(org.eclipse.cdt.managedbuilder.ui.tests.TestCustomPageManager)  Time elapsed: 0.001 sec
+testProject(org.eclipse.cdt.managedbuilder.ui.tests.TestCProjectPlatformPage)  Time elapsed: 0.062 sec
+testSelectedProjectType3(org.eclipse.cdt.managedbuilder.ui.tests.TestCProjectPlatformPage)  Time elapsed: 0 sec
+testHandler1(org.eclipse.cdt.managedbuilder.ui.tests.TestCProjectPlatformPage)  Time elapsed: 0.04 sec

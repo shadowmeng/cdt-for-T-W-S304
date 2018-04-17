@@ -1,0 +1,1 @@
+ int SOME_MACRO2;

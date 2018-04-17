@@ -1,0 +1,5 @@
+
+ class Hello{
+ int x; 
+ void setValue(int val); 
+};

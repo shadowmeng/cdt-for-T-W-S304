@@ -1,0 +1,24 @@
+11:46:25 **** Build of configuration Release for project CDTFortranTest2 ****
+make -k all 
+Building file: ../module/d.f90
+Invoking: Test Fortran Compiler
+myfort  -c -object:"module/d.obj" "../module/d.f90"
+/bin/sh: myfort: 未找到命令
+module/subdir.mk:73: recipe for target 'module/d.obj' failed
+make: *** [module/d.obj] Error 127
+Building file: ../module/p_module.f90
+Invoking: Test Fortran Compiler
+myfort  -c -object:"module/p_module.obj" "../module/p_module.f90"
+/bin/sh: myfort: 未找到命令
+make: *** [module/p_module.obj] Error 127
+module/subdir.mk:73: recipe for target 'module/p_module.obj' failed
+Building file: ../module/abc_module.f90
+Invoking: Test Fortran Compiler
+myfort  -c -object:"module/abc_module.obj" "../module/abc_module.f90"
+/bin/sh: myfort: 未找到命令
+module/subdir.mk:73: recipe for target 'module/abc_module.obj' failed
+make: *** [module/abc_module.obj] Error 127
+make: Target 'all' not remade because of errors.
+
+11:46:25 Build Finished (took 58ms)
+

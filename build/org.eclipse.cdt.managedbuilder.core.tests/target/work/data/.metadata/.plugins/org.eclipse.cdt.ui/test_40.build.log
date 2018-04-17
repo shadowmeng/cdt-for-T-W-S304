@@ -1,0 +1,81 @@
+11:46:29 **** Incremental Build of configuration Test 4.0 ConfigName.Dbg for project test_40 ****
+make all 
+Building file: ../dir1/dd/ff/vbn.c
+Invoking: Test 4.0 ToolName.compiler.gnu.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dir1/dd/ff/vbn.d" -MT"dir1/dd/ff/vbn.o" -o "dir1/dd/ff/vbn.o" "../dir1/dd/ff/vbn.c"
+Finished building: ../dir1/dd/ff/vbn.c
+ 
+Building file: ../dir1/dd/ff/zxc.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Irel/path -I../proj/rel/path -I/abs/path -Ic:/abs/path -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40/dir1/dir2/dir3" -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40" -I"D:\docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dir1/dd/ff/zxc.d" -MT"dir1/dd/ff/zxc.o" -o "dir1/dd/ff/zxc.o" "../dir1/dd/ff/zxc.cpp"
+Finished building: ../dir1/dd/ff/zxc.cpp
+ 
+Building file: ../dir1/dd/excluded_c/asd/s.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Irel/path -I../proj/rel/path -I/abs/path -Ic:/abs/path -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40/dir1/dir2/dir3" -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40" -I"D:\docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dir1/dd/excluded_c/asd/s.d" -MT"dir1/dd/excluded_c/asd/s.o" -o "dir1/dd/excluded_c/asd/s.o" "../dir1/dd/excluded_c/asd/s.cpp"
+Finished building: ../dir1/dd/excluded_c/asd/s.cpp
+ 
+Building file: ../dir1/dd/excluded_c/inc.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Irel/path -I../proj/rel/path -I/abs/path -Ic:/abs/path -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40/dir1/dir2/dir3" -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40" -I"D:\docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dir1/dd/excluded_c/inc.d" -MT"dir1/dd/excluded_c/inc.o" -o "dir1/dd/excluded_c/inc.o" "../dir1/dd/excluded_c/inc.cpp"
+Finished building: ../dir1/dd/excluded_c/inc.cpp
+ 
+Building file: ../d1_1/d2_1/a.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id2_1_rel/path -I/d2_1_abs/path -Ic:/d2_1_abs/path -Id1_1_rel/path -I/d1_1_abs/path -Ic:/d1_1_abs/path -Irel/path -I../proj/rel/path -I/abs/path -Ic:/abs/path -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40/dir1/dir2/dir3" -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40" -I"D:\docs\incs" -I"D:\d1_1_docs\incs" -I"D:\d2_1_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1_1/d2_1/a.d" -MT"d1_1/d2_1/a.o" -o "d1_1/d2_1/a.o" "../d1_1/d2_1/a.cpp"
+Finished building: ../d1_1/d2_1/a.cpp
+ 
+Building file: ../d1_1/d2_1/p.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id2_1_rel/path -I/d2_1_abs/path -Ic:/d2_1_abs/path -Id1_1_rel/path -I/d1_1_abs/path -Ic:/d1_1_abs/path -Irel/path -I../proj/rel/path -I/abs/path -Ic:/abs/path -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40/dir1/dir2/dir3" -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40" -I"D:\docs\incs" -I"D:\d1_1_docs\incs" -I"D:\d2_1_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1_1/d2_1/p.d" -MT"d1_1/d2_1/p.o" -o "d1_1/d2_1/p.o" "../d1_1/d2_1/p.cpp"
+Finished building: ../d1_1/d2_1/p.cpp
+ 
+Building file: ../d1_1/i.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id1_1_rel/path -I/d1_1_abs/path -Ic:/d1_1_abs/path -Irel/path -I../proj/rel/path -I/abs/path -Ic:/abs/path -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40/dir1/dir2/dir3" -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40" -I"D:\docs\incs" -I"D:\d1_1_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1_1/i.d" -MT"d1_1/i.o" -o "d1_1/i.o" "../d1_1/i.cpp"
+Finished building: ../d1_1/i.cpp
+ 
+Building file: ../d1_1/o.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id1_1_rel/path -I/d1_1_abs/path -Ic:/d1_1_abs/path -Irel/path -I../proj/rel/path -I/abs/path -Ic:/abs/path -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40/dir1/dir2/dir3" -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40" -I"D:\docs\incs" -I"D:\d1_1_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1_1/o.d" -MT"d1_1/o.o" -o "d1_1/o.o" "../d1_1/o.cpp"
+Finished building: ../d1_1/o.cpp
+ 
+Building file: ../d1/d2/d3/t.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id3_rel/path -I/d3_abs/path -Ic:/d3_abs/path -I"D:\d3_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1/d2/d3/t.d" -MT"d1/d2/d3/t.o" -o "d1/d2/d3/t.o" "../d1/d2/d3/t.cpp"
+Finished building: ../d1/d2/d3/t.cpp
+ 
+Building file: ../d1/d2/d3/y.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id3_rel/path -I/d3_abs/path -Ic:/d3_abs/path -I"D:\d3_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1/d2/d3/y.d" -MT"d1/d2/d3/y.o" -o "d1/d2/d3/y.o" "../d1/d2/d3/y.cpp"
+Finished building: ../d1/d2/d3/y.cpp
+ 
+Building file: ../d1/d2/e.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id2_ecpp_rel/path -I../d2_ecpp_proj/rel/path -I/d2_ecpp_abs/path -Ic:/d2_ecpp_abs/path -Id2_rel/path -I../d2_proj/rel/path -I/d2_abs/path -Ic:/d2_abs/path -Id1_rel/path -I../d1_proj/rel/path -I/d1_abs/path -Ic:/d1_abs/path -Irel/path -I../proj/rel/path -I/abs/path -Ic:/abs/path -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40/dir1/dir2/dir3" -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40" -I"D:\docs\incs" -I"D:\d1_docs\incs" -I"D:\d2_docs\incs" -I"D:\d2_ecpp_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1/d2/e.d" -MT"d1/d2/e.d" -o "d1/d2/e.o" "../d1/d2/e.cpp"
+Finished building: ../d1/d2/e.cpp
+ 
+Building file: ../d1/d2/r.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id2_rel/path -I../d2_proj/rel/path -I/d2_abs/path -Ic:/d2_abs/path -Id1_rel/path -I../d1_proj/rel/path -I/d1_abs/path -Ic:/d1_abs/path -Irel/path -I../proj/rel/path -I/abs/path -Ic:/abs/path -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40/dir1/dir2/dir3" -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40" -I"D:\docs\incs" -I"D:\d1_docs\incs" -I"D:\d2_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1/d2/r.d" -MT"d1/d2/r.o" -o "d1/d2/r.o" "../d1/d2/r.cpp"
+Finished building: ../d1/d2/r.cpp
+ 
+Building file: ../d1/q.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id1_rel/path -I../d1_proj/rel/path -I/d1_abs/path -Ic:/d1_abs/path -Irel/path -I../proj/rel/path -I/abs/path -Ic:/abs/path -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40/dir1/dir2/dir3" -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40" -I"D:\docs\incs" -I"D:\d1_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1/q.d" -MT"d1/q.o" -o "d1/q.o" "../d1/q.cpp"
+Finished building: ../d1/q.cpp
+ 
+Building file: ../d1/u.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id1_rel/path -I../d1_proj/rel/path -I/d1_abs/path -Ic:/d1_abs/path -Irel/path -I../proj/rel/path -I/abs/path -Ic:/abs/path -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40/dir1/dir2/dir3" -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40" -I"D:\docs\incs" -I"D:\d1_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1/u.d" -MT"d1/u.o" -o "d1/u.o" "../d1/u.cpp"
+Finished building: ../d1/u.cpp
+ 
+Building file: ../d1/w.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id1_rel/path -I../d1_proj/rel/path -I/d1_abs/path -Ic:/d1_abs/path -Irel/path -I../proj/rel/path -I/abs/path -Ic:/abs/path -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40/dir1/dir2/dir3" -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40" -I"D:\docs\incs" -I"D:\d1_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1/w.d" -MT"d1/w.o" -o "d1/w.o" "../d1/w.cpp"
+Finished building: ../d1/w.cpp
+ 
+make: *** No rule to make target 'uo1', needed by 'test_40'。 停止。
+
+11:46:29 Build Finished (took 553ms)
+

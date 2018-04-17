@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>__prebuilt_index_temp__1516851713413</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>content</name>
+			<type>2</type>
+			<location>/home/mengjingshi/Documents/workspace/org.eclipse.cdt/core/org.eclipse.cdt.core.tests/resources/pdomtests/generatePDOMTests/cyclicIncludes1</location>
+		</link>
+	</linkedResources>
+</projectDescription>

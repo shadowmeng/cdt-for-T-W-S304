@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.cdt.dsf.gdb.tests;singleton:=true
+Bundle-Name: DSF-GDB test fragment
+Bundle-Version: 1.0.0.201611250806
+Require-Bundle: org.junit;bundle-version="4.8.1"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/cdt/or
+ g.eclipse.cdt.git;path="dsf-gdb/org.eclipse.cdt.dsf.gdb.tests";commit
+ Id=e5c63c7cd802220d8293f52c89c855c442d9c9fc
+Fragment-Host: org.eclipse.cdt.dsf.gdb
+

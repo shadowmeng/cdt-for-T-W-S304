@@ -1,0 +1,16 @@
+11:46:21 **** Build of configuration Debug for project testFileWithNoExtension ****
+Info: Configuration "Debug" uses tool-chain "GCC Tool Chain" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.c"
+Finished building: ../test.c
+ 
+Building target: test.exe
+Invoking: GCC C Linker
+gcc  -o "test.exe"  ./test.o   
+Finished building target: test.exe
+ 
+
+11:46:21 Build Finished (took 60ms)
+

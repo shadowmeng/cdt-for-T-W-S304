@@ -1,0 +1,6 @@
+struct s {};
+void func() {
+	try {
+	} catch (s e) {
+	}
+}

@@ -1,0 +1,12 @@
+11:47:10 **** Incremental Build of configuration Debug for project helloworldC ****
+make all 
+Building target: helloworldC
+Invoking: GCC C Linker
+gcc  -o "helloworldC"   
+gcc: fatal error: no input files
+compilation terminated.
+makefile:30: recipe for target 'helloworldC' failed
+make: *** [helloworldC] Error 4
+
+11:47:10 Build Finished (took 53ms)
+

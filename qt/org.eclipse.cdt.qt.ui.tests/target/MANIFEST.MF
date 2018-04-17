@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.cdt.qt.ui.tests
+Bundle-Name: %pluginName
+Bundle-Version: 2.0.0.201611250806
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.junit,org.
+ eclipse.cdt.qt.core,org.eclipse.cdt.core.tests,org.eclipse.cdt.core,o
+ rg.eclipse.core.resources,org.eclipse.cdt.codan.core,org.eclipse.cdt.
+ qt.ui,org.eclipse.jface.text,org.eclipse.cdt.ui,org.eclipse.ui.ide,or
+ g.eclipse.ui.editors,org.eclipse.search
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.cdt.qt.tests.QtTestPlugin
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/cdt/or
+ g.eclipse.cdt.git;path="qt/org.eclipse.cdt.qt.ui.tests";commitId=e5c6
+ 3c7cd802220d8293f52c89c855c442d9c9fc
+Bundle-Vendor: %vendorName
+

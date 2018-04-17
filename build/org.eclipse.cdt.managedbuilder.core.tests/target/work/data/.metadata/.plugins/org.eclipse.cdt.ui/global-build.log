@@ -1,0 +1,1404 @@
+11:45:49 **** Rebuild of configuration Debug for project tlib ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/tlib0.o ../src/tlib0.c 
+ar -r libtlib.a src/tlib0.o 
+ar: 正在创建 libtlib.a
+11:45:49 **** Rebuild of configuration Debug for project tobjs ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/tobjs.o ../src/tobjs.c 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/uobj.o ../src/uobj.c 
+gcc -o tobjs.exe src/tobjs.o src/uobj.o 
+11:45:50 **** Rebuild of configuration Debug for project tapp ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/tapp.o ../src/tapp.c 
+gcc -L/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/tlib/Debug -o tapp.exe src/tapp.o ../../tobjs/Debug/src/uobj.o -ltlib 
+Info: Nothing to build for tlib
+Info: Nothing to build for tobjs
+Info: Nothing to build for tapp
+11:45:52 **** Clean-only build of configuration Debug for project tlib ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+rm -rf libtlib.a src/tlib0.d src/tlib0.o 
+11:45:52 **** Rebuild of configuration Debug for project tlib ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/tlib0.o ../src/tlib0.c 
+ar -r libtlib.a src/tlib0.o 
+ar: 正在创建 libtlib.a
+Info: Nothing to build for tlib
+Info: Nothing to build for tobjs
+11:45:52 **** Incremental Build of configuration Debug for project tapp ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -L/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/tlib/Debug -o tapp.exe src/tapp.o ../../tobjs/Debug/src/uobj.o -ltlib 
+11:45:55 **** Rebuild of configuration Debug for project tlib ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/tlib0.o ../src/tlib0.c 
+ar -r libtlib.a src/tlib0.o 
+ar: 正在创建 libtlib.a
+11:45:56 **** Rebuild of configuration Debug for project tobjs ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/tobjs.o ../src/tobjs.c 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/uobj.o ../src/uobj.c 
+gcc -o tobjs.exe src/tobjs.o src/uobj.o 
+11:45:56 **** Rebuild of configuration Debug for project tapp ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/tapp.o ../src/tapp.c 
+gcc -L/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/tlib/Debug -o tapp.exe src/tapp.o ../../tobjs/Debug/src/uobj.o -ltlib 
+Info: Nothing to build for tlib
+Info: Nothing to build for tobjs
+Info: Nothing to build for tapp
+11:45:57 **** Clean-only build of configuration Debug for project tobjs ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+rm -rf src/tobjs.d tobjs.exe src/uobj.d src/tobjs.o src/uobj.o 
+11:45:57 **** Rebuild of configuration Debug for project tobjs ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/uobj.o ../src/uobj.c 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/tobjs.o ../src/tobjs.c 
+gcc -o tobjs.exe src/tobjs.o src/uobj.o 
+Info: Nothing to build for tlib
+Info: Nothing to build for tobjs
+11:45:58 **** Incremental Build of configuration Debug for project tapp ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -L/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/tlib/Debug -o tapp.exe src/tapp.o ../../tobjs/Debug/src/uobj.o -ltlib 
+11:46:01 **** Build of configuration Debug for project helloworldC ****
+make all 
+Building file: ../src/helloworldC.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/helloworldC.d" -MT"src/helloworldC.o" -o "src/helloworldC.o" "../src/helloworldC.c"
+Finished building: ../src/helloworldC.c
+ 
+Building target: test [377295]
+Invoking: GCC C Linker
+gcc  -o "test [377295]"  ./src/helloworldC.o   
+Finished building target: test [377295]
+ 
+11:46:01 **** Build of configuration Debug for project helloworldC ****
+make all 
+make: Nothing to be done for 'all'.
+11:46:05 **** Build of configuration Release for project test12 ****
+Info: Configuration "Release" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: test12.exe
+Invoking: Cygwin C++ Linker
+g++  -o "test12.exe"  ./test.o   
+Finished building target: test12.exe
+ 
+11:46:07 **** Build of configuration Debug for project test20 ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../Test1.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O2 -g1 -pedantic -pedantic-errors -Wall -Werror -c -fmessage-length=0 -v -MMD -MP -MF"Test1.d" -MT"Test1.o" -o "Test1.o" "../Test1.cpp"
+Using built-in specs.
+COLLECT_GCC=g++
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COLLECT_GCC_OPTIONS='-O2' '-g1' '-Wpedantic' '-pedantic-errors' '-Wall' '-Werror' '-c' '-fmessage-length=0' '-v' '-MMD' '-MP' '-MF' 'Test1.d' '-MT' 'Test1.o' '-o' 'Test1.o' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.9/cc1plus -quiet -v -imultiarch i386-linux-gnu -MMD Test1.d -MF Test1.d -MP -MT Test1.o -D_GNU_SOURCE ../Test1.cpp -quiet -dumpbase Test1.cpp -mtune=generic -march=i686 -auxbase-strip Test1.o -g1 -O2 -Wpedantic -pedantic-errors -Wall -Werror -version -fmessage-length=0 -fstack-protector-strong -Wformat-security -o /tmp/ccgTl0f8.s
+GNU C++ (Ubuntu 4.9.2-10ubuntu13) version 4.9.2 (i686-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/i386-linux-gnu/c++/4.9"
+ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/4.9/../../../../i686-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/4.9
+ /usr/include/i386-linux-gnu/c++/4.9
+ /usr/include/c++/4.9/backward
+ /usr/lib/gcc/i686-linux-gnu/4.9/include
+ /usr/local/include
+ /usr/lib/gcc/i686-linux-gnu/4.9/include-fixed
+ /usr/include/i386-linux-gnu
+ /usr/include
+End of search list.
+GNU C++ (Ubuntu 4.9.2-10ubuntu13) version 4.9.2 (i686-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d35ba22285895a049c470d75048aeec6
+COLLECT_GCC_OPTIONS='-O2' '-g1' '-Wpedantic' '-pedantic-errors' '-Wall' '-Werror' '-c' '-fmessage-length=0' '-v' '-MMD' '-MP' '-MF' 'Test1.d' '-MT' 'Test1.o' '-o' 'Test1.o' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ as -v --32 -o Test1.o /tmp/ccgTl0f8.s
+GNU汇编版本 2.25 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.25
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O2' '-g1' '-Wpedantic' '-pedantic-errors' '-Wall' '-Werror' '-c' '-fmessage-length=0' '-v' '-MMD' '-MP' '-MF' 'Test1.d' '-MT' 'Test1.o' '-o' 'Test1.o' '-shared-libgcc' '-mtune=generic' '-march=i686'
+Finished building: ../Test1.cpp
+ 
+Building target: test20.exe
+Invoking: Cygwin C++ Linker
+g++  -o "test20.exe"  ./Test1.o   
+Finished building target: test20.exe
+ 
+11:46:07 **** Build of configuration Debug for project test21 ****
+Info: Configuration "Debug" uses tool-chain "GCC Tool Chain" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../Functions/Func1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions/Func1.d" -MT"Functions/Func1.o" -o "Functions/Func1.o" "../Functions/Func1.c"
+Finished building: ../Functions/Func1.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: MBS2dot1.exe
+Invoking: GCC C Linker
+gcc  -o "MBS2dot1.exe"  ./Functions/Func1.o  ./main.o   
+Finished building target: MBS2dot1.exe
+ 
+11:46:09 **** Build of configuration Debug for project Test21CXX ****
+make all 
+Building file: ../Functions/Func1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions/Func1.d" -MT"Functions/Func1.o" -o "Functions/Func1.o" "../Functions/Func1.cpp"
+Finished building: ../Functions/Func1.cpp
+ 
+Building file: ../main.c
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Test21CXX
+Invoking: GCC C++ Linker
+g++  -o "Test21CXX"  ./Functions/Func1.o  ./main.o   
+Finished building target: Test21CXX
+ 
+11:46:13 **** Build of configuration Dbg for project testSingleExe ****
+make -k all 
+Building file: ../main.c
+Invoking: compiler.gnu.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "main.o" "../main.c" && \
+echo -n 'main.d' ./ > 'main.d' && \
+gcc -MM -MG -P -w -O0 -g3 -Wall -c -fmessage-length=0   "../main.c" >> 'main.d'
+Finished building: ../main.c
+ 
+Building target: testSingleExe
+Invoking: linker.gnu.c
+gcc  -o "testSingleExe"  ./main.o   
+Finished building target: testSingleExe
+ 
+11:46:13 **** Build of configuration Debug for project testDoubleSO ****
+make -k all 
+Building file: ../so1.c
+Invoking: compiler.gnu.cpp
+g++ -DXXX -O0 -g3 -Wall -c -o "so1.o" "../so1.c" && \
+echo -n 'so1.d' ./ > 'so1.d' && \
+g++ -MM -MG -P -w -DXXX -O0 -g3 -Wall -c   "../so1.c" >> 'so1.d'
+Finished building: ../so1.c
+ 
+Building file: ../so2.c
+Invoking: compiler.gnu.cpp
+g++ -DXXX -O0 -g3 -Wall -c -o "so2.o" "../so2.c" && \
+echo -n 'so2.d' ./ > 'so2.d' && \
+g++ -MM -MG -P -w -DXXX -O0 -g3 -Wall -c   "../so2.c" >> 'so2.d'
+Finished building: ../so2.c
+ 
+Building target: libtestDoubleSO.so
+Invoking: linker.gnu.cpp
+g++ -shared -o "libtestDoubleSO.so"  ./so1.o ./so2.o   
+Finished building target: libtestDoubleSO.so
+ 
+11:46:14 **** Build of configuration Dbg for project testResCfg ****
+make -k all 
+Building file: ../source2/source21/Class21.cpp
+Invoking: compiler.gnu.cpp
+g++ -DRESSPEC -I../headers -O0 -g3 -Wall -c -o "source2/source21/Class21.o" "../source2/source21/Class21.cpp" && \
+echo -n 'source2/source21/Class21.d' source2/source21/ > 'source2/source21/Class21.d' && \
+g++ -MM -MG -P -w -DRESSPEC -I../headers -O0 -g3 -Wall -c   "../source2/source21/Class21.cpp" >> 'source2/source21/Class21.d'
+Finished building: ../source2/source21/Class21.cpp
+ 
+Building file: ../source2/Class2.cpp
+Invoking: compiler.gnu.cpp
+g++ -I../headers -O0 -g3 -Wall -c -fmessage-length=0 -o "source2/Class2.o" "../source2/Class2.cpp" && \
+echo -n 'source2/Class2.d' source2/ > 'source2/Class2.d' && \
+g++ -MM -MG -P -w -I../headers -O0 -g3 -Wall -c -fmessage-length=0   "../source2/Class2.cpp" >> 'source2/Class2.d'
+Finished building: ../source2/Class2.cpp
+ 
+Building file: ../source1/Class1.cpp
+Invoking: compiler.gnu.cpp
+g++ -I../headers -O0 -g3 -Wall -c -fmessage-length=0 -o "source1/Class1.o" "../source1/Class1.cpp" && \
+echo -n 'source1/Class1.d' source1/ > 'source1/Class1.d' && \
+g++ -MM -MG -P -w -I../headers -O0 -g3 -Wall -c -fmessage-length=0   "../source1/Class1.cpp" >> 'source1/Class1.d'
+In file included from ../source1/Class1.cpp:1:0:
+../headers/Class1.h:4:20: fatal error: class2.h: 没有那个文件或目录
+ #include "class2.h"
+                    ^
+compilation terminated.
+source1/subdir.mk:18: recipe for target 'source1/Class1.o' failed
+make: *** [source1/Class1.o] Error 1
+Building file: ../main.cpp
+Invoking: compiler.gnu.cpp
+g++ -I../headers -O0 -g3 -Wall -c -fmessage-length=0 -o "main.o" "../main.cpp" && \
+echo -n 'main.d' ./ > 'main.d' && \
+g++ -MM -MG -P -w -I../headers -O0 -g3 -Wall -c -fmessage-length=0   "../main.cpp" >> 'main.d'
+In file included from ../main.cpp:1:0:
+../headers/Class1.h:4:20: fatal error: class2.h: 没有那个文件或目录
+ #include "class2.h"
+                    ^
+compilation terminated.
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+make: Target 'all' not remade because of errors.
+11:46:15 **** Build of configuration Dbg for project linkedLib ****
+make -k all 
+Building file: /tmp/testLinkedLib5369462893369223481/CDTMBSTest/f1.c
+Invoking: compiler.gnu.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "f1.o" "/tmp/testLinkedLib5369462893369223481/CDTMBSTest/f1.c" && \
+echo -n 'f1.d' ./ > 'f1.d' && \
+gcc -MM -MG -P -w -O0 -g3 -Wall -c -fmessage-length=0   "/tmp/testLinkedLib5369462893369223481/CDTMBSTest/f1.c" >> 'f1.d'
+Finished building: /tmp/testLinkedLib5369462893369223481/CDTMBSTest/f1.c
+ 
+Building file: /tmp/testLinkedLib5369462893369223481/CDTMBSTest/f2.c
+Invoking: compiler.gnu.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "f2.o" "/tmp/testLinkedLib5369462893369223481/CDTMBSTest/f2.c" && \
+echo -n 'f2.d' ./ > 'f2.d' && \
+gcc -MM -MG -P -w -O0 -g3 -Wall -c -fmessage-length=0   "/tmp/testLinkedLib5369462893369223481/CDTMBSTest/f2.c" >> 'f2.d'
+Finished building: /tmp/testLinkedLib5369462893369223481/CDTMBSTest/f2.c
+ 
+Building target: liblinkedLib.a
+Invoking: archiver.gnu
+ar -r  "liblinkedLib.a"  ./f1.o ./f2.o   
+ar: 正在创建 liblinkedLib.a
+Finished building target: liblinkedLib.a
+ 
+11:46:16 **** Build of configuration Dbg for project linkedFolder ****
+make -k all 
+Building file: ../f1.c
+Invoking: compiler.gnu.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "f1.o" "../f1.c" && \
+echo -n 'f1.d' ./ > 'f1.d' && \
+gcc -MM -MG -P -w -O0 -g3 -Wall -c -fmessage-length=0   "../f1.c" >> 'f1.d'
+Finished building: ../f1.c
+ 
+Building file: ../f2.c
+Invoking: compiler.gnu.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "f2.o" "../f2.c" && \
+echo -n 'f2.d' ./ > 'f2.d' && \
+gcc -MM -MG -P -w -O0 -g3 -Wall -c -fmessage-length=0   "../f2.c" >> 'f2.d'
+Finished building: ../f2.c
+ 
+Building target: liblinkedFolder.a
+Invoking: archiver.gnu
+ar -r  "liblinkedFolder.a"  ./f1.o ./f2.o   
+ar: 正在创建 liblinkedFolder.a
+Finished building target: liblinkedFolder.a
+ 
+11:46:16 **** Build of configuration MBS30ConfigName.Dbg for project singleFileExe ****
+make -k all 
+Building file: ../main.c
+Invoking: MBS30.compiler.gnu.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -v -o "main.o" "../main.c" && \
+echo -n 'main.d' ./ > 'main.d' && \
+gcc -MM -MG -P -w -O0 -g3 -Wall -c -fmessage-length=0 -v   "../main.c" >> 'main.d'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'main.o' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.9/cc1 -quiet -v -imultiarch i386-linux-gnu -dD ../main.c -quiet -dumpbase main.c -mtune=generic -march=i686 -auxbase-strip main.o -g3 -O0 -Wall -version -fmessage-length=0 -fstack-protector-strong -Wformat-security -o /tmp/ccpd8iV7.s
+GNU C (Ubuntu 4.9.2-10ubuntu13) version 4.9.2 (i686-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/4.9/../../../../i686-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i686-linux-gnu/4.9/include
+ /usr/local/include
+ /usr/lib/gcc/i686-linux-gnu/4.9/include-fixed
+ /usr/include/i386-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.9.2-10ubuntu13) version 4.9.2 (i686-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 8802821ddd4be89d816de7ae5cb1d6d0
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'main.o' '-mtune=generic' '-march=i686'
+ as -v --32 -o main.o /tmp/ccpd8iV7.s
+GNU汇编版本 2.25 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.25
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'main.o' '-mtune=generic' '-march=i686'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COLLECT_GCC_OPTIONS='-MM' '-MG' '-P' '-w' '-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.9/cc1 -E -quiet -v -P -imultiarch i386-linux-gnu -MM -MG -dD ../main.c -mtune=generic -march=i686 -Wall -w -fmessage-length=0 -g3 -fworking-directory -O0 -fstack-protector-strong -Wformat-security
+ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/4.9/../../../../i686-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i686-linux-gnu/4.9/include
+ /usr/local/include
+ /usr/lib/gcc/i686-linux-gnu/4.9/include-fixed
+ /usr/include/i386-linux-gnu
+ /usr/include
+End of search list.
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-MM' '-MG' '-P' '-w' '-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-mtune=generic' '-march=i686'
+Finished building: ../main.c
+ 
+Building target: singleFileExe
+Invoking: MBS30.linker.gnu.c
+gcc  -o "singleFileExe"  ./main.o   
+Finished building target: singleFileExe
+ 
+11:46:17 **** Build of configuration MBS30ConfigName.Dbg for project twoFileSO ****
+make -k all 
+Building file: ../so1.c
+Invoking: MBS30.compiler.gnu.c
+gcc -O0 -g3 -c -v -o "so1.o" "../so1.c" && \
+echo -n 'so1.d' ./ > 'so1.d' && \
+gcc -MM -MG -P -w -O0 -g3 -c -v   "../so1.c" >> 'so1.d'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-c' '-v' '-o' 'so1.o' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.9/cc1 -quiet -v -imultiarch i386-linux-gnu -dD ../so1.c -quiet -dumpbase so1.c -mtune=generic -march=i686 -auxbase-strip so1.o -g3 -O0 -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccqQlmuy.s
+GNU C (Ubuntu 4.9.2-10ubuntu13) version 4.9.2 (i686-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/4.9/../../../../i686-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i686-linux-gnu/4.9/include
+ /usr/local/include
+ /usr/lib/gcc/i686-linux-gnu/4.9/include-fixed
+ /usr/include/i386-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.9.2-10ubuntu13) version 4.9.2 (i686-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 8802821ddd4be89d816de7ae5cb1d6d0
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-c' '-v' '-o' 'so1.o' '-mtune=generic' '-march=i686'
+ as -v --32 -o so1.o /tmp/ccqQlmuy.s
+GNU汇编版本 2.25 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.25
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-c' '-v' '-o' 'so1.o' '-mtune=generic' '-march=i686'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COLLECT_GCC_OPTIONS='-MM' '-MG' '-P' '-w' '-O0' '-g3' '-c' '-v' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.9/cc1 -E -quiet -v -P -imultiarch i386-linux-gnu -MM -MG -dD ../so1.c -mtune=generic -march=i686 -w -g3 -fworking-directory -O0 -fstack-protector-strong -Wformat -Wformat-security
+ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/4.9/../../../../i686-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i686-linux-gnu/4.9/include
+ /usr/local/include
+ /usr/lib/gcc/i686-linux-gnu/4.9/include-fixed
+ /usr/include/i386-linux-gnu
+ /usr/include
+End of search list.
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-MM' '-MG' '-P' '-w' '-O0' '-g3' '-c' '-v' '-mtune=generic' '-march=i686'
+Finished building: ../so1.c
+ 
+Building file: ../so2.c
+Invoking: MBS30.compiler.gnu.c
+gcc -O0 -g3 -c -v -o "so2.o" "../so2.c" && \
+echo -n 'so2.d' ./ > 'so2.d' && \
+gcc -MM -MG -P -w -O0 -g3 -c -v   "../so2.c" >> 'so2.d'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-c' '-v' '-o' 'so2.o' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.9/cc1 -quiet -v -imultiarch i386-linux-gnu -dD ../so2.c -quiet -dumpbase so2.c -mtune=generic -march=i686 -auxbase-strip so2.o -g3 -O0 -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc6YW8OC.s
+GNU C (Ubuntu 4.9.2-10ubuntu13) version 4.9.2 (i686-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/4.9/../../../../i686-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i686-linux-gnu/4.9/include
+ /usr/local/include
+ /usr/lib/gcc/i686-linux-gnu/4.9/include-fixed
+ /usr/include/i386-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.9.2-10ubuntu13) version 4.9.2 (i686-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 8802821ddd4be89d816de7ae5cb1d6d0
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-c' '-v' '-o' 'so2.o' '-mtune=generic' '-march=i686'
+ as -v --32 -o so2.o /tmp/cc6YW8OC.s
+GNU汇编版本 2.25 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.25
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-c' '-v' '-o' 'so2.o' '-mtune=generic' '-march=i686'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COLLECT_GCC_OPTIONS='-MM' '-MG' '-P' '-w' '-O0' '-g3' '-c' '-v' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.9/cc1 -E -quiet -v -P -imultiarch i386-linux-gnu -MM -MG -dD ../so2.c -mtune=generic -march=i686 -w -g3 -fworking-directory -O0 -fstack-protector-strong -Wformat -Wformat-security
+ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/4.9/../../../../i686-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i686-linux-gnu/4.9/include
+ /usr/local/include
+ /usr/lib/gcc/i686-linux-gnu/4.9/include-fixed
+ /usr/include/i386-linux-gnu
+ /usr/include
+End of search list.
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-MM' '-MG' '-P' '-w' '-O0' '-g3' '-c' '-v' '-mtune=generic' '-march=i686'
+Finished building: ../so2.c
+ 
+Building target: libtwoFileSO.SOS
+Invoking: MBS30.linker.gnu.c
+gcc -shared -o "libtwoFileSO.SOS"  ./so1.o ./so2.o   
+Finished building target: libtwoFileSO.SOS
+ 
+11:46:17 **** Build of configuration MBS30ConfigName.Dbg for project multiResConfig ****
+make -k all 
+Building file: ../source2/source21/Class21.cpp
+Invoking: MBS30.compiler.gnu.cpp
+g++ -DRESCFG -I../headers -O0 -g3 -Wall -c -fmessage-length=0 -o "source2/source21/Class21.o" "../source2/source21/Class21.cpp" && \
+echo -n 'source2/source21/Class21.d' source2/source21/ > 'source2/source21/Class21.d' && \
+g++ -MM -MG -P -w -DRESCFG -I../headers -O0 -g3 -Wall -c -fmessage-length=0   "../source2/source21/Class21.cpp" >> 'source2/source21/Class21.d'
+Finished building: ../source2/source21/Class21.cpp
+ 
+Building file: ../source2/Class2.cpp
+Invoking: MBS30.compiler.gnu.cpp
+g++ -I../headers -O0 -g3 -Wall -c -fmessage-length=0 -o "source2/Class2.o" "../source2/Class2.cpp" && \
+echo -n 'source2/Class2.d' source2/ > 'source2/Class2.d' && \
+g++ -MM -MG -P -w -I../headers -O0 -g3 -Wall -c -fmessage-length=0   "../source2/Class2.cpp" >> 'source2/Class2.d'
+Finished building: ../source2/Class2.cpp
+ 
+Building file: ../source1/Class1.cpp
+Invoking: MBS30.compiler.gnu.cpp
+g++ -I../headers -O0 -g3 -Wall -c -fmessage-length=0 -o "source1/Class1.o" "../source1/Class1.cpp" && \
+echo -n 'source1/Class1.d' source1/ > 'source1/Class1.d' && \
+g++ -MM -MG -P -w -I../headers -O0 -g3 -Wall -c -fmessage-length=0   "../source1/Class1.cpp" >> 'source1/Class1.d'
+Finished building: ../source1/Class1.cpp
+ 
+Building file: ../main.cpp
+Invoking: MBS30.compiler.gnu.cpp
+g++ -I../headers -O0 -g3 -Wall -c -fmessage-length=0 -o "main.o" "../main.cpp" && \
+echo -n 'main.d' ./ > 'main.d' && \
+g++ -MM -MG -P -w -I../headers -O0 -g3 -Wall -c -fmessage-length=0   "../main.cpp" >> 'main.d'
+Finished building: ../main.cpp
+ 
+Building target: multiResConfig
+Invoking: MBS30.linker.gnu.cpp
+g++  -o "multiResConfig"  ./source2/source21/Class21.o  ./source2/Class2.o  ./source1/Class1.o  ./main.o   
+Finished building target: multiResConfig
+ 
+11:46:18 **** Build of configuration MBS30ConfigName.Dbg for project linkedLib30 ****
+make -k all 
+subdir.mk:26: *** target pattern contains no '%'。 停止。
+11:46:19 **** Build of configuration MBS30ConfigName.Dbg for project linkedFolder ****
+make -k all 
+Building file: ../f1.c
+Invoking: MBS30.compiler.gnu.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -v -o "f1.o" "../f1.c" && \
+echo -n 'f1.d' ./ > 'f1.d' && \
+gcc -MM -MG -P -w -O0 -g3 -Wall -c -fmessage-length=0 -v   "../f1.c" >> 'f1.d'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'f1.o' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.9/cc1 -quiet -v -imultiarch i386-linux-gnu -dD ../f1.c -quiet -dumpbase f1.c -mtune=generic -march=i686 -auxbase-strip f1.o -g3 -O0 -Wall -version -fmessage-length=0 -fstack-protector-strong -Wformat-security -o /tmp/cceedDUB.s
+GNU C (Ubuntu 4.9.2-10ubuntu13) version 4.9.2 (i686-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/4.9/../../../../i686-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i686-linux-gnu/4.9/include
+ /usr/local/include
+ /usr/lib/gcc/i686-linux-gnu/4.9/include-fixed
+ /usr/include/i386-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.9.2-10ubuntu13) version 4.9.2 (i686-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 8802821ddd4be89d816de7ae5cb1d6d0
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'f1.o' '-mtune=generic' '-march=i686'
+ as -v --32 -o f1.o /tmp/cceedDUB.s
+GNU汇编版本 2.25 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.25
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'f1.o' '-mtune=generic' '-march=i686'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COLLECT_GCC_OPTIONS='-MM' '-MG' '-P' '-w' '-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.9/cc1 -E -quiet -v -P -imultiarch i386-linux-gnu -MM -MG -dD ../f1.c -mtune=generic -march=i686 -Wall -w -fmessage-length=0 -g3 -fworking-directory -O0 -fstack-protector-strong -Wformat-security
+ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/4.9/../../../../i686-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i686-linux-gnu/4.9/include
+ /usr/local/include
+ /usr/lib/gcc/i686-linux-gnu/4.9/include-fixed
+ /usr/include/i386-linux-gnu
+ /usr/include
+End of search list.
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-MM' '-MG' '-P' '-w' '-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-mtune=generic' '-march=i686'
+Finished building: ../f1.c
+ 
+Building file: ../f2.c
+Invoking: MBS30.compiler.gnu.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -v -o "f2.o" "../f2.c" && \
+echo -n 'f2.d' ./ > 'f2.d' && \
+gcc -MM -MG -P -w -O0 -g3 -Wall -c -fmessage-length=0 -v   "../f2.c" >> 'f2.d'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'f2.o' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.9/cc1 -quiet -v -imultiarch i386-linux-gnu -dD ../f2.c -quiet -dumpbase f2.c -mtune=generic -march=i686 -auxbase-strip f2.o -g3 -O0 -Wall -version -fmessage-length=0 -fstack-protector-strong -Wformat-security -o /tmp/ccO9hR2F.s
+GNU C (Ubuntu 4.9.2-10ubuntu13) version 4.9.2 (i686-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/4.9/../../../../i686-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i686-linux-gnu/4.9/include
+ /usr/local/include
+ /usr/lib/gcc/i686-linux-gnu/4.9/include-fixed
+ /usr/include/i386-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.9.2-10ubuntu13) version 4.9.2 (i686-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 8802821ddd4be89d816de7ae5cb1d6d0
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'f2.o' '-mtune=generic' '-march=i686'
+ as -v --32 -o f2.o /tmp/ccO9hR2F.s
+GNU汇编版本 2.25 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.25
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'f2.o' '-mtune=generic' '-march=i686'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COLLECT_GCC_OPTIONS='-MM' '-MG' '-P' '-w' '-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.9/cc1 -E -quiet -v -P -imultiarch i386-linux-gnu -MM -MG -dD ../f2.c -mtune=generic -march=i686 -Wall -w -fmessage-length=0 -g3 -fworking-directory -O0 -fstack-protector-strong -Wformat-security
+ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/4.9/../../../../i686-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i686-linux-gnu/4.9/include
+ /usr/local/include
+ /usr/lib/gcc/i686-linux-gnu/4.9/include-fixed
+ /usr/include/i386-linux-gnu
+ /usr/include
+End of search list.
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-MM' '-MG' '-P' '-w' '-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-mtune=generic' '-march=i686'
+Finished building: ../f2.c
+ 
+Building target: liblinkedFolder.a
+Invoking: MBS30.archiver.gnu
+ar -r  "liblinkedFolder.a"  ./f1.o ./f2.o   
+ar: 正在创建 liblinkedFolder.a
+Finished building target: liblinkedFolder.a
+ 
+11:46:19 **** Build of configuration Dbg for project copyandDeploy ****
+make -k all 
+Building file: ../Functions/Func1.x
+Invoking: Copy tool
+cp "../Functions/Func1.x" "Functions/Func1.c"
+Finished building: ../Functions/Func1.x
+ 
+Building file: Functions/Func1.c
+Invoking: MBS30.compiler.gnu.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -v -o "Functions/Func1.o" "Functions/Func1.c" && \
+echo -n 'Functions/Func1.d' Functions/ > 'Functions/Func1.d' && \
+gcc -MM -MG -P -w -O0 -g3 -Wall -c -fmessage-length=0 -v   "Functions/Func1.c" >> 'Functions/Func1.d'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'Functions/Func1.o' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.9/cc1 -quiet -v -imultiarch i386-linux-gnu -dD Functions/Func1.c -quiet -dumpbase Func1.c -mtune=generic -march=i686 -auxbase-strip Functions/Func1.o -g3 -O0 -Wall -version -fmessage-length=0 -fstack-protector-strong -Wformat-security -o /tmp/ccGS1LRc.s
+GNU C (Ubuntu 4.9.2-10ubuntu13) version 4.9.2 (i686-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/4.9/../../../../i686-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i686-linux-gnu/4.9/include
+ /usr/local/include
+ /usr/lib/gcc/i686-linux-gnu/4.9/include-fixed
+ /usr/include/i386-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.9.2-10ubuntu13) version 4.9.2 (i686-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 8802821ddd4be89d816de7ae5cb1d6d0
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'Functions/Func1.o' '-mtune=generic' '-march=i686'
+ as -v --32 -o Functions/Func1.o /tmp/ccGS1LRc.s
+GNU汇编版本 2.25 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.25
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'Functions/Func1.o' '-mtune=generic' '-march=i686'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COLLECT_GCC_OPTIONS='-MM' '-MG' '-P' '-w' '-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.9/cc1 -E -quiet -v -P -imultiarch i386-linux-gnu -MM -MG -dD Functions/Func1.c -mtune=generic -march=i686 -Wall -w -fmessage-length=0 -g3 -fworking-directory -O0 -fstack-protector-strong -Wformat-security
+ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/4.9/../../../../i686-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i686-linux-gnu/4.9/include
+ /usr/local/include
+ /usr/lib/gcc/i686-linux-gnu/4.9/include-fixed
+ /usr/include/i386-linux-gnu
+ /usr/include
+End of search list.
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-MM' '-MG' '-P' '-w' '-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-mtune=generic' '-march=i686'
+Finished building: Functions/Func1.c
+ 
+Building file: ../main.x
+Invoking: Copy tool
+cp "../main.x" "main.c"
+Finished building: ../main.x
+ 
+Building file: main.c
+Invoking: MBS30.compiler.gnu.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -v -o "main.o" "main.c" && \
+echo -n 'main.d' ./ > 'main.d' && \
+gcc -MM -MG -P -w -O0 -g3 -Wall -c -fmessage-length=0 -v   "main.c" >> 'main.d'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'main.o' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.9/cc1 -quiet -v -imultiarch i386-linux-gnu -dD main.c -quiet -dumpbase main.c -mtune=generic -march=i686 -auxbase-strip main.o -g3 -O0 -Wall -version -fmessage-length=0 -fstack-protector-strong -Wformat-security -o /tmp/ccvtRtlf.s
+GNU C (Ubuntu 4.9.2-10ubuntu13) version 4.9.2 (i686-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/4.9/../../../../i686-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i686-linux-gnu/4.9/include
+ /usr/local/include
+ /usr/lib/gcc/i686-linux-gnu/4.9/include-fixed
+ /usr/include/i386-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.9.2-10ubuntu13) version 4.9.2 (i686-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 8802821ddd4be89d816de7ae5cb1d6d0
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'main.o' '-mtune=generic' '-march=i686'
+ as -v --32 -o main.o /tmp/ccvtRtlf.s
+GNU汇编版本 2.25 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.25
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'main.o' '-mtune=generic' '-march=i686'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COLLECT_GCC_OPTIONS='-MM' '-MG' '-P' '-w' '-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.9/cc1 -E -quiet -v -P -imultiarch i386-linux-gnu -MM -MG -dD main.c -mtune=generic -march=i686 -Wall -w -fmessage-length=0 -g3 -fworking-directory -O0 -fstack-protector-strong -Wformat-security
+ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/4.9/../../../../i686-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i686-linux-gnu/4.9/include
+ /usr/local/include
+ /usr/lib/gcc/i686-linux-gnu/4.9/include-fixed
+ /usr/include/i386-linux-gnu
+ /usr/include
+End of search list.
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-MM' '-MG' '-P' '-w' '-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-mtune=generic' '-march=i686'
+Finished building: main.c
+ 
+Invoking: MBS30.linker.gnu.c
+gcc  -o "USER_OBJS.foo"  ./Functions/Func1.o  ./main.o   
+Finished building: USER_OBJS.foo
+ 
+Building target: TestCopyandDeploy
+Invoking: Deploy tool
+cp  USER_OBJS.foo  "TestCopyandDeploy"
+Finished building target: TestCopyandDeploy
+ 
+rm Functions/Func1.c main.c
+11:46:19 **** Build of configuration MBS30ConfigName.Dbg for project deleteFile ****
+make -k all 
+Building file: ../main.cxx
+Invoking: MBS30.compiler.gnu.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "main.o" "../main.cxx" && \
+echo -n 'main.d' ./ > 'main.d' && \
+g++ -MM -MG -P -w -O0 -g3 -Wall -c -fmessage-length=0   "../main.cxx" >> 'main.d'
+Finished building: ../main.cxx
+ 
+Building target: DeleteFile
+Invoking: MBS30.linker.gnu.cpp
+g++  -o "DeleteFile"  ./main.o   
+Finished building target: DeleteFile
+ 
+
+**** Build of configuration Debug for project noFilesToBuild ****
+
+Nothing to build for project noFilesToBuild
+11:46:21 **** Build of configuration Debug for project testFileWithNoExtension ****
+Info: Configuration "Debug" uses tool-chain "GCC Tool Chain" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.c"
+Finished building: ../test.c
+ 
+Building target: test.exe
+Invoking: GCC C Linker
+gcc  -o "test.exe"  ./test.o   
+Finished building target: test.exe
+ 
+11:46:21 **** Build of configuration MBS30ConfigName.Dbg for project preAndPostBuildSteps ****
+make -k all 
+make --no-print-directory pre-build
+Pre-announce Build Step
+echo 'executing Pre-Build Step'
+executing Pre-Build Step
+ 
+make --no-print-directory main-build
+Building file: ../main.cxx
+Invoking: MBS30.compiler.gnu.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "main.o" "../main.cxx" && \
+echo -n 'main.d' ./ > 'main.d' && \
+g++ -MM -MG -P -w -O0 -g3 -Wall -c -fmessage-length=0   "../main.cxx" >> 'main.d'
+Finished building: ../main.cxx
+ 
+Building target: preAndPostBuildSteps
+Invoking: MBS30.linker.gnu.cpp
+g++  -o "preAndPostBuildSteps"  ./main.o   
+Finished building target: preAndPostBuildSteps
+ 
+make --no-print-directory post-build
+Post-announce Build Step
+echo 'executing Post-Build Step'
+executing Post-Build Step
+ 
+11:46:22 **** Build of configuration MBS30ConfigName.Dbg for project rcbsBasicTest ****
+make -k all 
+Building file: ../rcbsBasicTest.c
+Now executing custom build step for rcbsBasicTest debug config
+gcc -g -c ../rcbsBasicTest.c -o ./rcbsBasicTest.o
+Finished building: ../rcbsBasicTest.c
+ 
+Building target: rcbsBasicTest
+Invoking: MBS30.linker.gnu.c
+gcc  -o "rcbsBasicTest"  ./rcbsBasicTest.o   
+Finished building target: rcbsBasicTest
+ 
+11:46:22 **** Build of configuration TheConfig for project test30_1 ****
+make all 
+Building file: ../test.tar
+Invoking: Un-tar
+tar -xf "../test.tar"
+Finished building: ../test.tar
+ 
+Building file: f1.c
+Invoking: MBS30.compiler.gnu.c
+gcc -O2 -g -Wall -c -fmessage-length=0 -v -o "f1.oprestripped" "f1.c" && \
+echo -n 'f1.d' ./ > 'f1.d' && \
+gcc -MM -MG -P -w -O2 -g -Wall -c -fmessage-length=0 -v   "f1.c" >> 'f1.d'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COLLECT_GCC_OPTIONS='-O2' '-g' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'f1.oprestripped' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.9/cc1 -quiet -v -imultiarch i386-linux-gnu f1.c -quiet -dumpbase f1.c -mtune=generic -march=i686 -auxbase-strip f1.oprestripped -g -O2 -Wall -version -fmessage-length=0 -fstack-protector-strong -Wformat-security -o /tmp/cczhpQiU.s
+GNU C (Ubuntu 4.9.2-10ubuntu13) version 4.9.2 (i686-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/4.9/../../../../i686-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i686-linux-gnu/4.9/include
+ /usr/local/include
+ /usr/lib/gcc/i686-linux-gnu/4.9/include-fixed
+ /usr/include/i386-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.9.2-10ubuntu13) version 4.9.2 (i686-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 8802821ddd4be89d816de7ae5cb1d6d0
+COLLECT_GCC_OPTIONS='-O2' '-g' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'f1.oprestripped' '-mtune=generic' '-march=i686'
+ as -v --32 -o f1.oprestripped /tmp/cczhpQiU.s
+GNU汇编版本 2.25 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.25
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O2' '-g' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'f1.oprestripped' '-mtune=generic' '-march=i686'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COLLECT_GCC_OPTIONS='-MM' '-MG' '-P' '-w' '-O2' '-g' '-Wall' '-c' '-fmessage-length=0' '-v' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.9/cc1 -E -quiet -v -P -imultiarch i386-linux-gnu -MM -MG f1.c -mtune=generic -march=i686 -Wall -w -fmessage-length=0 -g -fworking-directory -O2 -fstack-protector-strong -Wformat-security
+ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/4.9/../../../../i686-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i686-linux-gnu/4.9/include
+ /usr/local/include
+ /usr/lib/gcc/i686-linux-gnu/4.9/include-fixed
+ /usr/include/i386-linux-gnu
+ /usr/include
+End of search list.
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-MM' '-MG' '-P' '-w' '-O2' '-g' '-Wall' '-c' '-fmessage-length=0' '-v' '-mtune=generic' '-march=i686'
+Finished building: f1.c
+ 
+Building file: f1.oprestripped
+Invoking: Strip object file
+strip --preserve-dates -o "f1.o" "f1.oprestripped"
+Finished building: f1.oprestripped
+ 
+Building file: f2.c
+Invoking: MBS30.compiler.gnu.c
+gcc -O2 -g -Wall -c -fmessage-length=0 -v -o "f2.oprestripped" "f2.c" && \
+echo -n 'f2.d' ./ > 'f2.d' && \
+gcc -MM -MG -P -w -O2 -g -Wall -c -fmessage-length=0 -v   "f2.c" >> 'f2.d'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COLLECT_GCC_OPTIONS='-O2' '-g' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'f2.oprestripped' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.9/cc1 -quiet -v -imultiarch i386-linux-gnu f2.c -quiet -dumpbase f2.c -mtune=generic -march=i686 -auxbase-strip f2.oprestripped -g -O2 -Wall -version -fmessage-length=0 -fstack-protector-strong -Wformat-security -o /tmp/ccN9bSDX.s
+GNU C (Ubuntu 4.9.2-10ubuntu13) version 4.9.2 (i686-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/4.9/../../../../i686-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i686-linux-gnu/4.9/include
+ /usr/local/include
+ /usr/lib/gcc/i686-linux-gnu/4.9/include-fixed
+ /usr/include/i386-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.9.2-10ubuntu13) version 4.9.2 (i686-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 8802821ddd4be89d816de7ae5cb1d6d0
+COLLECT_GCC_OPTIONS='-O2' '-g' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'f2.oprestripped' '-mtune=generic' '-march=i686'
+ as -v --32 -o f2.oprestripped /tmp/ccN9bSDX.s
+GNU汇编版本 2.25 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.25
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O2' '-g' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'f2.oprestripped' '-mtune=generic' '-march=i686'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COLLECT_GCC_OPTIONS='-MM' '-MG' '-P' '-w' '-O2' '-g' '-Wall' '-c' '-fmessage-length=0' '-v' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.9/cc1 -E -quiet -v -P -imultiarch i386-linux-gnu -MM -MG f2.c -mtune=generic -march=i686 -Wall -w -fmessage-length=0 -g -fworking-directory -O2 -fstack-protector-strong -Wformat-security
+ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/4.9/../../../../i686-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i686-linux-gnu/4.9/include
+ /usr/local/include
+ /usr/lib/gcc/i686-linux-gnu/4.9/include-fixed
+ /usr/include/i386-linux-gnu
+ /usr/include
+End of search list.
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-MM' '-MG' '-P' '-w' '-O2' '-g' '-Wall' '-c' '-fmessage-length=0' '-v' '-mtune=generic' '-march=i686'
+Finished building: f2.c
+ 
+Building file: f2.oprestripped
+Invoking: Strip object file
+strip --preserve-dates -o "f2.o" "f2.oprestripped"
+Finished building: f2.oprestripped
+ 
+Invoking: MBS30.linker.gnu.c
+gcc -shared -Wl,-soname=test30_1.so.1.2.3 -o "test30_1.so.1.2.3"  ./f1.o ./f2.o 
+/usr/bin/ld ： 在./f1.o (.eh_frame)中发生错误; .eh_frame_hdr表格不会被创建。
+/usr/bin/ld ： 在./f2.o (.eh_frame)中发生错误; .eh_frame_hdr表格不会被创建。
+Finished building: test30_1.so.1.2.3
+ 
+Building target: Test30_1.so.4.5.6
+Invoking: Deploy tool
+cp  test30_1.so.1.2.3  "Test30_1.so.4.5.6"
+Finished building target: Test30_1.so.4.5.6
+ 
+Building file: CDT.bmp
+Invoking: Convert to jpeg
+cjpeg  -outfile "CDT.jpeg" "CDT.bmp"
+Finished building: CDT.bmp
+ 
+rm f1.oprestripped f2.oprestripped
+11:46:23 **** Build of configuration X for project test30_2 ****
+make all 
+Invoking: tar-create
+tar -cf new.tar  ../f1.cpp ../f2.cpp   ../a1.asm 
+tar: 从成员名中删除开头的“../”
+Finished building: new.tar
+ 
+Invoking: tar-list
+tar -tf  new.tar  > new.log
+Finished building: new.log
+ 
+Building target: test30_2.tmp
+Invoking: cat
+cat  new.log 
+f1.cpp
+f2.cpp
+a1.asm
+Finished building target: test30_2.tmp
+ 
+
+**** Build of configuration Debug for project TopTC ****
+
+Nothing to build for project TopTC
+11:46:24 **** Build of configuration Release for project CDTFortranTest1 ****
+make -k all 
+Building file: ../AVERAGE.F90
+Invoking: Test Fortran Compiler
+myfort  -c -object:"AVERAGE.obj" "../AVERAGE.F90"
+/bin/sh: myfort: 未找到命令
+make: *** [AVERAGE.obj] Error 127
+subdir.mk:19: recipe for target 'AVERAGE.obj' failed
+Building file: ../MODULE.F90
+Invoking: Test Fortran Compiler
+myfort  -c -object:"MODULE.obj" "../MODULE.F90"
+/bin/sh: myfort: 未找到命令
+subdir.mk:19: recipe for target 'MODULE.obj' failed
+make: *** [MODULE.obj] Error 127
+make: Target 'all' not remade because of errors.
+11:46:25 **** Build of configuration Release for project CDTFortranTest2 ****
+make -k all 
+Building file: ../module/d.f90
+Invoking: Test Fortran Compiler
+myfort  -c -object:"module/d.obj" "../module/d.f90"
+/bin/sh: myfort: 未找到命令
+module/subdir.mk:73: recipe for target 'module/d.obj' failed
+make: *** [module/d.obj] Error 127
+Building file: ../module/p_module.f90
+Invoking: Test Fortran Compiler
+myfort  -c -object:"module/p_module.obj" "../module/p_module.f90"
+/bin/sh: myfort: 未找到命令
+make: *** [module/p_module.obj] Error 127
+module/subdir.mk:73: recipe for target 'module/p_module.obj' failed
+Building file: ../module/abc_module.f90
+Invoking: Test Fortran Compiler
+myfort  -c -object:"module/abc_module.obj" "../module/abc_module.f90"
+/bin/sh: myfort: 未找到命令
+module/subdir.mk:73: recipe for target 'module/abc_module.obj' failed
+make: *** [module/abc_module.obj] Error 127
+make: Target 'all' not remade because of errors.
+11:46:25 **** Build of configuration Debug for project TestATO ****
+make -k all 
+Building file: ../TestATO.c
+Invoking: AssignToOption Compiler
+ATOC -opt../TestATO.cop  "TestATO.obj" "../TestATO.c"
+/bin/sh: ATOC: 未找到命令
+subdir.mk:22: recipe for target 'TestATO.obj' failed
+make: *** [TestATO.obj] Error 127
+make: Target 'all' not remade because of errors.
+11:46:26 **** Build of configuration Default for project testMacroSupportInBuildDefinitions ****
+make all 
+Building file: ../somefile.foo
+Invoking: Foo Tool
+cp "../somefile.foo" "this_is_a_test_prefix_with_a_macro_for_the_project_name_between_here_testMacroSupportInBuildDefinitions_and_heresomefile.bar"
+Finished building: ../somefile.foo
+ 
+Building target: testMacroSupportInBuildDefinitions.tar
+Invoking: Bar Tool
+tar cvf testMacroSupportInBuildDefinitions.tar  ./this_is_a_test_prefix_with_a_macro_for_the_project_name_between_here_testMacroSupportInBuildDefinitions_and_heresomefile.bar 
+./this_is_a_test_prefix_with_a_macro_for_the_project_name_between_here_testMacroSupportInBuildDefinitions_and_heresomefile.bar
+Finished building target: testMacroSupportInBuildDefinitions.tar
+ 
+11:46:28 **** Build of configuration dbg 2 for project test_40 ****
+make all 
+Building file: ../dir1/dd/ff/vbn.c
+Invoking: Test 4.0 ToolName.compiler.gnu.c
+gcc -O2 -g -Wall -c -fmessage-length=0 -MMD -MP -MF"dir1/dd/ff/vbn.d" -MT"dir1/dd/ff/vbn.o" -o "dir1/dd/ff/vbn.o" "../dir1/dd/ff/vbn.c"
+Finished building: ../dir1/dd/ff/vbn.c
+ 
+Building file: ../dir1/dd/ff/zxc.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -MMD -MP -MF"dir1/dd/ff/zxc.d" -MT"dir1/dd/ff/zxc.o" -o "dir1/dd/ff/zxc.o" "../dir1/dd/ff/zxc.cpp"
+Finished building: ../dir1/dd/ff/zxc.cpp
+ 
+Building file: ../dir1/dd/excluded_c/asd/s.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -MMD -MP -MF"dir1/dd/excluded_c/asd/s.d" -MT"dir1/dd/excluded_c/asd/s.o" -o "dir1/dd/excluded_c/asd/s.o" "../dir1/dd/excluded_c/asd/s.cpp"
+Finished building: ../dir1/dd/excluded_c/asd/s.cpp
+ 
+Building file: ../dir1/dd/excluded_c/inc.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -MMD -MP -MF"dir1/dd/excluded_c/inc.d" -MT"dir1/dd/excluded_c/inc.o" -o "dir1/dd/excluded_c/inc.o" "../dir1/dd/excluded_c/inc.cpp"
+Finished building: ../dir1/dd/excluded_c/inc.cpp
+ 
+Building file: ../d1_1/d2_1/a.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id2_1_rel/path -I/d2_1_abs/path -Ic:/d2_1_abs/path -Id1_1_rel/path -I/d1_1_abs/path -Ic:/d1_1_abs/path -I"D:\d1_1_docs\incs" -I"D:\d2_1_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1_1/d2_1/a.d" -MT"d1_1/d2_1/a.o" -o "d1_1/d2_1/a.o" "../d1_1/d2_1/a.cpp"
+Finished building: ../d1_1/d2_1/a.cpp
+ 
+Building file: ../d1_1/d2_1/p.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id2_1_rel/path -I/d2_1_abs/path -Ic:/d2_1_abs/path -Id1_1_rel/path -I/d1_1_abs/path -Ic:/d1_1_abs/path -I"D:\d1_1_docs\incs" -I"D:\d2_1_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1_1/d2_1/p.d" -MT"d1_1/d2_1/p.o" -o "d1_1/d2_1/p.o" "../d1_1/d2_1/p.cpp"
+Finished building: ../d1_1/d2_1/p.cpp
+ 
+Building file: ../d1_1/i.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id1_1_rel/path -I/d1_1_abs/path -Ic:/d1_1_abs/path -I"D:\d1_1_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1_1/i.d" -MT"d1_1/i.o" -o "d1_1/i.o" "../d1_1/i.cpp"
+Finished building: ../d1_1/i.cpp
+ 
+Building file: ../d1_1/o.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id1_1_rel/path -I/d1_1_abs/path -Ic:/d1_1_abs/path -I"D:\d1_1_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1_1/o.d" -MT"d1_1/o.o" -o "d1_1/o.o" "../d1_1/o.cpp"
+Finished building: ../d1_1/o.cpp
+ 
+Building file: ../d1/d2/d3/t.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id3_rel/path -I/d3_abs/path -Ic:/d3_abs/path -I"D:\d3_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1/d2/d3/t.d" -MT"d1/d2/d3/t.o" -o "d1/d2/d3/t.o" "../d1/d2/d3/t.cpp"
+Finished building: ../d1/d2/d3/t.cpp
+ 
+Building file: ../d1/d2/d3/y.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id3_rel/path -I/d3_abs/path -Ic:/d3_abs/path -I"D:\d3_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1/d2/d3/y.d" -MT"d1/d2/d3/y.o" -o "d1/d2/d3/y.o" "../d1/d2/d3/y.cpp"
+Finished building: ../d1/d2/d3/y.cpp
+ 
+Building file: ../d1/d2/e.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id2_ecpp_rel/path -I../d2_ecpp_proj/rel/path -I/d2_ecpp_abs/path -Ic:/d2_ecpp_abs/path -Id2_rel/path -I../d2_proj/rel/path -I/d2_abs/path -Ic:/d2_abs/path -Id1_rel/path -I../d1_proj/rel/path -I/d1_abs/path -Ic:/d1_abs/path -I"D:\d1_docs\incs" -I"D:\d2_docs\incs" -I"D:\d2_ecpp_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1/d2/e.d" -MT"d1/d2/e.d" -o "d1/d2/e.o" "../d1/d2/e.cpp"
+Finished building: ../d1/d2/e.cpp
+ 
+Building file: ../d1/d2/r.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id2_rel/path -I../d2_proj/rel/path -I/d2_abs/path -Ic:/d2_abs/path -Id1_rel/path -I../d1_proj/rel/path -I/d1_abs/path -Ic:/d1_abs/path -I"D:\d1_docs\incs" -I"D:\d2_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1/d2/r.d" -MT"d1/d2/r.o" -o "d1/d2/r.o" "../d1/d2/r.cpp"
+Finished building: ../d1/d2/r.cpp
+ 
+Building file: ../d1/q.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id1_rel/path -I../d1_proj/rel/path -I/d1_abs/path -Ic:/d1_abs/path -I"D:\d1_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1/q.d" -MT"d1/q.o" -o "d1/q.o" "../d1/q.cpp"
+Finished building: ../d1/q.cpp
+ 
+Building file: ../d1/u.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id1_rel/path -I../d1_proj/rel/path -I/d1_abs/path -Ic:/d1_abs/path -I"D:\d1_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1/u.d" -MT"d1/u.o" -o "d1/u.o" "../d1/u.cpp"
+Finished building: ../d1/u.cpp
+ 
+Building file: ../d1/w.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id1_rel/path -I../d1_proj/rel/path -I/d1_abs/path -Ic:/d1_abs/path -I"D:\d1_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1/w.d" -MT"d1/w.o" -o "d1/w.o" "../d1/w.cpp"
+Finished building: ../d1/w.cpp
+ 
+make: *** No rule to make target 'uo2', needed by 'test_40'。 停止。
+11:46:29 **** Incremental Build of configuration Test 4.0 ConfigName.Dbg for project test_40 ****
+make all 
+Building file: ../dir1/dd/ff/vbn.c
+Invoking: Test 4.0 ToolName.compiler.gnu.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dir1/dd/ff/vbn.d" -MT"dir1/dd/ff/vbn.o" -o "dir1/dd/ff/vbn.o" "../dir1/dd/ff/vbn.c"
+Finished building: ../dir1/dd/ff/vbn.c
+ 
+Building file: ../dir1/dd/ff/zxc.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Irel/path -I../proj/rel/path -I/abs/path -Ic:/abs/path -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40/dir1/dir2/dir3" -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40" -I"D:\docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dir1/dd/ff/zxc.d" -MT"dir1/dd/ff/zxc.o" -o "dir1/dd/ff/zxc.o" "../dir1/dd/ff/zxc.cpp"
+Finished building: ../dir1/dd/ff/zxc.cpp
+ 
+Building file: ../dir1/dd/excluded_c/asd/s.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Irel/path -I../proj/rel/path -I/abs/path -Ic:/abs/path -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40/dir1/dir2/dir3" -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40" -I"D:\docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dir1/dd/excluded_c/asd/s.d" -MT"dir1/dd/excluded_c/asd/s.o" -o "dir1/dd/excluded_c/asd/s.o" "../dir1/dd/excluded_c/asd/s.cpp"
+Finished building: ../dir1/dd/excluded_c/asd/s.cpp
+ 
+Building file: ../dir1/dd/excluded_c/inc.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Irel/path -I../proj/rel/path -I/abs/path -Ic:/abs/path -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40/dir1/dir2/dir3" -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40" -I"D:\docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dir1/dd/excluded_c/inc.d" -MT"dir1/dd/excluded_c/inc.o" -o "dir1/dd/excluded_c/inc.o" "../dir1/dd/excluded_c/inc.cpp"
+Finished building: ../dir1/dd/excluded_c/inc.cpp
+ 
+Building file: ../d1_1/d2_1/a.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id2_1_rel/path -I/d2_1_abs/path -Ic:/d2_1_abs/path -Id1_1_rel/path -I/d1_1_abs/path -Ic:/d1_1_abs/path -Irel/path -I../proj/rel/path -I/abs/path -Ic:/abs/path -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40/dir1/dir2/dir3" -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40" -I"D:\docs\incs" -I"D:\d1_1_docs\incs" -I"D:\d2_1_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1_1/d2_1/a.d" -MT"d1_1/d2_1/a.o" -o "d1_1/d2_1/a.o" "../d1_1/d2_1/a.cpp"
+Finished building: ../d1_1/d2_1/a.cpp
+ 
+Building file: ../d1_1/d2_1/p.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id2_1_rel/path -I/d2_1_abs/path -Ic:/d2_1_abs/path -Id1_1_rel/path -I/d1_1_abs/path -Ic:/d1_1_abs/path -Irel/path -I../proj/rel/path -I/abs/path -Ic:/abs/path -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40/dir1/dir2/dir3" -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40" -I"D:\docs\incs" -I"D:\d1_1_docs\incs" -I"D:\d2_1_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1_1/d2_1/p.d" -MT"d1_1/d2_1/p.o" -o "d1_1/d2_1/p.o" "../d1_1/d2_1/p.cpp"
+Finished building: ../d1_1/d2_1/p.cpp
+ 
+Building file: ../d1_1/i.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id1_1_rel/path -I/d1_1_abs/path -Ic:/d1_1_abs/path -Irel/path -I../proj/rel/path -I/abs/path -Ic:/abs/path -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40/dir1/dir2/dir3" -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40" -I"D:\docs\incs" -I"D:\d1_1_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1_1/i.d" -MT"d1_1/i.o" -o "d1_1/i.o" "../d1_1/i.cpp"
+Finished building: ../d1_1/i.cpp
+ 
+Building file: ../d1_1/o.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id1_1_rel/path -I/d1_1_abs/path -Ic:/d1_1_abs/path -Irel/path -I../proj/rel/path -I/abs/path -Ic:/abs/path -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40/dir1/dir2/dir3" -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40" -I"D:\docs\incs" -I"D:\d1_1_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1_1/o.d" -MT"d1_1/o.o" -o "d1_1/o.o" "../d1_1/o.cpp"
+Finished building: ../d1_1/o.cpp
+ 
+Building file: ../d1/d2/d3/t.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id3_rel/path -I/d3_abs/path -Ic:/d3_abs/path -I"D:\d3_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1/d2/d3/t.d" -MT"d1/d2/d3/t.o" -o "d1/d2/d3/t.o" "../d1/d2/d3/t.cpp"
+Finished building: ../d1/d2/d3/t.cpp
+ 
+Building file: ../d1/d2/d3/y.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id3_rel/path -I/d3_abs/path -Ic:/d3_abs/path -I"D:\d3_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1/d2/d3/y.d" -MT"d1/d2/d3/y.o" -o "d1/d2/d3/y.o" "../d1/d2/d3/y.cpp"
+Finished building: ../d1/d2/d3/y.cpp
+ 
+Building file: ../d1/d2/e.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id2_ecpp_rel/path -I../d2_ecpp_proj/rel/path -I/d2_ecpp_abs/path -Ic:/d2_ecpp_abs/path -Id2_rel/path -I../d2_proj/rel/path -I/d2_abs/path -Ic:/d2_abs/path -Id1_rel/path -I../d1_proj/rel/path -I/d1_abs/path -Ic:/d1_abs/path -Irel/path -I../proj/rel/path -I/abs/path -Ic:/abs/path -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40/dir1/dir2/dir3" -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40" -I"D:\docs\incs" -I"D:\d1_docs\incs" -I"D:\d2_docs\incs" -I"D:\d2_ecpp_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1/d2/e.d" -MT"d1/d2/e.d" -o "d1/d2/e.o" "../d1/d2/e.cpp"
+Finished building: ../d1/d2/e.cpp
+ 
+Building file: ../d1/d2/r.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id2_rel/path -I../d2_proj/rel/path -I/d2_abs/path -Ic:/d2_abs/path -Id1_rel/path -I../d1_proj/rel/path -I/d1_abs/path -Ic:/d1_abs/path -Irel/path -I../proj/rel/path -I/abs/path -Ic:/abs/path -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40/dir1/dir2/dir3" -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40" -I"D:\docs\incs" -I"D:\d1_docs\incs" -I"D:\d2_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1/d2/r.d" -MT"d1/d2/r.o" -o "d1/d2/r.o" "../d1/d2/r.cpp"
+Finished building: ../d1/d2/r.cpp
+ 
+Building file: ../d1/q.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id1_rel/path -I../d1_proj/rel/path -I/d1_abs/path -Ic:/d1_abs/path -Irel/path -I../proj/rel/path -I/abs/path -Ic:/abs/path -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40/dir1/dir2/dir3" -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40" -I"D:\docs\incs" -I"D:\d1_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1/q.d" -MT"d1/q.o" -o "d1/q.o" "../d1/q.cpp"
+Finished building: ../d1/q.cpp
+ 
+Building file: ../d1/u.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id1_rel/path -I../d1_proj/rel/path -I/d1_abs/path -Ic:/d1_abs/path -Irel/path -I../proj/rel/path -I/abs/path -Ic:/abs/path -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40/dir1/dir2/dir3" -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40" -I"D:\docs\incs" -I"D:\d1_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1/u.d" -MT"d1/u.o" -o "d1/u.o" "../d1/u.cpp"
+Finished building: ../d1/u.cpp
+ 
+Building file: ../d1/w.cpp
+Invoking: Test 4.0 ToolName.compiler.gnu.cpp
+g++ -Id1_rel/path -I../d1_proj/rel/path -I/d1_abs/path -Ic:/d1_abs/path -Irel/path -I../proj/rel/path -I/abs/path -Ic:/abs/path -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40/dir1/dir2/dir3" -I"/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/test_40" -I"D:\docs\incs" -I"D:\d1_docs\incs" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"d1/w.d" -MT"d1/w.o" -o "d1/w.o" "../d1/w.cpp"
+Finished building: ../d1/w.cpp
+ 
+make: *** No rule to make target 'uo1', needed by 'test_40'。 停止。
+11:46:36 **** Build of configuration Debug for project test1DepCalc2 ****
+make all 
+Building file: ../Sources/sub sources/func 3.c
+Invoking: GCC C Compiler
+gcc -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Sources/sub sources/func 3.d" -MT"Sources/sub\ sources/func\ 3.d" -o "Sources/sub sources/func 3.o" "../Sources/sub sources/func 3.c"
+Finished building: ../Sources/sub sources/func 3.c
+ 
+Building file: ../Sources/func1.c
+Invoking: GCC C Compiler
+gcc -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Sources/func1.d" -MT"Sources/func1.o" -o "Sources/func1.o" "../Sources/func1.c"
+Finished building: ../Sources/func1.c
+ 
+Building file: ../Sources/func2.c
+Invoking: GCC C Compiler
+gcc -I../Headers -I../Sources/sub\ sources -O3 -g3 -Wall -c -MMD -MP -MF"Sources/func2.d" -MT"Sources/func2.d" -o "Sources/func2.o" "../Sources/func2.c"
+Finished building: ../Sources/func2.c
+ 
+Building file: ../Sources/func4.c
+Invoking: GCC C Compiler
+gcc -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Sources/func4.d" -MT"Sources/func4.o" -o "Sources/func4.o" "../Sources/func4.c"
+Finished building: ../Sources/func4.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: test1DepCalc2
+Invoking: GCC C Linker
+gcc  -o "test1DepCalc2"  ./Sources/sub\ sources/func\ 3.o  ./Sources/func1.o ./Sources/func2.o ./Sources/func4.o  ./main.o   
+Finished building target: test1DepCalc2
+ 
+11:46:37 **** Build of configuration Debug for project test1DepCalc3 ****
+make all 
+Building file: ../Sources/sub sources/func 3.c
+Invoking: GCC C Compiler
+gcc -DFUN3 -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0 -o "Sources/sub sources/func 3.o" "../Sources/sub sources/func 3.c" && \
+echo -n 'Sources/sub sources/func 3.d' Sources/ sources/ ./ > 'Sources/sub sources/func 3.d' && \
+gcc -MM -MG -P -w -DFUN3 -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0   "../Sources/sub sources/func 3.c" >> 'Sources/sub sources/func 3.d'
+Finished building: ../Sources/sub sources/func 3.c
+ 
+Building file: ../Sources/func1.c
+Invoking: GCC C Compiler
+gcc -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0 -o "Sources/func1.o" "../Sources/func1.c" && \
+echo -n 'Sources/func1.d' Sources/ > 'Sources/func1.d' && \
+gcc -MM -MG -P -w -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0   "../Sources/func1.c" >> 'Sources/func1.d'
+Finished building: ../Sources/func1.c
+ 
+Building file: ../Sources/func2.c
+Invoking: GCC C Compiler
+gcc -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0 -o "Sources/func2.o" "../Sources/func2.c" && \
+echo -n 'Sources/func2.d' Sources/ > 'Sources/func2.d' && \
+gcc -MM -MG -P -w -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0   "../Sources/func2.c" >> 'Sources/func2.d'
+Finished building: ../Sources/func2.c
+ 
+Building file: ../Sources/func4.c
+Invoking: GCC C Compiler
+gcc -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0 -o "Sources/func4.o" "../Sources/func4.c" && \
+echo -n 'Sources/func4.d' Sources/ > 'Sources/func4.d' && \
+gcc -MM -MG -P -w -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0   "../Sources/func4.c" >> 'Sources/func4.d'
+Finished building: ../Sources/func4.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0 -o "main.o" "../main.c" && \
+echo -n 'main.d' ./ > 'main.d' && \
+gcc -MM -MG -P -w -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0   "../main.c" >> 'main.d'
+Finished building: ../main.c
+ 
+Building target: test1DepCalc3
+Invoking: GCC C Linker
+gcc  -o "test1DepCalc3"  ./Sources/sub\ sources/func\ 3.o  ./Sources/func1.o ./Sources/func2.o ./Sources/func4.o  ./main.o   
+Finished building target: test1DepCalc3
+ 
+11:46:38 **** Build of configuration Debug for project test1DepCalcPreBuild ****
+make all 
+Regenerating dependency file: main.d
+gcc -w -MM -MP -MT"main.d" -MT"main.o" -I../Headers -I../Sources/sub\ sources -MF "main.d" "../main.c"
+makefile:18: Sources/sub sources/func 3.d: 没有那个文件或目录
+makefile:18: Sources/func1.d: 没有那个文件或目录
+makefile:18: Sources/func2.d: 没有那个文件或目录
+makefile:18: Sources/func4.d: 没有那个文件或目录
+makefile:18: main.d: 没有那个文件或目录
+ 
+Regenerating dependency file: Sources/func4.d
+gcc -w -MM -MP -MT"Sources/func4.d" -MT"Sources/func4.o" -I../Headers -I../Sources/sub\ sources -MF "Sources/func4.d" "../Sources/func4.c"
+ 
+Regenerating dependency file: Sources/func2.d
+gcc -w -MM -MP -MT"Sources/func2.d" -MT"Sources/func2.o" -I../Headers -I../Sources/sub\ sources -MF "Sources/func2.d" "../Sources/func2.c"
+ 
+Regenerating dependency file: Sources/func1.d
+gcc -w -MM -MP -MT"Sources/func1.d" -MT"Sources/func1.o" -I../Headers -I../Sources/sub\ sources -MF "Sources/func1.d" "../Sources/func1.c"
+ 
+Regenerating dependency file: Sources/sub sources/func 3.d
+gcc -w -MM -MP -MT"Sources/sub\ sources/func\ 3.d" -MT"Sources/sub\ sources/func\ 3.o" -I../Headers -I../Sources/sub\ sources -MF "Sources/sub sources/func 3.d" "../Sources/sub sources/func 3.c"
+ 
+Building file: ../Sources/sub sources/func 3.c
+Invoking: GCC C Compiler
+gcc -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0 -o "Sources/sub sources/func 3.o" "../Sources/sub sources/func 3.c"
+Finished building: ../Sources/sub sources/func 3.c
+ 
+Building file: ../Sources/func1.c
+Invoking: GCC C Compiler
+gcc -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0 -o "Sources/func1.o" "../Sources/func1.c"
+Finished building: ../Sources/func1.c
+ 
+Building file: ../Sources/func2.c
+Invoking: GCC C Compiler
+gcc -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0 -o "Sources/func2.o" "../Sources/func2.c"
+Finished building: ../Sources/func2.c
+ 
+Building file: ../Sources/func4.c
+Invoking: GCC C Compiler
+gcc -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0 -o "Sources/func4.o" "../Sources/func4.c"
+Finished building: ../Sources/func4.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -I../Headers -I../Sources/sub\ sources -O0 -g3 -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: test1DepCalcPreBuild
+Invoking: GCC C Linker
+gcc  -o "test1DepCalcPreBuild"  ./Sources/sub\ sources/func\ 3.o  ./Sources/func1.o ./Sources/func2.o ./Sources/func4.o  ./main.o   
+Finished building target: test1DepCalcPreBuild
+ 
+
+**** Build of configuration MBS30ConfigName.Dbg for project test_bug340219 ****
+
+Nothing to build for project test_bug340219
+11:47:09 **** Build of configuration Debug for project helloworldC ****
+make all 
+Building file: ../src/helloworldC.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/helloworldC.d" -MT"src/helloworldC.o" -o "src/helloworldC.o" "../src/helloworldC.c"
+Finished building: ../src/helloworldC.c
+ 
+Building target: helloworldC
+Invoking: GCC C Linker
+gcc  -o "helloworldC"  ./src/helloworldC.o   
+Finished building target: helloworldC
+ 
+11:47:10 **** Incremental Build of configuration Debug for project helloworldC ****
+make all 
+Building target: helloworldC
+Invoking: GCC C Linker
+gcc  -o "helloworldC"   
+gcc: fatal error: no input files
+compilation terminated.
+makefile:30: recipe for target 'helloworldC' failed
+make: *** [helloworldC] Error 4

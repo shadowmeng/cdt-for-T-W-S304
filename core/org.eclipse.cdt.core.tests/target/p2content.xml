@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='org.eclipse.cdt.core.tests' version='5.4.0.201801250330'>
+    <update id='org.eclipse.cdt.core.tests' range='[0.0.0,5.4.0.201801250330)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='org.eclipse.cdt.core.tests'/>
+      <property name='org.eclipse.equinox.p2.provider' value='Eclipse CDT'/>
+      <property name='maven-groupId' value='org.eclipse.cdt'/>
+      <property name='maven-artifactId' value='org.eclipse.cdt.core.tests'/>
+      <property name='maven-version' value='5.4.0-SNAPSHOT'/>
+    </properties>
+    <provides size='31'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.cdt.core.tests' version='5.4.0.201801250330'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.cdt.core.tests' version='5.4.0.201801250330'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.core.cdescriptor.tests' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.core.envvar' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.core.internal.efsextension.tests' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.core.internal.errorparsers.tests' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.core.internal.index.provider.test' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.core.internal.tests' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.core.internal.tests.filesystem.ram' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.core.language' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.core.language.settings.providers' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.core.model.tests' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.core.parser.tests' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.core.parser.tests.ast2' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.core.parser.tests.prefix' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.core.parser.tests.rewrite' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.core.parser.tests.rewrite.astwriter' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.core.parser.tests.rewrite.changegenerator' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.core.parser.tests.rewrite.comenthandler' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.core.parser.tests.scanner' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.core.resources.tests' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.core.settings.model' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.core.suite' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.core.testplugin' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.core.testplugin.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.core.tests' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.core.winreg.tests' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.internal.index.tests' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.internal.pdom.tests' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.utils' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='9'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.cdt.core' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.junit' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.filesystem' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ltk.core.refactoring' range='3.4.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.tests' version='5.4.0.201801250330'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.cdt.core.tests; singleton:=true&#xA;Bundle-Version: 5.4.0.201801250330&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='org.eclipse.cdt.core.tests.source' version='5.4.0.201801250330' singleton='false'>
+    <update id='org.eclipse.cdt.core.tests.source' range='[0.0.0,5.4.0.201801250330)' severity='0'/>
+    <properties size='9'>
+      <property name='df_LT.bundleVendor' value='Eclipse CDT'/>
+      <property name='df_LT.bundleName' value='org.eclipse.cdt.core.tests Source'/>
+      <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+      <property name='maven-groupId' value='org.eclipse.cdt'/>
+      <property name='maven-artifactId' value='org.eclipse.cdt.core.tests'/>
+      <property name='maven-version' value='5.4.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.cdt.core.tests.source' version='5.4.0.201801250330'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.cdt.core.tests.source' version='5.4.0.201801250330'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.tests.source' version='5.4.0.201801250330'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.cdt.core.tests.source&#xA;Bundle-Version: 5.4.0.201801250330&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

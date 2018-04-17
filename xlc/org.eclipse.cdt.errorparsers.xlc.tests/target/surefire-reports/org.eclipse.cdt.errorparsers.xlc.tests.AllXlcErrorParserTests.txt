@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.cdt.errorparsers.xlc.tests.AllXlcErrorParserTests
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.705 sec - in org.eclipse.cdt.errorparsers.xlc.tests.AllXlcErrorParserTests
+testparseLine(org.eclipse.cdt.errorparsers.xlc.tests.TestInformationalMessage_1)  Time elapsed: 0.589 sec
+testparseLine(org.eclipse.cdt.errorparsers.xlc.tests.TestInformationalMessage_2)  Time elapsed: 0.004 sec
+testparseLine(org.eclipse.cdt.errorparsers.xlc.tests.TestInformationalMessage_3)  Time elapsed: 0.003 sec
+testparseLine(org.eclipse.cdt.errorparsers.xlc.tests.TestWarning_1)  Time elapsed: 0.004 sec
+testparseLine(org.eclipse.cdt.errorparsers.xlc.tests.TestError_1)  Time elapsed: 0.003 sec
+testparseLine(org.eclipse.cdt.errorparsers.xlc.tests.TestSevereError_1)  Time elapsed: 0.003 sec
+testparseLine(org.eclipse.cdt.errorparsers.xlc.tests.TestSevereError_2)  Time elapsed: 0.003 sec
+testparseLine(org.eclipse.cdt.errorparsers.xlc.tests.TestSevereError_3)  Time elapsed: 0.002 sec
+testparseLine(org.eclipse.cdt.errorparsers.xlc.tests.TestSevereError_4)  Time elapsed: 0.002 sec
+testparseLine(org.eclipse.cdt.errorparsers.xlc.tests.TestSevereError_5)  Time elapsed: 0.003 sec
+testparseLine(org.eclipse.cdt.errorparsers.xlc.tests.TestUnrecoverableError_1)  Time elapsed: 0.003 sec
+testparseLine(org.eclipse.cdt.errorparsers.xlc.tests.TestUnrecoverableError_2)  Time elapsed: 0.003 sec
+testparseLine(org.eclipse.cdt.errorparsers.xlc.tests.TestUnrecoverableError_3)  Time elapsed: 0.003 sec
+testparseLine(org.eclipse.cdt.errorparsers.xlc.tests.TestCompatibility)  Time elapsed: 0.002 sec
+testparseLine(org.eclipse.cdt.errorparsers.xlc.tests.TestRedefinition)  Time elapsed: 0.004 sec
+testparseLine(org.eclipse.cdt.errorparsers.xlc.tests.TestRedeclaration)  Time elapsed: 0.003 sec
+testparseLine(org.eclipse.cdt.errorparsers.xlc.tests.TestCommandOptionNotRecognized)  Time elapsed: 0.003 sec
+testparseLine(org.eclipse.cdt.errorparsers.xlc.tests.TestLinkerCommandOptionNotRecognized)  Time elapsed: 0.003 sec
+testparseLine(org.eclipse.cdt.errorparsers.xlc.tests.TestLinkerUndefinedSymbol)  Time elapsed: 0.003 sec
+testparseLine(org.eclipse.cdt.errorparsers.xlc.tests.TestLinkerDuplicateSymbol)  Time elapsed: 0.003 sec
+testparseLine(org.eclipse.cdt.errorparsers.xlc.tests.TestLinkerSevereError)  Time elapsed: 0.003 sec
+testparseLine(org.eclipse.cdt.errorparsers.xlc.tests.TestLinkerErrorWhileReading)  Time elapsed: 0.003 sec
+testparseLine(org.eclipse.cdt.errorparsers.xlc.tests.TestLinkerInfo)  Time elapsed: 0.003 sec

@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.cdt.testsrunner.test
+Export-Package: org.eclipse.cdt.testsrunner.core,org.eclipse.cdt.tests
+ runner.test,org.eclipse.cdt.testsrunner.testsrunners
+Bundle-Name: %Bundle-Name
+Bundle-Version: 1.0.0.201611250806
+Require-Bundle: org.junit,org.eclipse.core.runtime,org.eclipse.cdt.cor
+ e.tests,org.eclipse.cdt.testsrunner;bundle-version="7.0.0",org.eclips
+ e.cdt.testsrunner.boost;bundle-version="7.0.0",org.eclipse.cdt.testsr
+ unner.qttest;bundle-version="7.0.0",org.eclipse.cdt.testsrunner.gtest
+ ;bundle-version="7.0.0",org.eclipse.cdt.testsrunner.tap;bundle-versio
+ n="1.0.0"
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.cdt.testsrunner.test.TestsRunnerTestActi
+ vator
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/cdt/or
+ g.eclipse.cdt.git;path="testsrunner/org.eclipse.cdt.testsrunner.test"
+ ;commitId=e5c63c7cd802220d8293f52c89c855c442d9c9fc
+Bundle-Vendor: %Bundle-Vendor
+

@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.cdt.cmake.ui.internal.tests.AutomatedIntegrationSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.791 sec <<< FAILURE! - in org.eclipse.cdt.cmake.ui.internal.tests.AutomatedIntegrationSuite
+createCMakeProject(org.eclipse.cdt.cmake.ui.internal.tests.NewCMakeProjectTest)  Time elapsed: 8.942 sec  <<< ERROR!
+org.eclipse.swtbot.swt.finder.exceptions.WidgetNotFoundException: The widget was null.
+	at org.eclipse.swtbot.swt.finder.widgets.AbstractSWTBot.<init>(AbstractSWTBot.java:110)
+	at org.eclipse.swtbot.swt.finder.widgets.AbstractSWTBotControl.<init>(AbstractSWTBotControl.java:48)
+	at org.eclipse.swtbot.swt.finder.widgets.SWTBotShell.<init>(SWTBotShell.java:53)
+	at org.eclipse.swtbot.swt.finder.widgets.SWTBotShell.<init>(SWTBotShell.java:42)
+	at org.eclipse.swtbot.swt.finder.SWTBotFactory.activeShell(SWTBotFactory.java:461)
+	at org.eclipse.swtbot.swt.finder.SWTBot.activeShell(SWTBot.java:1)
+	at org.eclipse.swtbot.eclipse.finder.SWTWorkbenchBot.activeShell(SWTWorkbenchBot.java:1)
+	at org.eclipse.swtbot.swt.finder.SWTBotFactory.menu(SWTBotFactory.java:204)
+	at org.eclipse.swtbot.swt.finder.SWTBot.menu(SWTBot.java:1)
+	at org.eclipse.swtbot.eclipse.finder.SWTWorkbenchBot.menu(SWTWorkbenchBot.java:1)
+	at org.eclipse.swtbot.swt.finder.SWTBotFactory.menu(SWTBotFactory.java:233)
+	at org.eclipse.swtbot.swt.finder.SWTBot.menu(SWTBot.java:1)
+	at org.eclipse.swtbot.eclipse.finder.SWTWorkbenchBot.menu(SWTWorkbenchBot.java:1)
+	at org.eclipse.cdt.cmake.ui.internal.tests.NewCMakeProjectTest.createCMakeProject(NewCMakeProjectTest.java:58)
+

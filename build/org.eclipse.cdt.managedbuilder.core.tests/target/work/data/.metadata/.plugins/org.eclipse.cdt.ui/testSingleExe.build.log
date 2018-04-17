@@ -1,0 +1,17 @@
+11:46:13 **** Build of configuration Dbg for project testSingleExe ****
+make -k all 
+Building file: ../main.c
+Invoking: compiler.gnu.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "main.o" "../main.c" && \
+echo -n 'main.d' ./ > 'main.d' && \
+gcc -MM -MG -P -w -O0 -g3 -Wall -c -fmessage-length=0   "../main.c" >> 'main.d'
+Finished building: ../main.c
+ 
+Building target: testSingleExe
+Invoking: linker.gnu.c
+gcc  -o "testSingleExe"  ./main.o   
+Finished building target: testSingleExe
+ 
+
+11:46:13 Build Finished (took 55ms)
+

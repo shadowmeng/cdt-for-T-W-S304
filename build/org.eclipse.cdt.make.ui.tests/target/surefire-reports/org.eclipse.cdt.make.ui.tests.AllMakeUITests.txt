@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.cdt.make.ui.tests.AllMakeUITests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 sec - in org.eclipse.cdt.make.ui.tests.AllMakeUITests
+testImage(org.eclipse.cdt.make.ui.tests.MakeUIImagesTest)  Time elapsed: 0.005 sec
+testVerifyFields(org.eclipse.cdt.make.ui.tests.MakeUIImagesTest)  Time elapsed: 0.001 sec
+testOverlays(org.eclipse.cdt.make.ui.tests.MakeUIImagesTest)  Time elapsed: 0.001 sec
+testNoImage(org.eclipse.cdt.make.ui.tests.MakeUIImagesTest)  Time elapsed: 0.006 sec

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.core.tests' version='3.2.0.201801250330'>
+    <properties size='5'>
+      <property name='artifact.size' value='145507'/>
+      <property name='download.size' value='145507'/>
+      <property name='maven-groupId' value='org.eclipse.cdt'/>
+      <property name='maven-artifactId' value='org.eclipse.cdt.codan.core.tests'/>
+      <property name='maven-version' value='3.2.0-SNAPSHOT'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.core.tests.source' version='3.2.0.201801250330'>
+    <properties size='6'>
+      <property name='artifact.size' value='61603'/>
+      <property name='download.size' value='61603'/>
+      <property name='maven-groupId' value='org.eclipse.cdt'/>
+      <property name='maven-artifactId' value='org.eclipse.cdt.codan.core.tests'/>
+      <property name='maven-version' value='3.2.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+    </properties>
+  </artifact>
+</artifacts>

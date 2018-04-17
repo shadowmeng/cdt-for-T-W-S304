@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project>
+	<configuration id="org.eclipse.cdt.core.tests.configuration.id.1" name="org.eclipse.cdt.core.tests.configuration.id.1 Name"/>
+	<configuration id="org.eclipse.cdt.core.tests.configuration.id.2" name="org.eclipse.cdt.core.tests.configuration.id.2 Name">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider-reference id="org.eclipse.cdt.core.tests.language.settings.listener.registerer.provider" ref="shared-provider"/>
+		</extension>
+	</configuration>
+</project>

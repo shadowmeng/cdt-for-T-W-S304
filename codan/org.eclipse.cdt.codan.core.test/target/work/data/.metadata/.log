@@ -1,0 +1,40 @@
+!SESSION 2016-11-25 16:26:45.229 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_45-internal
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -application org.eclipse.tycho.surefire.osgibooter.uitest -testproperties /home/mengjingshi/Documents/workspace/org.eclipse.cdt/codan/org.eclipse.cdt.codan.core.test/target/surefire.properties
+Command-line arguments:  -data /home/mengjingshi/Documents/workspace/org.eclipse.cdt/codan/org.eclipse.cdt.codan.core.test/target/work/data -application org.eclipse.tycho.surefire.osgibooter.uitest -testproperties /home/mengjingshi/Documents/workspace/org.eclipse.cdt/codan/org.eclipse.cdt.codan.core.test/target/surefire.properties
+
+!ENTRY org.eclipse.compare.win32 4 0 2016-11-25 16:26:48.879
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.compare.win32 [213]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=win32)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:27:10.059
+!MESSAGE Indexed 'CodanProjTest_1480062429837' (1 sources, 1 headers) in 0.15 sec: 5 declarations; 2 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:27:10.436
+!MESSAGE Indexed 'CodanProjTest_1480062430389' (1 sources, 1 headers) in 0.021 sec: 9 declarations; 6 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:27:13.747
+!MESSAGE Indexed 'CodanProjTest_1480062433682' (2 sources, 0 headers) in 0.022 sec: 4 declarations; 2 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:27:15.776
+!MESSAGE Indexed 'CodanProjTest_1480062435746' (1 sources, 1 headers) in 0.004 sec: 2 declarations; 1 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-25 16:27:16.402
+!MESSAGE Indexed 'CodanProjTest_1480062436357' (1 sources, 0 headers) in 0.008 sec: 5 declarations; 3 references; 0 unresolved inclusions; 0 syntax errors; 2 unresolved names (20%)
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-11-25 16:27:27.129
+!MESSAGE The workspace will exit with unsaved changes in this session.

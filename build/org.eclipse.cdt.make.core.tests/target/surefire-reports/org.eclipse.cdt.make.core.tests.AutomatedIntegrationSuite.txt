@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.cdt.make.core.tests.AutomatedIntegrationSuite
+-------------------------------------------------------------------------------
+Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.758 sec - in org.eclipse.cdt.make.core.tests.AutomatedIntegrationSuite
+testProjectCreation(org.eclipse.cdt.make.builder.tests.StandardBuildTests)  Time elapsed: 1.388 sec
+testProjectSettings(org.eclipse.cdt.make.builder.tests.StandardBuildTests)  Time elapsed: 0.178 sec
+testProjectConversion(org.eclipse.cdt.make.builder.tests.StandardBuildTests)  Time elapsed: 0.056 sec
+testProjectCleanup(org.eclipse.cdt.make.builder.tests.StandardBuildTests)  Time elapsed: 0.059 sec
+testGetCCompilerBuiltins(org.eclipse.cdt.make.scannerdiscovery.ScannerConfigDiscoveryTests)  Time elapsed: 0.29 sec
+testGetCCCompilerBuiltins(org.eclipse.cdt.make.scannerdiscovery.ScannerConfigDiscoveryTests)  Time elapsed: 0.348 sec
+testParsingIncludePaths(org.eclipse.cdt.make.scannerdiscovery.GCCScannerInfoConsoleParserTests)  Time elapsed: 0.029 sec
+testParsingSymbolDefinitions(org.eclipse.cdt.make.scannerdiscovery.GCCScannerInfoConsoleParserTests)  Time elapsed: 0.001 sec
+testCommandsWithSemicolon_bug194394(org.eclipse.cdt.make.scannerdiscovery.GCCScannerInfoConsoleParserTests)  Time elapsed: 0.001 sec
+testParsingSymbolDefinitions_bug80271(org.eclipse.cdt.make.scannerdiscovery.GCCScannerInfoConsoleParserTests)  Time elapsed: 0.001 sec
+testCompilerCommand_bug194394(org.eclipse.cdt.make.scannerdiscovery.GCCScannerInfoConsoleParserTests)  Time elapsed: 0 sec
+testCompilerCommandInsideShellInvocation_bug203059(org.eclipse.cdt.make.scannerdiscovery.GCCScannerInfoConsoleParserTests)  Time elapsed: 0.001 sec
+testParsingUnbalancedDoubleQuote_Bug186065(org.eclipse.cdt.make.scannerdiscovery.GCCScannerInfoConsoleParserTests)  Time elapsed: 0.001 sec
+testPwdInFilePath_Bug237958(org.eclipse.cdt.make.scannerdiscovery.GCCPerFileBOPConsoleParserTests)  Time elapsed: 0.217 sec
+testResolvingLinkedResourceArgument_Bug216945(org.eclipse.cdt.make.scannerdiscovery.GCCPerFileBOPConsoleParserTests)  Time elapsed: 0.075 sec
+testParsingIfStatement_bug197930(org.eclipse.cdt.make.scannerdiscovery.GCCPerFileBOPConsoleParserTests)  Time elapsed: 0.043 sec
+testResolvingLinkedFolder_Bug213690(org.eclipse.cdt.make.scannerdiscovery.GCCPerFileBOPConsoleParserTests)  Time elapsed: 0.047 sec
+testParsingSymbolDefinitions(org.eclipse.cdt.make.scannerdiscovery.GCCPerFileBOPConsoleParserTests)  Time elapsed: 0.049 sec
+testCommandsWithSemicolon_bug194394(org.eclipse.cdt.make.scannerdiscovery.GCCPerFileBOPConsoleParserTests)  Time elapsed: 0.035 sec
+testParsingSymbolDefinitions_bug80271(org.eclipse.cdt.make.scannerdiscovery.GCCPerFileBOPConsoleParserTests)  Time elapsed: 0.033 sec
+testCompilerCommand_bug194394(org.eclipse.cdt.make.scannerdiscovery.GCCPerFileBOPConsoleParserTests)  Time elapsed: 0.037 sec
+testCompilerCommandInsideShellInvocation_bug203059(org.eclipse.cdt.make.scannerdiscovery.GCCPerFileBOPConsoleParserTests)  Time elapsed: 0.028 sec
+testParsingUnbalancedDoubleQuote_Bug186065(org.eclipse.cdt.make.scannerdiscovery.GCCPerFileBOPConsoleParserTests)  Time elapsed: 0.032 sec
+testBasicScannerConfigProfile(org.eclipse.cdt.make.scannerdiscovery.ScannerConfigProfileTests)  Time elapsed: 0.035 sec
+testInMemoryReaderProvider(org.eclipse.cdt.make.core.tests.MakefileReaderProviderTests)  Time elapsed: 0.052 sec
+testNullReaderProvider(org.eclipse.cdt.make.core.tests.MakefileReaderProviderTests)  Time elapsed: 0.002 sec
+testReaderIsClosed_Bug338936(org.eclipse.cdt.make.core.tests.MakefileReaderProviderTests)  Time elapsed: 0.001 sec
+testInputStreamReaderProvider(org.eclipse.cdt.make.core.tests.MakefileReaderProviderTests)  Time elapsed: 0.003 sec
+testNoReaderProvider(org.eclipse.cdt.make.core.tests.MakefileReaderProviderTests)  Time elapsed: 0.002 sec

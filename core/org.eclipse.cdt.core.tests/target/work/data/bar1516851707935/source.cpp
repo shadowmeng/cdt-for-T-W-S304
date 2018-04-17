@@ -1,0 +1,2 @@
+namespace Y { class A {}; }
+

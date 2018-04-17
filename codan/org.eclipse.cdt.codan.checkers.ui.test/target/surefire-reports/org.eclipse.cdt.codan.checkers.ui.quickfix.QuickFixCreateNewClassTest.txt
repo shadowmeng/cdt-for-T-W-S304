@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.cdt.codan.checkers.ui.quickfix.QuickFixCreateNewClassTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.585 sec - in org.eclipse.cdt.codan.checkers.ui.quickfix.QuickFixCreateNewClassTest
+isApplicableForUnresolvableMarker(org.eclipse.cdt.codan.checkers.ui.quickfix.QuickFixCreateNewClassTest)  Time elapsed: 0.012 sec
+isApplicableForResolvableMarker(org.eclipse.cdt.codan.checkers.ui.quickfix.QuickFixCreateNewClassTest)  Time elapsed: 0.001 sec
+isApplicableForResolvableMarkerWithCLinkageResolutionCoreException(org.eclipse.cdt.codan.checkers.ui.quickfix.QuickFixCreateNewClassTest)  Time elapsed: 0.014 sec
+isNotApplicableForResolvableMarkerWithCLinkage(org.eclipse.cdt.codan.checkers.ui.quickfix.QuickFixCreateNewClassTest)  Time elapsed: 0 sec

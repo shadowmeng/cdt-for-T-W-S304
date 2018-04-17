@@ -1,0 +1,18 @@
+11:46:24 **** Build of configuration Release for project CDTFortranTest1 ****
+make -k all 
+Building file: ../AVERAGE.F90
+Invoking: Test Fortran Compiler
+myfort  -c -object:"AVERAGE.obj" "../AVERAGE.F90"
+/bin/sh: myfort: 未找到命令
+make: *** [AVERAGE.obj] Error 127
+subdir.mk:19: recipe for target 'AVERAGE.obj' failed
+Building file: ../MODULE.F90
+Invoking: Test Fortran Compiler
+myfort  -c -object:"MODULE.obj" "../MODULE.F90"
+/bin/sh: myfort: 未找到命令
+subdir.mk:19: recipe for target 'MODULE.obj' failed
+make: *** [MODULE.obj] Error 127
+make: Target 'all' not remade because of errors.
+
+11:46:24 Build Finished (took 153ms)
+

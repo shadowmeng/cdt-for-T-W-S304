@@ -1,0 +1,15 @@
+11:46:22 **** Build of configuration MBS30ConfigName.Dbg for project rcbsBasicTest ****
+make -k all 
+Building file: ../rcbsBasicTest.c
+Now executing custom build step for rcbsBasicTest debug config
+gcc -g -c ../rcbsBasicTest.c -o ./rcbsBasicTest.o
+Finished building: ../rcbsBasicTest.c
+ 
+Building target: rcbsBasicTest
+Invoking: MBS30.linker.gnu.c
+gcc  -o "rcbsBasicTest"  ./rcbsBasicTest.o   
+Finished building target: rcbsBasicTest
+ 
+
+11:46:22 Build Finished (took 105ms)
+

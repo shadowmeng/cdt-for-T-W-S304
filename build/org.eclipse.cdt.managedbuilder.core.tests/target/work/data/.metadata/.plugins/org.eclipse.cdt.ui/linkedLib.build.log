@@ -1,0 +1,25 @@
+11:46:15 **** Build of configuration Dbg for project linkedLib ****
+make -k all 
+Building file: /tmp/testLinkedLib5369462893369223481/CDTMBSTest/f1.c
+Invoking: compiler.gnu.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "f1.o" "/tmp/testLinkedLib5369462893369223481/CDTMBSTest/f1.c" && \
+echo -n 'f1.d' ./ > 'f1.d' && \
+gcc -MM -MG -P -w -O0 -g3 -Wall -c -fmessage-length=0   "/tmp/testLinkedLib5369462893369223481/CDTMBSTest/f1.c" >> 'f1.d'
+Finished building: /tmp/testLinkedLib5369462893369223481/CDTMBSTest/f1.c
+ 
+Building file: /tmp/testLinkedLib5369462893369223481/CDTMBSTest/f2.c
+Invoking: compiler.gnu.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "f2.o" "/tmp/testLinkedLib5369462893369223481/CDTMBSTest/f2.c" && \
+echo -n 'f2.d' ./ > 'f2.d' && \
+gcc -MM -MG -P -w -O0 -g3 -Wall -c -fmessage-length=0   "/tmp/testLinkedLib5369462893369223481/CDTMBSTest/f2.c" >> 'f2.d'
+Finished building: /tmp/testLinkedLib5369462893369223481/CDTMBSTest/f2.c
+ 
+Building target: liblinkedLib.a
+Invoking: archiver.gnu
+ar -r  "liblinkedLib.a"  ./f1.o ./f2.o   
+ar: 正在创建 liblinkedLib.a
+Finished building target: liblinkedLib.a
+ 
+
+11:46:15 Build Finished (took 115ms)
+

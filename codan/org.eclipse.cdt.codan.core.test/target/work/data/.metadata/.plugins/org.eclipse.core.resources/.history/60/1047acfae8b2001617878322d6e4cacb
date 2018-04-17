@@ -1,0 +1,7 @@
+class Foo {
+  void bar(char);
+};
+void func() {
+Foo foo;
+foo.bar(aChar);
+}

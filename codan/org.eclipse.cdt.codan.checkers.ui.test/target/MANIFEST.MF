@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.cdt.codan.checkers.ui.test
+Bundle-Name: %Bundle-Name
+Bundle-Version: 3.2.0.201611250806
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.cdt.codan.checker
+ s.ui,org.eclipse.core.resources,org.eclipse.cdt.codan.ui,org.eclipse.
+ cdt.codan.ui.cxx,org.eclipse.ui,org.eclipse.ui.ide,org.junit,org.mock
+ ito,org.hamcrest,org.eclipse.cdt.core,org.eclipse.jface.text,org.ecli
+ pse.ui.workbench.texteditor,org.eclipse.ui.editors
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.cdt.codan.checkers.ui.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/cdt/or
+ g.eclipse.cdt.git;path="codan/org.eclipse.cdt.codan.checkers.ui.test"
+ ;commitId=e5c63c7cd802220d8293f52c89c855c442d9c9fc
+Bundle-Vendor: %Bundle-Vendor
+

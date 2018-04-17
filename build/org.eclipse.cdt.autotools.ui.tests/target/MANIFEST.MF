@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.cdt.autotools.ui.tests
+Bundle-Name: %bundleName
+Bundle-Version: 1.0.0.201801250330
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.swtbot.go,org.eclipse.core.resources,org.e
+ clipse.cdt.core
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/cdt/or
+ g.eclipse.cdt.git;path="build/org.eclipse.cdt.autotools.ui.tests";com
+ mitId=5801b60b191e6a0df24f9176534d2fc47182318c
+Bundle-Vendor: %provider
+Fragment-Host: org.eclipse.cdt.autotools.ui
+

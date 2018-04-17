@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project>
+	<configuration id="org.eclipse.cdt.core.tests.configuration.id.1" name="org.eclipse.cdt.core.tests.configuration.id.1 Name">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider id="test.provider.1.id"/>
+		</extension>
+	</configuration>
+	<configuration id="org.eclipse.cdt.core.tests.configuration.id.2" name="org.eclipse.cdt.core.tests.configuration.id.2 Name">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider id="test.provider.1.id"/>
+		</extension>
+	</configuration>
+</project>

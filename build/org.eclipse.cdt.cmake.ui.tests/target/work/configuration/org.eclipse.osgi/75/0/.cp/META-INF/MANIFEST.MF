@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.cdt.doc.user; singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: mengjingshi
+Require-Bundle: org.eclipse.help,org.eclipse.ui.cheatsheets,org.eclips
+ e.ui.intro,org.eclipse.ui.intro.universal
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/cdt/or
+ g.eclipse.cdt.git;path="doc/org.eclipse.cdt.doc.user";commitId=5801b6
+ 0b191e6a0df24f9176534d2fc47182318c
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Bundle-Version: 5.4.0.201801250330
+Bundle-Localization: plugin
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_45-internal
+

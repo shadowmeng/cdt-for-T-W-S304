@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+environment/project/org.eclipse.cdt.core.tests.configuration/FOO/delimiter=\:
+environment/project/org.eclipse.cdt.core.tests.configuration/FOO/operation=replace
+environment/project/org.eclipse.cdt.core.tests.configuration/FOO/value=BAR
+environment/project/org.eclipse.cdt.core.tests.configuration/FOO1/delimiter=\:
+environment/project/org.eclipse.cdt.core.tests.configuration/FOO1/operation=replace
+environment/project/org.eclipse.cdt.core.tests.configuration/FOO1/value=BAR1
+environment/project/org.eclipse.cdt.core.tests.configuration/FOO2/delimiter=\:
+environment/project/org.eclipse.cdt.core.tests.configuration/FOO2/operation=replace
+environment/project/org.eclipse.cdt.core.tests.configuration/FOO2/value=BAR2
+environment/project/org.eclipse.cdt.core.tests.configuration/append=true
+environment/project/org.eclipse.cdt.core.tests.configuration/appendContributed=true

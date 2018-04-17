@@ -1,0 +1,10 @@
+void func() {
+	int n = 42;
+
+	switch (n) {
+	case 1:
+		n = 32;
+	default:
+		break;
+	}
+}

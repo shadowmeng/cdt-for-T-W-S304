@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="org.eclipse.cdt.core.default.config.1137405492">
+			<storageModule buildSystemId="org.eclipse.cdt.core.defaultConfigDataProvider" id="org.eclipse.cdt.core.default.config.1137405492" moduleId="org.eclipse.cdt.core.settings" name="Configuration">
+				<externalSettings/>
+				<extensions/>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="__prebuilt_index_temp__1516851712957.config">
+			<storageModule buildSystemId="org.eclipse.cdt.core.defaultConfigDataProvider" id="__prebuilt_index_temp__1516851712957.config" moduleId="org.eclipse.cdt.core.settings" name="__prebuilt_index_temp__1516851712957 config name">
+				<externalSettings/>
+				<extensions/>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.core.pathentry">
+		<pathentry kind="out" path=""/>
+		<pathentry kind="src" path=""/>
+		<pathentry kind="src" path="content"/>
+		<pathentry include="/home/mengjingshi/Documents/workspace/org.eclipse.cdt/core/org.eclipse.cdt.core.tests/resources/pdomtests/generatePDOMTests/project2" kind="inc" path="content" system="true"/>
+	</storageModule>
+</cproject>

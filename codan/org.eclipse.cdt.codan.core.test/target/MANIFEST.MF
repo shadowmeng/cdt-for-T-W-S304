@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.cdt.codan.core.test
+Export-Package: org.eclipse.cdt.codan.core.cfg,org.eclipse.cdt.codan.c
+ ore.cxx,org.eclipse.cdt.codan.core.internal.checkers,org.eclipse.cdt.
+ codan.core.param,org.eclipse.cdt.codan.core.test
+Bundle-Name: %Bundle-Name
+Bundle-Version: 3.2.0.201611250806
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.cdt.codan.checker
+ s;bundle-version="1.0.0",org.eclipse.cdt.core,org.eclipse.core.resour
+ ces,org.eclipse.cdt.core.tests,org.eclipse.cdt.codan.core;bundle-vers
+ ion="1.0.0",org.eclipse.cdt.codan.core.cxx;bundle-version="1.0.0",org
+ .eclipse.cdt.ui,org.eclipse.jface;bundle-version="3.6.0",org.eclipse.
+ jface.text;bundle-version="3.6.0",org.junit,org.eclipse.cdt.codan.che
+ ckers.ui;bundle-version="1.0.0",org.eclipse.cdt.codan.ui;bundle-versi
+ on="1.1.0",org.eclipse.ui.ide;bundle-version="3.6.0",org.eclipse.cdt.
+ codan.ui.cxx;bundle-version="2.0.0"
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.cdt.codan.core.test.CodanCoreTestActivat
+ or
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/cdt/or
+ g.eclipse.cdt.git;path="codan/org.eclipse.cdt.codan.core.test";commit
+ Id=e5c63c7cd802220d8293f52c89c855c442d9c9fc
+Bundle-Vendor: %Bundle-Vendor
+

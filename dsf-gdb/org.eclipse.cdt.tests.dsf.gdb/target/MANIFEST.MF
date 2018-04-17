@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.cdt.tests.dsf.gdb;singleton:=true
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.cdt.dsf,org.eclip
+ se.cdt.core,org.eclipse.cdt.debug.core,org.junit;bundle-version="4.8.
+ 1",org.eclipse.debug.core,org.eclipse.swt,org.eclipse.cdt.launch,org.
+ eclipse.cdt.gdb,org.eclipse.cdt.dsf.gdb,org.eclipse.core.variables,or
+ g.mockito,org.hamcrest
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/cdt/or
+ g.eclipse.cdt.git;path="dsf-gdb/org.eclipse.cdt.tests.dsf.gdb";commit
+ Id=e5c63c7cd802220d8293f52c89c855c442d9c9fc
+Bundle-Vendor: Ericsson
+Export-Package: org.eclipse.cdt.dsf.mi.service;x-internal:=true,org.ec
+ lipse.cdt.tests.dsf.gdb.framework;x-internal:=true,org.eclipse.cdt.te
+ sts.dsf.gdb.launching;x-internal:=true,org.eclipse.cdt.tests.dsf.gdb.
+ tests;x-internal:=true,org.eclipse.cdt.tests.dsf.gdb.tests.nonstop;x-
+ internal:=true
+Bundle-Name: GDB/MI reference application tests
+Bundle-Version: 2.2.0.201611250806
+Bundle-ClassPath: .
+Bundle-Activator: org.eclipse.cdt.tests.dsf.gdb.launching.TestsPlugin
+

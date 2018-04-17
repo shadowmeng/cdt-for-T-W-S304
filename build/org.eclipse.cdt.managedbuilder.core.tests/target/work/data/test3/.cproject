@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.config.testgnu30.exe.debug.1004298857">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.testgnu30.exe.debug.1004298857" moduleId="org.eclipse.cdt.core.settings" name="MBS30ConfigName.Dbg">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration buildProperties="" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.CWDLocator;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GmakeErrorParser" id="cdt.managedbuild.config.testgnu30.exe.debug.1004298857" name="MBS30ConfigName.Dbg" parent="cdt.managedbuild.config.testgnu30.exe.debug">
+					<folderInfo id="cdt.managedbuild.config.testgnu30.exe.debug.1004298857." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.testgnu30.exe.debug.1132613412" name="MBS30ToolChainName.Dbg" superClass="cdt.managedbuild.toolchain.testgnu30.exe.debug">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.testgnu30.platform.exe.debug.2027230301" name="MBS30PlatformName.Dbg" osList="solaris,linux,hpux,aix,qnx" superClass="cdt.managedbuild.target.testgnu30.platform.exe.debug"/>
+							<builder buildPath="${workspace_loc:/test3}/MBS30ConfigName.Dbg" id="cdt.managedbuild.target.testgnu30.builder.exe.debug.953727470" name="MBS30BuilderName.Dbg.MBS30ConfigName.Dbg" superClass="cdt.managedbuild.target.testgnu30.builder.exe.debug"/>
+							<tool id="cdt.managedbuild.tool.testgnu30.c.compiler.exe.debug.271479404" name="MBS30.compiler.gnu.c" superClass="cdt.managedbuild.tool.testgnu30.c.compiler.exe.debug"/>
+							<tool id="cdt.managedbuild.tool.testgnu30.cpp.compiler.exe.debug.57843062" name="MBS30.compiler.gnu.cpp" superClass="cdt.managedbuild.tool.testgnu30.cpp.compiler.exe.debug"/>
+							<tool id="cdt.managedbuild.tool.testgnu30.c.linker.exe.debug.1327816204" name="MBS30.linker.gnu.c" superClass="cdt.managedbuild.tool.testgnu30.c.linker.exe.debug"/>
+							<tool id="cdt.managedbuild.tool.testgnu30.cpp.linker.exe.debug.888161923" name="MBS30.linker.gnu.cpp" superClass="cdt.managedbuild.tool.testgnu30.cpp.linker.exe.debug"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.testgnu30.exe.release.321338974">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.testgnu30.exe.release.321338974" moduleId="org.eclipse.cdt.core.settings" name="MBS30ConfigName.Rel">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration buildProperties="" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.CWDLocator;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GmakeErrorParser" id="cdt.managedbuild.config.testgnu30.exe.release.321338974" name="MBS30ConfigName.Rel" parent="cdt.managedbuild.config.testgnu30.exe.release">
+					<folderInfo id="cdt.managedbuild.config.testgnu30.exe.release.321338974." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.testgnu30.exe.release.1420809480" name="MBS30ToolChainName.Rel" superClass="cdt.managedbuild.toolchain.testgnu30.exe.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.testgnu30.platform.exe.release.1754635850" name="MBS30PlatformName.Rel" osList="solaris,linux,hpux,aix,qnx" superClass="cdt.managedbuild.target.testgnu30.platform.exe.release"/>
+							<builder buildPath="${workspace_loc:/test3}/MBS30ConfigName.Rel" id="cdt.managedbuild.target.testgnu30.builder.exe.release.744444915" name="MBS30BuilderName.Rel.MBS30ConfigName.Rel" superClass="cdt.managedbuild.target.testgnu30.builder.exe.release"/>
+							<tool id="cdt.managedbuild.tool.testgnu30.c.compiler.exe.release.1096140945" name="MBS30.compiler.gnu.c" superClass="cdt.managedbuild.tool.testgnu30.c.compiler.exe.release"/>
+							<tool id="cdt.managedbuild.tool.testgnu30.cpp.compiler.exe.release.1348200986" name="MBS30.compiler.gnu.cpp" superClass="cdt.managedbuild.tool.testgnu30.cpp.compiler.exe.release"/>
+							<tool id="cdt.managedbuild.tool.testgnu30.c.linker.exe.release.101358956" name="MBS30.linker.gnu.c" superClass="cdt.managedbuild.tool.testgnu30.c.linker.exe.release"/>
+							<tool id="cdt.managedbuild.tool.testgnu30.cpp.linker.exe.release.1105010058" name="MBS30.linker.gnu.cpp" superClass="cdt.managedbuild.tool.testgnu30.cpp.linker.exe.release"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="test3.cdt.managedbuild.target.gnu30.exe.1380262163" name="MBS30TargetName.gnu.exe" projectType="cdt.managedbuild.target.gnu30.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+</cproject>

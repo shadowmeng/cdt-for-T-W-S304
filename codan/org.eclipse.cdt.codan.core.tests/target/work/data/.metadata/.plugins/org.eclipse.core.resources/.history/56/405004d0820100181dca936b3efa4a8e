@@ -1,0 +1,10 @@
+void hello() {}
+void func() {
+	int a;
+	switch(a) {
+	case 1:
+		hello();
+	case 2:
+		break;
+	}
+}

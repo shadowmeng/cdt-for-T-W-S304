@@ -1,0 +1,2 @@
+ #define SOME_MACRO1 ok_1_220358
+ #define SOME_MACRO2 ok_2_220358

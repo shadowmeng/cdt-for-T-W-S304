@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project>
+	<configuration id="org.eclipse.cdt.core.tests.configuration" name="org.eclipse.cdt.core.tests.configuration Name">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider id="test.provider.1.id">
+				<entry kind="macro" name="MACRO" value="value"/>
+			</provider>
+		</extension>
+	</configuration>
+</project>

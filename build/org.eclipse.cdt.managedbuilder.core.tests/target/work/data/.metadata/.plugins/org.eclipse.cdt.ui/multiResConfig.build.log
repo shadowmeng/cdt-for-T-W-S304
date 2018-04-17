@@ -1,0 +1,38 @@
+11:46:17 **** Build of configuration MBS30ConfigName.Dbg for project multiResConfig ****
+make -k all 
+Building file: ../source2/source21/Class21.cpp
+Invoking: MBS30.compiler.gnu.cpp
+g++ -DRESCFG -I../headers -O0 -g3 -Wall -c -fmessage-length=0 -o "source2/source21/Class21.o" "../source2/source21/Class21.cpp" && \
+echo -n 'source2/source21/Class21.d' source2/source21/ > 'source2/source21/Class21.d' && \
+g++ -MM -MG -P -w -DRESCFG -I../headers -O0 -g3 -Wall -c -fmessage-length=0   "../source2/source21/Class21.cpp" >> 'source2/source21/Class21.d'
+Finished building: ../source2/source21/Class21.cpp
+ 
+Building file: ../source2/Class2.cpp
+Invoking: MBS30.compiler.gnu.cpp
+g++ -I../headers -O0 -g3 -Wall -c -fmessage-length=0 -o "source2/Class2.o" "../source2/Class2.cpp" && \
+echo -n 'source2/Class2.d' source2/ > 'source2/Class2.d' && \
+g++ -MM -MG -P -w -I../headers -O0 -g3 -Wall -c -fmessage-length=0   "../source2/Class2.cpp" >> 'source2/Class2.d'
+Finished building: ../source2/Class2.cpp
+ 
+Building file: ../source1/Class1.cpp
+Invoking: MBS30.compiler.gnu.cpp
+g++ -I../headers -O0 -g3 -Wall -c -fmessage-length=0 -o "source1/Class1.o" "../source1/Class1.cpp" && \
+echo -n 'source1/Class1.d' source1/ > 'source1/Class1.d' && \
+g++ -MM -MG -P -w -I../headers -O0 -g3 -Wall -c -fmessage-length=0   "../source1/Class1.cpp" >> 'source1/Class1.d'
+Finished building: ../source1/Class1.cpp
+ 
+Building file: ../main.cpp
+Invoking: MBS30.compiler.gnu.cpp
+g++ -I../headers -O0 -g3 -Wall -c -fmessage-length=0 -o "main.o" "../main.cpp" && \
+echo -n 'main.d' ./ > 'main.d' && \
+g++ -MM -MG -P -w -I../headers -O0 -g3 -Wall -c -fmessage-length=0   "../main.cpp" >> 'main.d'
+Finished building: ../main.cpp
+ 
+Building target: multiResConfig
+Invoking: MBS30.linker.gnu.cpp
+g++  -o "multiResConfig"  ./source2/source21/Class21.o  ./source2/Class2.o  ./source1/Class1.o  ./main.o   
+Finished building target: multiResConfig
+ 
+
+11:46:17 Build Finished (took 158ms)
+

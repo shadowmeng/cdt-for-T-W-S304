@@ -1,0 +1,24 @@
+11:46:13 **** Build of configuration Debug for project testDoubleSO ****
+make -k all 
+Building file: ../so1.c
+Invoking: compiler.gnu.cpp
+g++ -DXXX -O0 -g3 -Wall -c -o "so1.o" "../so1.c" && \
+echo -n 'so1.d' ./ > 'so1.d' && \
+g++ -MM -MG -P -w -DXXX -O0 -g3 -Wall -c   "../so1.c" >> 'so1.d'
+Finished building: ../so1.c
+ 
+Building file: ../so2.c
+Invoking: compiler.gnu.cpp
+g++ -DXXX -O0 -g3 -Wall -c -o "so2.o" "../so2.c" && \
+echo -n 'so2.d' ./ > 'so2.d' && \
+g++ -MM -MG -P -w -DXXX -O0 -g3 -Wall -c   "../so2.c" >> 'so2.d'
+Finished building: ../so2.c
+ 
+Building target: libtestDoubleSO.so
+Invoking: linker.gnu.cpp
+g++ -shared -o "libtestDoubleSO.so"  ./so1.o ./so2.o   
+Finished building target: libtestDoubleSO.so
+ 
+
+11:46:14 Build Finished (took 109ms)
+

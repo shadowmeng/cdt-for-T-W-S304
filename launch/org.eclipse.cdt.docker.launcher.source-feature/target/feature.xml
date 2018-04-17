@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.cdt.docker.launcher.source"
+      label="%featureName"
+      version="9.3.0.201611250806"
+      provider-name="%provider">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.cdt.docker.launcher.source"
+         download-size="32"
+         install-size="99"
+         version="1.0.0.201611250806"
+         unpack="false"/>
+
+</feature>

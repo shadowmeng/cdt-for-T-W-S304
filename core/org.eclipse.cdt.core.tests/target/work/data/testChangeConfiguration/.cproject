@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<buildSystem id="1689643668">
+			<storageModule id="1689643668" moduleId="org.eclipse.cdt.core.settings"/>
+		</buildSystem>
+		<cconfiguration id="1689643668">
+			<storageModule id="1689643668" moduleId="defaultConfigurationDataProvider" name="test.1819525640">
+				<sourceEntries/>
+				<folderData id="1689643668.141285866" name="" path="">
+					<languageData contentTypeIds="org.eclipse.cdt.core.asmSource" id="1689643668.141285866.810212326" languageId="org.eclipse.cdt.core.assembly" name="Assembly" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries/>
+					</languageData>
+					<languageData contentTypeIds="org.eclipse.cdt.core.cxxSource;org.eclipse.cdt.core.cxxHeader" id="1689643668.141285866.773679356" languageId="org.eclipse.cdt.core.g++" name="GNU C++" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries/>
+					</languageData>
+					<languageData contentTypeIds="org.eclipse.cdt.core.cSource;org.eclipse.cdt.core.cHeader" id="1689643668.141285866.1405243745" languageId="org.eclipse.cdt.core.gcc" name="GNU C" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries/>
+					</languageData>
+				</folderData>
+				<buildData id="1689643668.1596135838"/>
+				<targetPlatformData id="1689643668.1063539089"/>
+				<sourceEntries/>
+				<folderData id="1689643668.141285866" name="" path="">
+					<languageData contentTypeIds="org.eclipse.cdt.core.asmSource" id="1689643668.141285866.810212326" languageId="org.eclipse.cdt.core.assembly" name="Assembly" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries/>
+					</languageData>
+					<languageData contentTypeIds="org.eclipse.cdt.core.cxxSource;org.eclipse.cdt.core.cxxHeader" id="1689643668.141285866.773679356" languageId="org.eclipse.cdt.core.g++" name="GNU C++" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries/>
+					</languageData>
+					<languageData contentTypeIds="org.eclipse.cdt.core.cSource;org.eclipse.cdt.core.cHeader" id="1689643668.141285866.1405243745" languageId="org.eclipse.cdt.core.gcc" name="GNU C" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries/>
+					</languageData>
+				</folderData>
+				<buildData id="1689643668.1596135838"/>
+				<targetPlatformData binaryParsers="org.eclipse.cdt.core.ELF" id="1689643668.1063539089"/>
+				<sourceEntries/>
+				<folderData id="1689643668.141285866" name="" path="">
+					<languageData contentTypeIds="org.eclipse.cdt.core.asmSource" id="1689643668.141285866.810212326" languageId="org.eclipse.cdt.core.assembly" name="Assembly" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries/>
+					</languageData>
+					<languageData contentTypeIds="org.eclipse.cdt.core.cxxSource;org.eclipse.cdt.core.cxxHeader" id="1689643668.141285866.773679356" languageId="org.eclipse.cdt.core.g++" name="GNU C++" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries/>
+					</languageData>
+					<languageData contentTypeIds="org.eclipse.cdt.core.cSource;org.eclipse.cdt.core.cHeader" id="1689643668.141285866.1405243745" languageId="org.eclipse.cdt.core.gcc" name="GNU C" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries/>
+					</languageData>
+				</folderData>
+				<buildData id="1689643668.1596135838"/>
+				<targetPlatformData binaryParsers="org.eclipse.cdt.core.ELF" id="1689643668.1063539089"/>
+				<sourceEntries/>
+				<folderData id="1689643668.141285866" name="" path="">
+					<languageData contentTypeIds="org.eclipse.cdt.core.asmSource" id="1689643668.141285866.810212326" languageId="org.eclipse.cdt.core.assembly" name="Assembly" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries>
+							<entry flags="NONE" kind="macro" name="MACRO1" value=""/>
+						</settingEntries>
+					</languageData>
+					<languageData contentTypeIds="org.eclipse.cdt.core.cxxSource;org.eclipse.cdt.core.cxxHeader" id="1689643668.141285866.773679356" languageId="org.eclipse.cdt.core.g++" name="GNU C++" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries>
+							<entry flags="NONE" kind="macro" name="MACRO1" value=""/>
+						</settingEntries>
+					</languageData>
+					<languageData contentTypeIds="org.eclipse.cdt.core.cSource;org.eclipse.cdt.core.cHeader" id="1689643668.141285866.1405243745" languageId="org.eclipse.cdt.core.gcc" name="GNU C" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries>
+							<entry flags="NONE" kind="macro" name="MACRO1" value=""/>
+						</settingEntries>
+					</languageData>
+				</folderData>
+				<buildData id="1689643668.1596135838"/>
+				<targetPlatformData binaryParsers="org.eclipse.cdt.core.ELF" id="1689643668.1063539089"/>
+			</storageModule>
+			<storageModule buildSystemId="org.eclipse.cdt.core.tests.testCfgDataProvider" id="1689643668" moduleId="org.eclipse.cdt.core.settings" name="test.1819525640">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="id2">
+			<storageModule id="id2" moduleId="defaultConfigurationDataProvider" name="Configuration2">
+				<sourceEntries/>
+				<folderData id="1689643668.141285866" name="" path="">
+					<languageData contentTypeIds="org.eclipse.cdt.core.asmSource" id="1689643668.141285866.810212326" languageId="org.eclipse.cdt.core.assembly" name="Assembly" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries/>
+					</languageData>
+					<languageData contentTypeIds="org.eclipse.cdt.core.cxxSource;org.eclipse.cdt.core.cxxHeader" id="1689643668.141285866.773679356" languageId="org.eclipse.cdt.core.g++" name="GNU C++" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries/>
+					</languageData>
+					<languageData contentTypeIds="org.eclipse.cdt.core.cSource;org.eclipse.cdt.core.cHeader" id="1689643668.141285866.1405243745" languageId="org.eclipse.cdt.core.gcc" name="GNU C" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries/>
+					</languageData>
+				</folderData>
+				<buildData id="1689643668.1596135838"/>
+				<targetPlatformData id="1689643668.1063539089"/>
+				<sourceEntries/>
+				<folderData id="1689643668.141285866" name="" path="">
+					<languageData contentTypeIds="org.eclipse.cdt.core.asmSource" id="1689643668.141285866.810212326" languageId="org.eclipse.cdt.core.assembly" name="Assembly" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries/>
+					</languageData>
+					<languageData contentTypeIds="org.eclipse.cdt.core.cxxSource;org.eclipse.cdt.core.cxxHeader" id="1689643668.141285866.773679356" languageId="org.eclipse.cdt.core.g++" name="GNU C++" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries/>
+					</languageData>
+					<languageData contentTypeIds="org.eclipse.cdt.core.cSource;org.eclipse.cdt.core.cHeader" id="1689643668.141285866.1405243745" languageId="org.eclipse.cdt.core.gcc" name="GNU C" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries/>
+					</languageData>
+				</folderData>
+				<buildData id="1689643668.1596135838"/>
+				<targetPlatformData binaryParsers="org.eclipse.cdt.core.ELF" id="1689643668.1063539089"/>
+				<sourceEntries/>
+				<folderData id="1689643668.141285866" name="" path="">
+					<languageData contentTypeIds="org.eclipse.cdt.core.asmSource" id="1689643668.141285866.810212326" languageId="org.eclipse.cdt.core.assembly" name="Assembly" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries/>
+					</languageData>
+					<languageData contentTypeIds="org.eclipse.cdt.core.cxxSource;org.eclipse.cdt.core.cxxHeader" id="1689643668.141285866.773679356" languageId="org.eclipse.cdt.core.g++" name="GNU C++" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries/>
+					</languageData>
+					<languageData contentTypeIds="org.eclipse.cdt.core.cSource;org.eclipse.cdt.core.cHeader" id="1689643668.141285866.1405243745" languageId="org.eclipse.cdt.core.gcc" name="GNU C" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries/>
+					</languageData>
+				</folderData>
+				<buildData id="1689643668.1596135838"/>
+				<targetPlatformData binaryParsers="org.eclipse.cdt.core.ELF" id="1689643668.1063539089"/>
+				<sourceEntries/>
+				<folderData id="id2.551463891" name="" path="">
+					<languageData contentTypeIds="org.eclipse.cdt.core.asmSource" id="id2.551463891.1268338817" languageId="org.eclipse.cdt.core.assembly" name="Assembly" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries>
+							<entry flags="NONE" kind="macro" name="MACRO2" value=""/>
+						</settingEntries>
+					</languageData>
+					<languageData contentTypeIds="org.eclipse.cdt.core.cxxSource;org.eclipse.cdt.core.cxxHeader" id="id2.551463891.1874835893" languageId="org.eclipse.cdt.core.g++" name="GNU C++" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries>
+							<entry flags="NONE" kind="macro" name="MACRO2" value=""/>
+						</settingEntries>
+					</languageData>
+					<languageData contentTypeIds="org.eclipse.cdt.core.cSource;org.eclipse.cdt.core.cHeader" id="id2.551463891.2014701258" languageId="org.eclipse.cdt.core.gcc" name="GNU C" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries>
+							<entry flags="NONE" kind="macro" name="MACRO2" value=""/>
+						</settingEntries>
+					</languageData>
+				</folderData>
+				<buildData id="id2.2111099894"/>
+				<targetPlatformData binaryParsers="org.eclipse.cdt.core.ELF" id="id2.1407919290"/>
+			</storageModule>
+			<storageModule buildSystemId="org.eclipse.cdt.core.tests.testCfgDataProvider" id="id2" moduleId="org.eclipse.cdt.core.settings" name="Configuration2">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+</cproject>

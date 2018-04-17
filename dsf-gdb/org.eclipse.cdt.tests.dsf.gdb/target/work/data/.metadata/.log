@@ -1,0 +1,28 @@
+!SESSION 2016-11-25 16:30:57.559 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_45-internal
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -application org.eclipse.tycho.surefire.osgibooter.headlesstest -testproperties /home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/surefire.properties
+Command-line arguments:  -data /home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/work/data -application org.eclipse.tycho.surefire.osgibooter.headlesstest -testproperties /home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/surefire.properties
+
+!ENTRY org.eclipse.compare.win32 4 0 2016-11-25 16:30:58.833
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.compare.win32 [245]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=win32)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2016-11-25 16:30:59.897
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2016-11-25 16:30:59.898
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType

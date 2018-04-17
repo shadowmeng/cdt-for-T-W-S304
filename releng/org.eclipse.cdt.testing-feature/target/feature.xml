@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.cdt.testing"
+      label="%featureName"
+      version="9.3.0.201611250806"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.cdt.ui.tests"
+         download-size="1333"
+         install-size="4077"
+         version="5.5.0.201611250806"/>
+
+   <plugin
+         id="org.eclipse.cdt.testing"
+         download-size="15"
+         install-size="35"
+         version="8.1.0.201611250806"/>
+
+   <plugin
+         id="org.eclipse.cdt.core.tests"
+         download-size="2354"
+         install-size="7371"
+         version="5.4.0.201611250806"/>
+
+   <plugin
+         id="org.eclipse.ant.optional.junit"
+         download-size="7"
+         install-size="10"
+         version="3.3.200.v20160315-2119"
+         fragment="true"/>
+
+   <plugin
+         id="org.eclipse.test"
+         download-size="539"
+         install-size="616"
+         version="3.3.200.v20151106-1314"/>
+
+   <plugin
+         id="org.eclipse.cdt.managedbuilder.core.tests"
+         download-size="648"
+         install-size="1498"
+         version="8.2.1.201611250806"/>
+
+   <plugin
+         id="org.eclipse.cdt.managedbuilder.ui.tests"
+         download-size="33"
+         install-size="80"
+         version="8.2.1.201611250806"/>
+
+   <plugin
+         id="org.eclipse.cdt.codan.core.test"
+         download-size="132"
+         install-size="336"
+         version="3.2.0.201611250806"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.tests.dsf.gdb"
+         download-size="1033"
+         install-size="2463"
+         version="2.2.0.201611250806"
+         unpack="false"/>
+
+</feature>

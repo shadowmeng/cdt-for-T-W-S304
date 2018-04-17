@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='org.eclipse.cdt.managedbuilder.ui.tests' version='8.2.1.201801250330'>
+    <update id='org.eclipse.cdt.managedbuilder.ui.tests' range='[0.0.0,8.2.1.201801250330)' severity='0'/>
+    <properties size='6'>
+      <property name='org.eclipse.equinox.p2.name' value='Managed Build UI Tests Plug-in'/>
+      <property name='org.eclipse.equinox.p2.provider' value='Eclipse CDT'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      <property name='maven-groupId' value='org.eclipse.cdt'/>
+      <property name='maven-artifactId' value='org.eclipse.cdt.managedbuilder.ui.tests'/>
+      <property name='maven-version' value='8.2.1-SNAPSHOT'/>
+    </properties>
+    <provides size='8'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.cdt.managedbuilder.ui.tests' version='8.2.1.201801250330'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.cdt.managedbuilder.ui.tests' version='8.2.1.201801250330'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.managedbuilder.ui.tests' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.managedbuilder.ui.tests.suite' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.managedbuilder.ui.tests.testplugin' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.managedbuilder.ui.tests.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.cdt.managedbuilder.ui.tests.wizardPages' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='8'>
+      <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.cdt.managedbuilder.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.cdt.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.junit' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.cdt.managedbuilder.core' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.cdt.core' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.ui.tests' version='8.2.1.201801250330'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.cdt.managedbuilder.ui.tests; singleton:=true&#xA;Bundle-Version: 8.2.1.201801250330&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='org.eclipse.cdt.managedbuilder.ui.tests.source' version='8.2.1.201801250330' singleton='false'>
+    <update id='org.eclipse.cdt.managedbuilder.ui.tests.source' range='[0.0.0,8.2.1.201801250330)' severity='0'/>
+    <properties size='9'>
+      <property name='df_LT.bundleVendor' value='Eclipse CDT'/>
+      <property name='df_LT.bundleName' value='Managed Build UI Tests Plug-in Source'/>
+      <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+      <property name='maven-groupId' value='org.eclipse.cdt'/>
+      <property name='maven-artifactId' value='org.eclipse.cdt.managedbuilder.ui.tests'/>
+      <property name='maven-version' value='8.2.1-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.cdt.managedbuilder.ui.tests.source' version='8.2.1.201801250330'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.cdt.managedbuilder.ui.tests.source' version='8.2.1.201801250330'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.ui.tests.source' version='8.2.1.201801250330'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.cdt.managedbuilder.ui.tests.source&#xA;Bundle-Version: 8.2.1.201801250330&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

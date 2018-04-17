@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<buildSystem id="org.eclipse.cdt.core.tests.configuration">
+			<storageModule id="org.eclipse.cdt.core.tests.configuration" moduleId="org.eclipse.cdt.core.settings"/>
+		</buildSystem>
+		<cconfiguration id="org.eclipse.cdt.core.tests.configuration">
+			<storageModule id="org.eclipse.cdt.core.tests.configuration" moduleId="defaultConfigurationDataProvider" name="org.eclipse.cdt.core.tests.configuration Name">
+				<sourceEntries/>
+				<folderData id="org.eclipse.cdt.core.tests.configuration.1874219115" name="" path="">
+					<languageData contentTypeIds="org.eclipse.cdt.core.asmSource" id="org.eclipse.cdt.core.tests.configuration.1874219115.18237486" languageId="org.eclipse.cdt.core.assembly" name="Assembly" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries/>
+					</languageData>
+					<languageData contentTypeIds="org.eclipse.cdt.core.cxxSource;org.eclipse.cdt.core.cxxHeader" id="org.eclipse.cdt.core.tests.configuration.1874219115.1424157372" languageId="org.eclipse.cdt.core.g++" name="GNU C++" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries/>
+					</languageData>
+					<languageData contentTypeIds="org.eclipse.cdt.core.cSource;org.eclipse.cdt.core.cHeader" id="org.eclipse.cdt.core.tests.configuration.1874219115.949877667" languageId="org.eclipse.cdt.core.gcc" name="GNU C" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries/>
+					</languageData>
+				</folderData>
+				<buildData id="org.eclipse.cdt.core.tests.configuration.315158822"/>
+				<targetPlatformData id="org.eclipse.cdt.core.tests.configuration.1779370344"/>
+				<sourceEntries/>
+				<folderData id="org.eclipse.cdt.core.tests.configuration.1874219115" name="" path="">
+					<languageData contentTypeIds="org.eclipse.cdt.core.asmSource" id="org.eclipse.cdt.core.tests.configuration.1874219115.18237486" languageId="org.eclipse.cdt.core.assembly" name="Assembly" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries/>
+					</languageData>
+					<languageData contentTypeIds="org.eclipse.cdt.core.cxxSource;org.eclipse.cdt.core.cxxHeader" id="org.eclipse.cdt.core.tests.configuration.1874219115.1424157372" languageId="org.eclipse.cdt.core.g++" name="GNU C++" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries/>
+					</languageData>
+					<languageData contentTypeIds="org.eclipse.cdt.core.cSource;org.eclipse.cdt.core.cHeader" id="org.eclipse.cdt.core.tests.configuration.1874219115.949877667" languageId="org.eclipse.cdt.core.gcc" name="GNU C" supportedEntryKinds="includePath;includeFile;macro;macroFile;libraryPath;libraryFile">
+						<settingEntries/>
+					</languageData>
+				</folderData>
+				<buildData id="org.eclipse.cdt.core.tests.configuration.315158822"/>
+				<targetPlatformData id="org.eclipse.cdt.core.tests.configuration.1779370344"/>
+			</storageModule>
+			<storageModule buildSystemId="org.eclipse.cdt.core.tests.testCfgDataProvider" id="org.eclipse.cdt.core.tests.configuration" moduleId="org.eclipse.cdt.core.settings" name="org.eclipse.cdt.core.tests.configuration Name">
+				<externalSettings/>
+				<extensions/>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+</cproject>

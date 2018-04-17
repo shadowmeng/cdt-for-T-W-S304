@@ -1,0 +1,14 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
+configDescList=
+eclipse.preferences.version=1
+org.eclipse.cdt.debug.core.coreBuildDescriptorType\:__QGadgetTests__/activeLaunchMode=run
+org.eclipse.cdt.debug.core.coreBuildDescriptorType\:__QGadgetTests__/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.cdt.debug.core.coreBuildDescriptorType\:__QObjectTests__/activeLaunchMode=run
+org.eclipse.cdt.debug.core.coreBuildDescriptorType\:__QObjectTests__/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.cdt.debug.core.coreBuildDescriptorType\:__QmlRegistrationTests__/activeLaunchMode=run
+org.eclipse.cdt.debug.core.coreBuildDescriptorType\:__QmlRegistrationTests__/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.cdt.debug.core.coreBuildDescriptorType\:__QtIndexTests__/activeLaunchMode=run
+org.eclipse.cdt.debug.core.coreBuildDescriptorType\:__QtIndexTests__/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.cdt.debug.core.coreBuildDescriptorType\:__QtRegressionTests__/activeLaunchMode=run
+org.eclipse.cdt.debug.core.coreBuildDescriptorType\:__QtRegressionTests__/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

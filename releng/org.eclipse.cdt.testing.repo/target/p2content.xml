@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='201611250806.main' version='1.0.0.7Z7A-cLSxvh7E7AUAAEQ7c7U'>
+    <properties size='2'>
+      <property name='org.eclipse.equinox.p2.name' value='C/C++ Development Tooling Tests'/>
+      <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='201611250806.main' version='1.0.0.7Z7A-cLSxvh7E7AUAAEQ7c7U'/>
+    </provides>
+    <requires size='2'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.cdt.testing.source.feature.group' range='[9.3.0.201611250806,9.3.0.201611250806]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.cdt.testing.feature.group' range='[9.3.0.201611250806,9.3.0.201611250806]'/>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+  </unit>
+</units>

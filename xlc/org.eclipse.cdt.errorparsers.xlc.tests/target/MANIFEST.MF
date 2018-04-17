@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.cdt.errorparsers.xlc.tests;singleton:
+ =true
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.co
+ re.resources,org.eclipse.cdt.core,org.eclipse.cdt.errorparsers.xlc,or
+ g.junit
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/cdt/or
+ g.eclipse.cdt.git;path="xlc/org.eclipse.cdt.errorparsers.xlc.tests";c
+ ommitId=e5c63c7cd802220d8293f52c89c855c442d9c9fc
+Bundle-Vendor: Eclipse.org
+Export-Package: org.eclipse.cdt.errorparsers.xlc.tests
+Bundle-Name: xlC Error Parser Tests Plug-in
+Bundle-Version: 5.0.100.201611250806
+Bundle-ClassPath: .
+Bundle-Activator: org.eclipse.cdt.errorparsers.xlc.tests.TestsPlugin
+

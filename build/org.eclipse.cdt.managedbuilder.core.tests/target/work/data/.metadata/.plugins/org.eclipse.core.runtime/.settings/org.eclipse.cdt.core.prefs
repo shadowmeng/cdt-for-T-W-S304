@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+environment/workspace/SAMPLE/delimiter=\:
+environment/workspace/SAMPLE/operation=replace
+environment/workspace/SAMPLE/value=Sample Value 2
+environment/workspace/append=true
+environment/workspace/appendContributed=true
+indexer=org.eclipse.cdt.core.fastIndexer

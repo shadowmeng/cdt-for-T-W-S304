@@ -1,0 +1,51 @@
+11:46:07 **** Build of configuration Debug for project test20 ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../Test1.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O2 -g1 -pedantic -pedantic-errors -Wall -Werror -c -fmessage-length=0 -v -MMD -MP -MF"Test1.d" -MT"Test1.o" -o "Test1.o" "../Test1.cpp"
+Using built-in specs.
+COLLECT_GCC=g++
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COLLECT_GCC_OPTIONS='-O2' '-g1' '-Wpedantic' '-pedantic-errors' '-Wall' '-Werror' '-c' '-fmessage-length=0' '-v' '-MMD' '-MP' '-MF' 'Test1.d' '-MT' 'Test1.o' '-o' 'Test1.o' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.9/cc1plus -quiet -v -imultiarch i386-linux-gnu -MMD Test1.d -MF Test1.d -MP -MT Test1.o -D_GNU_SOURCE ../Test1.cpp -quiet -dumpbase Test1.cpp -mtune=generic -march=i686 -auxbase-strip Test1.o -g1 -O2 -Wpedantic -pedantic-errors -Wall -Werror -version -fmessage-length=0 -fstack-protector-strong -Wformat-security -o /tmp/ccgTl0f8.s
+GNU C++ (Ubuntu 4.9.2-10ubuntu13) version 4.9.2 (i686-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/i386-linux-gnu/c++/4.9"
+ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/4.9/../../../../i686-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/4.9
+ /usr/include/i386-linux-gnu/c++/4.9
+ /usr/include/c++/4.9/backward
+ /usr/lib/gcc/i686-linux-gnu/4.9/include
+ /usr/local/include
+ /usr/lib/gcc/i686-linux-gnu/4.9/include-fixed
+ /usr/include/i386-linux-gnu
+ /usr/include
+End of search list.
+GNU C++ (Ubuntu 4.9.2-10ubuntu13) version 4.9.2 (i686-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d35ba22285895a049c470d75048aeec6
+COLLECT_GCC_OPTIONS='-O2' '-g1' '-Wpedantic' '-pedantic-errors' '-Wall' '-Werror' '-c' '-fmessage-length=0' '-v' '-MMD' '-MP' '-MF' 'Test1.d' '-MT' 'Test1.o' '-o' 'Test1.o' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ as -v --32 -o Test1.o /tmp/ccgTl0f8.s
+GNU汇编版本 2.25 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.25
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O2' '-g1' '-Wpedantic' '-pedantic-errors' '-Wall' '-Werror' '-c' '-fmessage-length=0' '-v' '-MMD' '-MP' '-MF' 'Test1.d' '-MT' 'Test1.o' '-o' 'Test1.o' '-shared-libgcc' '-mtune=generic' '-march=i686'
+Finished building: ../Test1.cpp
+ 
+Building target: test20.exe
+Invoking: Cygwin C++ Linker
+g++  -o "test20.exe"  ./Test1.o   
+Finished building target: test20.exe
+ 
+
+11:46:07 Build Finished (took 154ms)
+

@@ -1,0 +1,7 @@
+11:45:58 **** Incremental Build of configuration Debug for project tapp ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -L/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core.tests/target/work/data/tlib/Debug -o tapp.exe src/tapp.o ../../tobjs/Debug/src/uobj.o -ltlib 
+
+11:45:58 Build Finished (took 55ms)
+

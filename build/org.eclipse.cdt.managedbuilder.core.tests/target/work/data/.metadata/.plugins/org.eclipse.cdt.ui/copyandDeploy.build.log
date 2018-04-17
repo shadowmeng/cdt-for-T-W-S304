@@ -1,0 +1,143 @@
+11:46:19 **** Build of configuration Dbg for project copyandDeploy ****
+make -k all 
+Building file: ../Functions/Func1.x
+Invoking: Copy tool
+cp "../Functions/Func1.x" "Functions/Func1.c"
+Finished building: ../Functions/Func1.x
+ 
+Building file: Functions/Func1.c
+Invoking: MBS30.compiler.gnu.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -v -o "Functions/Func1.o" "Functions/Func1.c" && \
+echo -n 'Functions/Func1.d' Functions/ > 'Functions/Func1.d' && \
+gcc -MM -MG -P -w -O0 -g3 -Wall -c -fmessage-length=0 -v   "Functions/Func1.c" >> 'Functions/Func1.d'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'Functions/Func1.o' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.9/cc1 -quiet -v -imultiarch i386-linux-gnu -dD Functions/Func1.c -quiet -dumpbase Func1.c -mtune=generic -march=i686 -auxbase-strip Functions/Func1.o -g3 -O0 -Wall -version -fmessage-length=0 -fstack-protector-strong -Wformat-security -o /tmp/ccGS1LRc.s
+GNU C (Ubuntu 4.9.2-10ubuntu13) version 4.9.2 (i686-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/4.9/../../../../i686-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i686-linux-gnu/4.9/include
+ /usr/local/include
+ /usr/lib/gcc/i686-linux-gnu/4.9/include-fixed
+ /usr/include/i386-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.9.2-10ubuntu13) version 4.9.2 (i686-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 8802821ddd4be89d816de7ae5cb1d6d0
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'Functions/Func1.o' '-mtune=generic' '-march=i686'
+ as -v --32 -o Functions/Func1.o /tmp/ccGS1LRc.s
+GNU汇编版本 2.25 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.25
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'Functions/Func1.o' '-mtune=generic' '-march=i686'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COLLECT_GCC_OPTIONS='-MM' '-MG' '-P' '-w' '-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.9/cc1 -E -quiet -v -P -imultiarch i386-linux-gnu -MM -MG -dD Functions/Func1.c -mtune=generic -march=i686 -Wall -w -fmessage-length=0 -g3 -fworking-directory -O0 -fstack-protector-strong -Wformat-security
+ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/4.9/../../../../i686-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i686-linux-gnu/4.9/include
+ /usr/local/include
+ /usr/lib/gcc/i686-linux-gnu/4.9/include-fixed
+ /usr/include/i386-linux-gnu
+ /usr/include
+End of search list.
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-MM' '-MG' '-P' '-w' '-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-mtune=generic' '-march=i686'
+Finished building: Functions/Func1.c
+ 
+Building file: ../main.x
+Invoking: Copy tool
+cp "../main.x" "main.c"
+Finished building: ../main.x
+ 
+Building file: main.c
+Invoking: MBS30.compiler.gnu.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -v -o "main.o" "main.c" && \
+echo -n 'main.d' ./ > 'main.d' && \
+gcc -MM -MG -P -w -O0 -g3 -Wall -c -fmessage-length=0 -v   "main.c" >> 'main.d'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'main.o' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.9/cc1 -quiet -v -imultiarch i386-linux-gnu -dD main.c -quiet -dumpbase main.c -mtune=generic -march=i686 -auxbase-strip main.o -g3 -O0 -Wall -version -fmessage-length=0 -fstack-protector-strong -Wformat-security -o /tmp/ccvtRtlf.s
+GNU C (Ubuntu 4.9.2-10ubuntu13) version 4.9.2 (i686-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/4.9/../../../../i686-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i686-linux-gnu/4.9/include
+ /usr/local/include
+ /usr/lib/gcc/i686-linux-gnu/4.9/include-fixed
+ /usr/include/i386-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.9.2-10ubuntu13) version 4.9.2 (i686-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 8802821ddd4be89d816de7ae5cb1d6d0
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'main.o' '-mtune=generic' '-march=i686'
+ as -v --32 -o main.o /tmp/ccvtRtlf.s
+GNU汇编版本 2.25 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.25
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-o' 'main.o' '-mtune=generic' '-march=i686'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COLLECT_GCC_OPTIONS='-MM' '-MG' '-P' '-w' '-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.9/cc1 -E -quiet -v -P -imultiarch i386-linux-gnu -MM -MG -dD main.c -mtune=generic -march=i686 -Wall -w -fmessage-length=0 -g3 -fworking-directory -O0 -fstack-protector-strong -Wformat-security
+ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/4.9/../../../../i686-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i686-linux-gnu/4.9/include
+ /usr/local/include
+ /usr/lib/gcc/i686-linux-gnu/4.9/include-fixed
+ /usr/include/i386-linux-gnu
+ /usr/include
+End of search list.
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.9/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-MM' '-MG' '-P' '-w' '-O0' '-g3' '-Wall' '-c' '-fmessage-length=0' '-v' '-mtune=generic' '-march=i686'
+Finished building: main.c
+ 
+Invoking: MBS30.linker.gnu.c
+gcc  -o "USER_OBJS.foo"  ./Functions/Func1.o  ./main.o   
+Finished building: USER_OBJS.foo
+ 
+Building target: TestCopyandDeploy
+Invoking: Deploy tool
+cp  USER_OBJS.foo  "TestCopyandDeploy"
+Finished building target: TestCopyandDeploy
+ 
+rm Functions/Func1.c main.c
+
+11:46:19 Build Finished (took 155ms)
+

@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.cdt.dsf.gdb.multicorevisualizer.ui.test.AllTests
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.184 sec - in org.eclipse.cdt.dsf.gdb.multicorevisualizer.ui.test.AllTests
+testPersistentParamMapOfBoolean(org.eclipse.cdt.dsf.gdb.multicorevisualizer.ui.test.PersistentSettingsManagerTest)  Time elapsed: 0.062 sec
+testPersistentParamString(org.eclipse.cdt.dsf.gdb.multicorevisualizer.ui.test.PersistentSettingsManagerTest)  Time elapsed: 0.013 sec
+testUnsupportedMapType(org.eclipse.cdt.dsf.gdb.multicorevisualizer.ui.test.PersistentSettingsManagerTest)  Time elapsed: 0 sec
+testPersistentParamMapOfString(org.eclipse.cdt.dsf.gdb.multicorevisualizer.ui.test.PersistentSettingsManagerTest)  Time elapsed: 0.004 sec
+testUnsupportedBaseType(org.eclipse.cdt.dsf.gdb.multicorevisualizer.ui.test.PersistentSettingsManagerTest)  Time elapsed: 0 sec
+testPersistentParamInteger(org.eclipse.cdt.dsf.gdb.multicorevisualizer.ui.test.PersistentSettingsManagerTest)  Time elapsed: 0.006 sec
+testPersistentParamMapOfInteger(org.eclipse.cdt.dsf.gdb.multicorevisualizer.ui.test.PersistentSettingsManagerTest)  Time elapsed: 0.003 sec
+testMultipleInstances(org.eclipse.cdt.dsf.gdb.multicorevisualizer.ui.test.PersistentSettingsManagerTest)  Time elapsed: 0.016 sec
+testPersistentParamListofInteger(org.eclipse.cdt.dsf.gdb.multicorevisualizer.ui.test.PersistentSettingsManagerTest)  Time elapsed: 0.004 sec
+testPersistentParamListOfBoolean(org.eclipse.cdt.dsf.gdb.multicorevisualizer.ui.test.PersistentSettingsManagerTest)  Time elapsed: 0.004 sec
+testPersistentParamListOfString(org.eclipse.cdt.dsf.gdb.multicorevisualizer.ui.test.PersistentSettingsManagerTest)  Time elapsed: 0.004 sec
+testGlobalParamsWithMultipleInstances(org.eclipse.cdt.dsf.gdb.multicorevisualizer.ui.test.PersistentSettingsManagerTest)  Time elapsed: 0.013 sec
+testPersistentParamBoolean(org.eclipse.cdt.dsf.gdb.multicorevisualizer.ui.test.PersistentSettingsManagerTest)  Time elapsed: 0.003 sec
+testUnsupportedListType(org.eclipse.cdt.dsf.gdb.multicorevisualizer.ui.test.PersistentSettingsManagerTest)  Time elapsed: 0 sec
+testVirtualBoundsGraphicObjectRelativeSizingAndRetrieval(org.eclipse.cdt.dsf.gdb.multicorevisualizer.ui.test.VisualizerVirtualBoundsGraphicObjectTest)  Time elapsed: 0.004 sec

@@ -1,0 +1,17 @@
+11:46:19 **** Build of configuration MBS30ConfigName.Dbg for project deleteFile ****
+make -k all 
+Building file: ../main.cxx
+Invoking: MBS30.compiler.gnu.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "main.o" "../main.cxx" && \
+echo -n 'main.d' ./ > 'main.d' && \
+g++ -MM -MG -P -w -O0 -g3 -Wall -c -fmessage-length=0   "../main.cxx" >> 'main.d'
+Finished building: ../main.cxx
+ 
+Building target: DeleteFile
+Invoking: MBS30.linker.gnu.cpp
+g++  -o "DeleteFile"  ./main.o   
+Finished building target: DeleteFile
+ 
+
+11:46:20 Build Finished (took 102ms)
+

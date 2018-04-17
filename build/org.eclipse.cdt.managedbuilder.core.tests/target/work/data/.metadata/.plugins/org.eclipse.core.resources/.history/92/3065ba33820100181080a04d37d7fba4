@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/org.eclipse.cdt.core.tests.configuration/SAMPLE/delimiter=\:
+environment/project/org.eclipse.cdt.core.tests.configuration/SAMPLE/operation=replace
+environment/project/org.eclipse.cdt.core.tests.configuration/SAMPLE/value=Sample Value 1
+environment/project/org.eclipse.cdt.core.tests.configuration/append=true
+environment/project/org.eclipse.cdt.core.tests.configuration/appendContributed=true

@@ -1,0 +1,35 @@
+11:46:36 **** Build of configuration Debug for project test1DepCalc2 ****
+make all 
+Building file: ../Sources/sub sources/func 3.c
+Invoking: GCC C Compiler
+gcc -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Sources/sub sources/func 3.d" -MT"Sources/sub\ sources/func\ 3.d" -o "Sources/sub sources/func 3.o" "../Sources/sub sources/func 3.c"
+Finished building: ../Sources/sub sources/func 3.c
+ 
+Building file: ../Sources/func1.c
+Invoking: GCC C Compiler
+gcc -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Sources/func1.d" -MT"Sources/func1.o" -o "Sources/func1.o" "../Sources/func1.c"
+Finished building: ../Sources/func1.c
+ 
+Building file: ../Sources/func2.c
+Invoking: GCC C Compiler
+gcc -I../Headers -I../Sources/sub\ sources -O3 -g3 -Wall -c -MMD -MP -MF"Sources/func2.d" -MT"Sources/func2.d" -o "Sources/func2.o" "../Sources/func2.c"
+Finished building: ../Sources/func2.c
+ 
+Building file: ../Sources/func4.c
+Invoking: GCC C Compiler
+gcc -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Sources/func4.d" -MT"Sources/func4.o" -o "Sources/func4.o" "../Sources/func4.c"
+Finished building: ../Sources/func4.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: test1DepCalc2
+Invoking: GCC C Linker
+gcc  -o "test1DepCalc2"  ./Sources/sub\ sources/func\ 3.o  ./Sources/func1.o ./Sources/func2.o ./Sources/func4.o  ./main.o   
+Finished building target: test1DepCalc2
+ 
+
+11:46:37 Build Finished (took 811ms)
+

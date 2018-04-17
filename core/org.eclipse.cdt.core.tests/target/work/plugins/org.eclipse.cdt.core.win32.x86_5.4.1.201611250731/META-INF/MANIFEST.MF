@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.cdt.core.win32.x86;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: mengjingshi
+Bundle-ManifestVersion: 2
+Eclipse-PlatformFilter: (&(osgi.os=win32)(osgi.arch=x86))
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/cdt/or
+ g.eclipse.cdt.git;path="core/org.eclipse.cdt.core.win32.x86";commitId
+ =e5c63c7cd802220d8293f52c89c855c442d9c9fc
+Bundle-Vendor: %providerName
+Fragment-Host: org.eclipse.cdt.core.native;bundle-version="[5.7.0,6.0.
+ 0)"
+Bundle-Name: %fragmentName.win32.x86
+Bundle-Version: 5.4.1.201611250731
+Bundle-Localization: plugin
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_45-internal
+Eclipse-BundleShape: dir
+

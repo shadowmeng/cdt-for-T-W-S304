@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.cdt.util"
+      label="%featureName"
+      version="9.3.0.201611250806"
+      provider-name="%providerName"
+      plugin="org.eclipse.cdt.util">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.cdt.util"
+         download-size="18"
+         install-size="35"
+         version="5.0.100.201611250806"
+         unpack="false"/>
+
+</feature>

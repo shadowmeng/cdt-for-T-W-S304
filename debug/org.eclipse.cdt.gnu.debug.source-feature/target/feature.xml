@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.cdt.gnu.debug.source"
+      label="%featureName"
+      version="9.3.0.201611250806"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.cdt.launch.source"
+         download-size="101"
+         install-size="348"
+         version="9.1.0.201611250806"
+         unpack="false"/>
+
+</feature>

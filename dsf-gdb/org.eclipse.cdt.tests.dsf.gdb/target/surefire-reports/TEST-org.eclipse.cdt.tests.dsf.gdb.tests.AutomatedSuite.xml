@@ -1,0 +1,1817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.eclipse.cdt.tests.dsf.gdb.tests.AutomatedSuite" time="0" tests="571" errors="0" skipped="571" failures="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="osgi.bundles.defaultStartLevel" value="4"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="org.osgi.supports.framework.extension" value="true"/>
+    <property name="sun.management.compiler" value="HotSpot Tiered Compilers"/>
+    <property name="cdt.tests.dsf.gdb.path" value="/shared/common/gdb/gdb-all/bin"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-i386/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-i386/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-i386/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-i386/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-i386/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-i386/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-i386/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-i386/jre/classes"/>
+    <property name="cdt.tests.dsf.gdb.versions" value="gdb.7.12"/>
+    <property name="osgi.ws" value="gtk"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="1.8.0_45-internal-b14"/>
+    <property name="osgi.instance.area" value="file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/work/data/"/>
+    <property name="org.osgi.framework.uuid" value="40330d7d-e9b2-0016-1c58-e7e162497bcb"/>
+    <property name="osgi.noShutdown" value="false"/>
+    <property name="user.name" value="mengjingshi"/>
+    <property name="org.osgi.framework.system.packages" value="javax.accessibility,javax.activation,javax.activity,javax.annotation,javax.annotation.processing,javax.crypto,javax.crypto.interfaces,javax.crypto.spec,javax.imageio,javax.imageio.event,javax.imageio.metadata,javax.imageio.plugins.bmp,javax.imageio.plugins.jpeg,javax.imageio.spi,javax.imageio.stream,javax.jws,javax.jws.soap,javax.lang.model,javax.lang.model.element,javax.lang.model.type,javax.lang.model.util,javax.management,javax.management.loading,javax.management.modelmbean,javax.management.monitor,javax.management.openmbean,javax.management.relation,javax.management.remote,javax.management.remote.rmi,javax.management.timer,javax.naming,javax.naming.directory,javax.naming.event,javax.naming.ldap,javax.naming.spi,javax.net,javax.net.ssl,javax.print,javax.print.attribute,javax.print.attribute.standard,javax.print.event,javax.rmi,javax.rmi.CORBA,javax.rmi.ssl,javax.script,javax.security.auth,javax.security.auth.callback,javax.security.auth.kerberos,javax.security.auth.login,javax.security.auth.spi,javax.security.auth.x500,javax.security.cert,javax.security.sasl,javax.sound.midi,javax.sound.midi.spi,javax.sound.sampled,javax.sound.sampled.spi,javax.sql,javax.sql.rowset,javax.sql.rowset.serial,javax.sql.rowset.spi,javax.swing,javax.swing.border,javax.swing.colorchooser,javax.swing.event,javax.swing.filechooser,javax.swing.plaf,javax.swing.plaf.basic,javax.swing.plaf.metal,javax.swing.plaf.multi,javax.swing.plaf.nimbus,javax.swing.plaf.synth,javax.swing.table,javax.swing.text,javax.swing.text.html,javax.swing.text.html.parser,javax.swing.text.rtf,javax.swing.tree,javax.swing.undo,javax.tools,javax.transaction,javax.transaction.xa,javax.xml,javax.xml.bind,javax.xml.bind.annotation,javax.xml.bind.annotation.adapters,javax.xml.bind.attachment,javax.xml.bind.helpers,javax.xml.bind.util,javax.xml.crypto,javax.xml.crypto.dom,javax.xml.crypto.dsig,javax.xml.crypto.dsig.dom,javax.xml.crypto.dsig.keyinfo,javax.xml.crypto.dsig.spec,javax.xml.datatype,javax.xml.namespace,javax.xml.parsers,javax.xml.soap,javax.xml.stream,javax.xml.stream.events,javax.xml.stream.util,javax.xml.transform,javax.xml.transform.dom,javax.xml.transform.sax,javax.xml.transform.stax,javax.xml.transform.stream,javax.xml.validation,javax.xml.ws,javax.xml.ws.handler,javax.xml.ws.handler.soap,javax.xml.ws.http,javax.xml.ws.soap,javax.xml.ws.spi,javax.xml.ws.spi.http,javax.xml.ws.wsaddressing,javax.xml.xpath,org.ietf.jgss,org.omg.CORBA,org.omg.CORBA_2_3,org.omg.CORBA_2_3.portable,org.omg.CORBA.DynAnyPackage,org.omg.CORBA.ORBPackage,org.omg.CORBA.portable,org.omg.CORBA.TypeCodePackage,org.omg.CosNaming,org.omg.CosNaming.NamingContextExtPackage,org.omg.CosNaming.NamingContextPackage,org.omg.Dynamic,org.omg.DynamicAny,org.omg.DynamicAny.DynAnyFactoryPackage,org.omg.DynamicAny.DynAnyPackage,org.omg.IOP,org.omg.IOP.CodecFactoryPackage,org.omg.IOP.CodecPackage,org.omg.Messaging,org.omg.PortableInterceptor,org.omg.PortableInterceptor.ORBInitInfoPackage,org.omg.PortableServer,org.omg.PortableServer.CurrentPackage,org.omg.PortableServer.POAManagerPackage,org.omg.PortableServer.POAPackage,org.omg.PortableServer.portable,org.omg.PortableServer.ServantLocatorPackage,org.omg.SendingContext,org.omg.stub.java.rmi,org.w3c.dom,org.w3c.dom.bootstrap,org.w3c.dom.css,org.w3c.dom.events,org.w3c.dom.html,org.w3c.dom.ls,org.w3c.dom.ranges,org.w3c.dom.stylesheets,org.w3c.dom.traversal,org.w3c.dom.views,org.w3c.dom.xpath,org.xml.sax,org.xml.sax.ext,org.xml.sax.helpers"/>
+    <property name="equinox.use.ds" value="true"/>
+    <property name="org.osgi.framework.language" value="zh"/>
+    <property name="user.language" value="zh"/>
+    <property name="org.osgi.framework.processor" value="x86"/>
+    <property name="osgi.syspath" value="/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.osgi/3.11.1.v20160708-1632"/>
+    <property name="osgi.compatibility.bootdelegation.default" value="true"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-i386/jre/lib/i386"/>
+    <property name="org.osgi.framework.system.capabilities" value="osgi.ee; osgi.ee=&quot;OSGi/Minimum&quot;; version:List&lt;Version&gt;=&quot;1.0, 1.1, 1.2&quot;,osgi.ee; osgi.ee=&quot;JRE&quot;; version:List&lt;Version&gt;=&quot;1.0, 1.1&quot;,osgi.ee; osgi.ee=&quot;JavaSE&quot;; version:List&lt;Version&gt;=&quot;1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8&quot;,osgi.ee; osgi.ee=&quot;JavaSE/compact1&quot;; version:List&lt;Version&gt;=&quot;1.8&quot;,osgi.ee; osgi.ee=&quot;JavaSE/compact2&quot;; version:List&lt;Version&gt;=&quot;1.8&quot;,osgi.ee; osgi.ee=&quot;JavaSE/compact3&quot;; version:List&lt;Version&gt;=&quot;1.8&quot;"/>
+    <property name="osgi.compatibility.bootdelegation" value="true"/>
+    <property name="java.version" value="1.8.0_45-internal"/>
+    <property name="org.osgi.framework.os.name" value="Linux"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="osgi.bundles" value="reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/com.jcraft.jsch/0.1.53.v201508180515/com.jcraft.jsch-0.1.53.v201508180515.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/com.sun.el/2.2.0.v201303151357/com.sun.el-2.2.0.v201303151357.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/javax.el/2.2.0.v201303151357/javax.el-2.2.0.v201303151357.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/javax.servlet/3.1.0.v201410161800/javax.servlet-3.1.0.v201410161800.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/javax.annotation/1.2.0.v201602091430/javax.annotation-1.2.0.v201602091430.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/javax.servlet.jsp/2.2.0.v201112011158/javax.servlet.jsp-2.2.0.v201112011158.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/javax.xml/1.3.4.v201005080400/javax.xml-1.3.4.v201005080400.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.apache.batik.css/1.7.0.v201011041433/org.apache.batik.css-1.7.0.v201011041433.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.apache.batik.util/1.7.0.v201011041433/org.apache.batik.util-1.7.0.v201011041433.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.w3c.dom.events/3.0.0.draft20060413_v201105210656/org.w3c.dom.events-3.0.0.draft20060413_v201105210656.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.w3c.css.sac/1.3.1.v200903091627/org.w3c.css.sac-1.3.1.v200903091627.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.w3c.dom.svg/1.1.0.v201011041433/org.w3c.dom.svg-1.1.0.v201011041433.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.apache.batik.util.gui/1.7.0.v200903091627/org.apache.batik.util.gui-1.7.0.v200903091627.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.apache.felix.gogo.command/0.10.0.v201209301215/org.apache.felix.gogo.command-0.10.0.v201209301215.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.apache.felix.gogo.runtime/0.10.0.v201209301036/org.apache.felix.gogo.runtime-0.10.0.v201209301036.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.osgi.services/3.5.100.v20160504-1419/org.eclipse.osgi.services-3.5.100.v20160504-1419.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.apache.felix.gogo.shell/0.10.0.v201212101605/org.apache.felix.gogo.shell-0.10.0.v201212101605.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.apache.httpcomponents.httpclient/4.3.6.v201511171540/org.apache.httpcomponents.httpclient-4.3.6.v201511171540.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.apache.commons.codec/1.6.0.v201305230611/org.apache.commons.codec-1.6.0.v201305230611.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.apache.commons.logging/1.1.1.v201101211721/org.apache.commons.logging-1.1.1.v201101211721.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.apache.httpcomponents.httpcore/4.3.3.v201411290715/org.apache.httpcomponents.httpcore-4.3.3.v201411290715.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.apache.jasper.glassfish/2.2.2.v201501141630/org.apache.jasper.glassfish-2.2.2.v201501141630.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.apache.lucene.analysis/3.5.0.v20120725-1805/org.apache.lucene.analysis-3.5.0.v20120725-1805.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.apache.lucene.core/3.5.0.v20120725-1805/org.apache.lucene.core-3.5.0.v20120725-1805.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ant.core/3.4.100.v20160505-0642/org.eclipse.ant.core-3.4.100.v20160505-0642.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.variables/3.3.0.v20160419-1720/org.eclipse.core.variables-3.3.0.v20160419-1720.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.runtime/3.12.0.v20160606-1342/org.eclipse.core.runtime-3.12.0.v20160606-1342.jar@4:start,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/releng/org.eclipse.cdt/target/org.eclipse.cdt-9.3.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ui.intro/3.5.1.v20160829-1558/org.eclipse.ui.intro-3.5.1.v20160829-1558.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ui.cheatsheets/3.5.0.v20160504-0839/org.eclipse.ui.cheatsheets-3.5.0.v20160504-0839.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.build.gcc.core/target/org.eclipse.cdt.build.gcc.core-1.0.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.resources/3.11.0.v20160503-1608/org.eclipse.core.resources-3.11.0.v20160503-1608.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/core/org.eclipse.cdt.core/target/org.eclipse.cdt.core-6.2.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/codan/org.eclipse.cdt.codan.checkers/target/org.eclipse.cdt.codan.checkers-3.2.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/codan/org.eclipse.cdt.codan.core/target/org.eclipse.cdt.codan.core-4.0.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/codan/org.eclipse.cdt.codan.core.cxx/target/org.eclipse.cdt.codan.core.cxx-3.4.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/codan/org.eclipse.cdt.codan.checkers.ui/target/org.eclipse.cdt.codan.checkers.ui-3.2.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/codan/org.eclipse.cdt.codan.ui.cxx/target/org.eclipse.cdt.codan.ui.cxx-3.3.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/core/org.eclipse.cdt.ui/target/org.eclipse.cdt.ui-6.1.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.jface.text/3.11.1.v20160819-1517/org.eclipse.jface.text-3.11.1.v20160819-1517.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ltk.core.refactoring/3.7.0.v20160419-0705/org.eclipse.ltk.core.refactoring-3.7.0.v20160419-0705.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ui/3.108.0.v20160518-1929/org.eclipse.ui-3.108.0.v20160518-1929.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ui.ide/3.12.1.v20160823-0925/org.eclipse.ui.ide-3.12.1.v20160823-0925.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.filesystem/1.6.0.v20160503-1608/org.eclipse.core.filesystem-1.6.0.v20160503-1608.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/codan/org.eclipse.cdt.codan.ui/target/org.eclipse.cdt.codan.ui-3.2.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ui.console/3.6.200.v20160518-1858/org.eclipse.ui.console-3.6.200.v20160518-1858.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ui.editors/3.10.0.v20160505-0931/org.eclipse.ui.editors-3.10.0.v20160505-0931.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ui.workbench.texteditor/3.10.1.v20160818-1626/org.eclipse.ui.workbench.texteditor-3.10.1.v20160818-1626.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/core/org.eclipse.cdt.core.native/target/org.eclipse.cdt.core.native-5.10.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.contenttype/3.5.100.v20160418-1621/org.eclipse.core.contenttype-3.5.100.v20160418-1621.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.expressions/3.5.100.v20160418-1621/org.eclipse.core.expressions-3.5.100.v20160418-1621.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.filebuffers/3.6.0.v20160503-1849/org.eclipse.core.filebuffers-3.6.0.v20160503-1849.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.text/3.6.0.v20160503-1849/org.eclipse.text-3.6.0.v20160503-1849.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/com.ibm.icu/56.1.0.v201601250100/com.ibm.icu-56.1.0.v201601250100.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/com.google.gson/2.2.4.v201311231704/com.google.gson-2.2.4.v201311231704.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/core/org.eclipse.cdt.core.linux/target/org.eclipse.cdt.core.linux-5.3.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/core/org.eclipse.cdt.core.linux.x86/target/org.eclipse.cdt.core.linux.x86-5.3.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/debug/org.eclipse.cdt.debug.core/target/org.eclipse.cdt.debug.core-8.1.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.debug.core/3.10.100.v20160419-1720/org.eclipse.debug.core-3.10.100.v20160419-1720.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.launchbar.core/2.1.0.201611242101/org.eclipse.launchbar.core-2.1.0.201611242101.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/debug/org.eclipse.cdt.debug.ui/target/org.eclipse.cdt.debug.ui-8.1.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.debug.ui/3.11.201.v20160825-1412/org.eclipse.debug.ui-3.11.201.v20160825-1412.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ui.views/3.8.101.v20160816-1954/org.eclipse.ui.views-3.8.101.v20160816-1954.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.launchbar.ui/2.1.0.201611242101/org.eclipse.launchbar.ui-2.1.0.201611242101.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/doc/org.eclipse.cdt.doc.user/target/org.eclipse.cdt.doc.user-5.4.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.help/3.7.0.v20160602-1307/org.eclipse.help-3.7.0.v20160602-1307.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ui.intro.universal/3.3.1.v20160829-1558/org.eclipse.ui.intro.universal-3.3.1.v20160829-1558.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf/org.eclipse.cdt.dsf/target/org.eclipse.cdt.dsf-2.8.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.dsf.gdb/target/org.eclipse.cdt.dsf.gdb-5.2.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/launch/org.eclipse.cdt.launch/target/org.eclipse.cdt.launch-9.1.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/debug/org.eclipse.cdt.gdb/target/org.eclipse.cdt.gdb-7.0.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.dsf.gdb.ui/target/org.eclipse.cdt.dsf.gdb.ui-2.6.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf/org.eclipse.cdt.dsf.ui/target/org.eclipse.cdt.dsf.ui-2.5.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.tm.terminal.control/4.2.0.201609191434/org.eclipse.tm.terminal.control-4.2.0.201609191434.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/debug/org.eclipse.cdt.gdb.ui/target/org.eclipse.cdt.gdb.ui-7.0.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.gnu.ui/target/org.eclipse.cdt.managedbuilder.gnu.ui-8.3.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.make.core/target/org.eclipse.cdt.make.core-7.3.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.make.ui/target/org.eclipse.cdt.make.ui-7.3.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.compare/3.6.0.v20160418-1534/org.eclipse.compare-3.6.0.v20160418-1534.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.core/target/org.eclipse.cdt.managedbuilder.core-8.4.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/build/org.eclipse.cdt.managedbuilder.ui/target/org.eclipse.cdt.managedbuilder.ui-9.0.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/native/org.eclipse.cdt.native.serial/target/org.eclipse.cdt.native.serial-1.0.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.junit/4.12.0.v201504281640/org.junit-4.12.0.v201504281640.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.swt/3.105.1.v20160907-0248/org.eclipse.swt-3.105.1.v20160907-0248.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.mockito/1.9.5.v201605172210/org.mockito-1.9.5.v201605172210.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.hamcrest/1.1.0.v20090501071000/org.hamcrest-1.1.0.v20090501071000.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ltk.ui.refactoring/3.8.0.v20160518-1817/org.eclipse.ltk.ui.refactoring-3.8.0.v20160518-1817.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.search/3.11.0.v20160519-1501/org.eclipse.search-3.11.0.v20160519-1501.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ui.forms/3.7.0.v20160518-1929/org.eclipse.ui.forms-3.7.0.v20160518-1929.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ui.navigator/3.6.100.v20160518-1929/org.eclipse.ui.navigator-3.6.100.v20160518-1929.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ui.navigator.resources/3.5.100.v20160518-1929/org.eclipse.ui.navigator.resources-3.5.100.v20160518-1929.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.css.swt.theme/0.10.100.v20160523-0836/org.eclipse.e4.ui.css.swt.theme-0.10.100.v20160523-0836.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.tools.templates.ui/1.1.0.201611032032/org.eclipse.tools.templates.ui-1.1.0.201611032032.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.compare.core/3.6.0.v20160418-1534/org.eclipse.compare.core-3.6.0.v20160418-1534.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.commands/3.8.0.v20160316-1921/org.eclipse.core.commands-3.8.0.v20160316-1921.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.common/3.8.0.v20160509-1230/org.eclipse.equinox.common-3.8.0.v20160509-1230.jar@2:start,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.preferences/3.6.1.v20160815-1406/org.eclipse.equinox.preferences-3.6.1.v20160815-1406.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.registry/3.6.100.v20160223-2218/org.eclipse.equinox.registry-3.6.100.v20160223-2218.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.databinding/1.6.0.v20160412-0910/org.eclipse.core.databinding-1.6.0.v20160412-0910.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.databinding.observable/1.6.0.v20160511-1747/org.eclipse.core.databinding.observable-1.6.0.v20160511-1747.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.databinding.property/1.6.0.v20160427-0852/org.eclipse.core.databinding.property-1.6.0.v20160427-0852.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.databinding.beans/1.3.100.v20160509-1025/org.eclipse.core.databinding.beans-1.3.100.v20160509-1025.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.externaltools/1.0.400.v20160509-1057/org.eclipse.core.externaltools-1.0.400.v20160509-1057.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.filesystem.linux.x86/1.4.200.v20140124-1940/org.eclipse.core.filesystem.linux.x86-1.4.200.v20140124-1940.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.jobs/3.8.0.v20160509-0411/org.eclipse.core.jobs-3.8.0.v20160509-0411.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.net/1.3.0.v20160418-1534/org.eclipse.core.net-1.3.0.v20160418-1534.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.security/1.2.200.v20150715-1528/org.eclipse.equinox.security-1.2.200.v20150715-1528.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.net.linux.x86/1.2.0.v20160323-1650/org.eclipse.core.net.linux.x86-1.2.0.v20160323-1650.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.app/1.3.400.v20150715-1528/org.eclipse.equinox.app-1.3.400.v20150715-1528.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.e4.core.commands/0.11.100.v20160506-0804/org.eclipse.e4.core.commands-0.11.100.v20160506-0804.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.e4.core.di/1.6.1.v20160712-0927/org.eclipse.e4.core.di-1.6.1.v20160712-0927.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/javax.inject/1.0.0.v20091030/javax.inject-1.0.0.v20091030.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.e4.core.contexts/1.5.0.v20160504-0909/org.eclipse.e4.core.contexts-1.5.0.v20160504-0909.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.e4.core.services/2.0.100.v20160509-1032/org.eclipse.e4.core.services-2.0.100.v20160509-1032.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.e4.core.di.annotations/1.5.0.v20151127-1241/org.eclipse.e4.core.di.annotations-1.5.0.v20151127-1241.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.e4.core.di.extensions/0.14.0.v20160211-1614/org.eclipse.e4.core.di.extensions-0.14.0.v20160211-1614.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.e4.emf.xpath/0.1.200.v20160506-0804/org.eclipse.e4.emf.xpath-0.1.200.v20160506-0804.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.apache.commons.jxpath/1.3.0.v200911051830/org.apache.commons.jxpath-1.3.0.v200911051830.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.emf.ecore/2.12.0.v20160420-0247/org.eclipse.emf.ecore-2.12.0.v20160420-0247.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.workbench.swt/0.14.1.v20160829-0832/org.eclipse.e4.ui.workbench.swt-0.14.1.v20160829-0832.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.bindings/0.11.100.v20160509-1025/org.eclipse.e4.ui.bindings-0.11.100.v20160509-1025.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.model.workbench/1.2.0.v20160229-1459/org.eclipse.e4.ui.model.workbench-1.2.0.v20160229-1459.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.services/1.2.100.v20160506-0759/org.eclipse.e4.ui.services-1.2.100.v20160506-0759.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.workbench.renderers.swt/0.14.0.v20160525-0940/org.eclipse.e4.ui.workbench.renderers.swt-0.14.0.v20160525-0940.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.workbench/1.4.0.v20160517-1624/org.eclipse.e4.ui.workbench-1.4.0.v20160517-1624.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.css.core/0.12.0.v20160505-1310/org.eclipse.e4.ui.css.core-0.12.0.v20160505-1310.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.css.swt/0.12.100.v20160517-1505/org.eclipse.e4.ui.css.swt-0.12.100.v20160517-1505.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.w3c.dom.smil/1.0.1.v200903091627/org.w3c.dom.smil-1.0.1.v200903091627.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.di/1.1.100.v20160506-0759/org.eclipse.e4.ui.di-1.1.100.v20160506-0759.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.widgets/1.1.100.v20160506-0759/org.eclipse.e4.ui.widgets-1.1.100.v20160506-0759.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.ds/1.4.400.v20160226-2036/org.eclipse.equinox.ds-1.4.400.v20160226-2036.jar@1:start,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.event/1.3.200.v20160324-1850/org.eclipse.equinox.event-1.3.200.v20160324-1850.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.launcher/1.3.200.v20160318-1642/org.eclipse.equinox.launcher-1.3.200.v20160318-1642.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.simpleconfigurator/1.1.200.v20160504-1450/org.eclipse.equinox.simpleconfigurator-1.1.200.v20160504-1450.jar@1:start,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.osgi.compatibility.state/1.0.200.v20160504-1419/org.eclipse.osgi.compatibility.state-1.0.200.v20160504-1419.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/work/plugins/org.eclipse.equinox.launcher.gtk.linux.x86_1.1.400.v20160518-1444,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.swt.gtk.linux.x86/3.105.1.v20160907-0248/org.eclipse.swt.gtk.linux.x86-3.105.1.v20160907-0248.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.util/1.0.500.v20130404-1337/org.eclipse.equinox.util-1.0.500.v20130404-1337.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.jface/3.12.0.v20160518-1929/org.eclipse.jface-3.12.0.v20160518-1929.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.jface.databinding/1.8.0.v20160420-2231/org.eclipse.jface.databinding-1.8.0.v20160420-2231.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.workbench3/0.13.100.v20160506-0759/org.eclipse.e4.ui.workbench3-0.13.100.v20160506-0759.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.console/1.1.200.v20150929-1405/org.eclipse.equinox.console-1.1.200.v20150929-1405.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.workbench.addons.swt/1.2.100.v20160831-1151/org.eclipse.e4.ui.workbench.addons.swt-1.2.100.v20160831-1151.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.bidi/1.0.0.v20160307-1318/org.eclipse.equinox.bidi-1.0.0.v20160307-1318.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.dialogs/1.1.0.v20151127-1218/org.eclipse.e4.ui.dialogs-1.1.0.v20151127-1218.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.swt.gtk/1.0.100.v20160301-1001/org.eclipse.e4.ui.swt.gtk-1.0.100.v20160301-1001.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.emf.ecore.change/2.11.0.v20160420-0247/org.eclipse.emf.ecore.change-2.11.0.v20160420-0247.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.emf.ecore.xmi/2.12.0.v20160420-0247/org.eclipse.emf.ecore.xmi-2.12.0.v20160420-0247.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ecf/3.8.0.v20160823-2221/org.eclipse.ecf-3.8.0.v20160823-2221.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ecf.identity/3.7.0.v20160823-2221/org.eclipse.ecf.identity-3.7.0.v20160823-2221.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.concurrent/1.1.0.v20130327-1442/org.eclipse.equinox.concurrent-1.1.0.v20130327-1442.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ecf.ssl/1.2.0.v20160823-2221/org.eclipse.ecf.ssl-1.2.0.v20160823-2221.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ecf.filetransfer/5.0.0.v20160823-2221/org.eclipse.ecf.filetransfer-5.0.0.v20160823-2221.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ecf.provider.filetransfer/3.2.200.v20160823-2221/org.eclipse.ecf.provider.filetransfer-3.2.200.v20160823-2221.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ecf.provider.filetransfer.httpclient4/1.1.100.v20160823-2221/org.eclipse.ecf.provider.filetransfer.httpclient4-1.1.100.v20160823-2221.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ecf.provider.filetransfer.httpclient4.ssl/1.1.0.v20160823-2221/org.eclipse.ecf.provider.filetransfer.httpclient4.ssl-1.1.0.v20160823-2221.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ecf.provider.filetransfer.ssl/1.0.0.v20160823-2221/org.eclipse.ecf.provider.filetransfer.ssl-1.0.0.v20160823-2221.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.emf.common/2.12.0.v20160420-0247/org.eclipse.emf.common-2.12.0.v20160420-0247.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.frameworkadmin/2.0.300.v20160504-1450/org.eclipse.equinox.frameworkadmin-2.0.300.v20160504-1450.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.frameworkadmin.equinox/1.0.700.v20160102-2223/org.eclipse.equinox.frameworkadmin.equinox-1.0.700.v20160102-2223.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.http.jetty/3.3.0.v20160324-1850/org.eclipse.equinox.http.jetty-3.3.0.v20160324-1850.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.http.servlet/1.3.1.v20160808-1329/org.eclipse.equinox.http.servlet-1.3.1.v20160808-1329.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.jetty.http/9.3.9.v20160517/org.eclipse.jetty.http-9.3.9.v20160517.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.jetty.server/9.3.9.v20160517/org.eclipse.jetty.server-9.3.9.v20160517.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.jetty.servlet/9.3.9.v20160517/org.eclipse.jetty.servlet-9.3.9.v20160517.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.jetty.util/9.3.9.v20160517/org.eclipse.jetty.util-9.3.9.v20160517.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.http.registry/1.1.400.v20150715-1528/org.eclipse.equinox.http.registry-1.1.400.v20150715-1528.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.jsp.jasper/1.0.500.v20150119-1358/org.eclipse.equinox.jsp.jasper-1.0.500.v20150119-1358.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.jsp.jasper.registry/1.0.300.v20130327-1442/org.eclipse.equinox.jsp.jasper.registry-1.0.300.v20130327-1442.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.artifact.repository/1.1.500.v20160419-0834/org.eclipse.equinox.p2.artifact.repository-1.1.500.v20160419-0834.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.metadata/2.3.100.v20160427-2220/org.eclipse.equinox.p2.metadata-2.3.100.v20160427-2220.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.tukaani.xz/1.3.0.v201308270617/org.tukaani.xz-1.3.0.v201308270617.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.core/2.4.100.v20160419-0834/org.eclipse.equinox.p2.core-2.4.100.v20160419-0834.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.jarprocessor/1.0.500.v20160504-1450/org.eclipse.equinox.p2.jarprocessor-1.0.500.v20160504-1450.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.repository/2.3.200.v20160421-0324/org.eclipse.equinox.p2.repository-2.3.200.v20160421-0324.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.console/1.0.500.v20160504-1450/org.eclipse.equinox.p2.console-1.0.500.v20160504-1450.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.director/2.3.300.v20160504-1450/org.eclipse.equinox.p2.director-2.3.300.v20160504-1450.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.engine/2.4.100.v20160419-0834/org.eclipse.equinox.p2.engine-2.4.100.v20160419-0834.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.garbagecollector/1.0.300.v20160504-1450/org.eclipse.equinox.p2.garbagecollector-1.0.300.v20160504-1450.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.metadata.repository/1.2.300.v20160419-0834/org.eclipse.equinox.p2.metadata.repository-1.2.300.v20160419-0834.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.touchpoint.eclipse/2.1.400.v20160419-0834/org.eclipse.equinox.p2.touchpoint.eclipse-2.1.400.v20160419-0834.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.touchpoint.natives/1.2.100.v20160419-0834/org.eclipse.equinox.p2.touchpoint.natives-1.2.100.v20160419-0834.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.simpleconfigurator.manipulator/2.0.200.v20160504-1450/org.eclipse.equinox.simpleconfigurator.manipulator-2.0.200.v20160504-1450.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.sat4j.core/2.3.5.v201308161310/org.sat4j.core-2.3.5.v201308161310.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.sat4j.pb/2.3.5.v201404071733/org.sat4j.pb-2.3.5.v201404071733.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.transport.ecf/1.1.200.v20160606-1311/org.eclipse.equinox.p2.transport.ecf-1.1.200.v20160606-1311.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.operations/2.4.200.v20160504-1450/org.eclipse.equinox.p2.operations-2.4.200.v20160504-1450.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.director.app/1.0.500.v20160419-0834/org.eclipse.equinox.p2.director.app-1.0.500.v20160419-0834.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.directorywatcher/1.1.100.v20150423-1455/org.eclipse.equinox.p2.directorywatcher-1.1.100.v20150423-1455.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.publisher/1.4.100.v20160504-1450/org.eclipse.equinox.p2.publisher-1.4.100.v20160504-1450.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.publisher.eclipse/1.2.100.v20160504-1450/org.eclipse.equinox.p2.publisher.eclipse-1.2.100.v20160504-1450.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.extensionlocation/1.2.300.v20160419-0834/org.eclipse.equinox.p2.extensionlocation-1.2.300.v20160419-0834.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.reconciler.dropins/1.1.400.v20160504-1450/org.eclipse.equinox.p2.reconciler.dropins-1.1.400.v20160504-1450.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.repository.tools/2.1.300.v20160421-0324/org.eclipse.equinox.p2.repository.tools-2.1.300.v20160421-0324.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.ui/2.4.100.v20160419-0834/org.eclipse.equinox.p2.ui-2.4.100.v20160419-0834.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.ui.sdk.scheduler/1.2.200.v20160504-1450/org.eclipse.equinox.p2.ui.sdk.scheduler-1.2.200.v20160504-1450.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.updatechecker/1.1.200.v20131119-0908/org.eclipse.equinox.p2.updatechecker-1.1.200.v20131119-0908.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.security.ui/1.1.300.v20150803-1225/org.eclipse.equinox.security.ui-1.1.300.v20150803-1225.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.ui.sdk/1.0.400.v20150423-1455/org.eclipse.equinox.p2.ui.sdk-1.0.400.v20150423-1455.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.ui.importexport/1.1.200.v20160521-1138/org.eclipse.equinox.p2.ui.importexport-1.1.200.v20160521-1138.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.updatesite/1.0.600.v20160504-1450/org.eclipse.equinox.p2.updatesite-1.0.600.v20160504-1450.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.help.base/4.1.0.v20160907-1200/org.eclipse.help.base-4.1.0.v20160907-1200.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.help.ui/4.0.200.v20160510-0758/org.eclipse.help.ui-4.0.200.v20160510-0758.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.help.webapp/3.8.0.v20160504-0839/org.eclipse.help.webapp-3.8.0.v20160504-0839.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.jetty.continuation/9.3.9.v20160517/org.eclipse.jetty.continuation-9.3.9.v20160517.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.jetty.io/9.3.9.v20160517/org.eclipse.jetty.io-9.3.9.v20160517.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.jetty.security/9.3.9.v20160517/org.eclipse.jetty.security-9.3.9.v20160517.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.jsch.core/1.3.0.v20160422-1917/org.eclipse.jsch.core-1.3.0.v20160422-1917.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.jsch.ui/1.3.0.v20160323-1650/org.eclipse.jsch.ui-1.3.0.v20160323-1650.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.team.core/3.8.0.v20160418-1534/org.eclipse.team.core-3.8.0.v20160418-1534.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.team.ui/3.8.0.v20160518-1906/org.eclipse.team.ui-3.8.0.v20160518-1906.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.osgi.util/3.3.100.v20150423-1351/org.eclipse.osgi.util-3.3.100.v20150423-1351.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/work/plugins/org.eclipse.platform_4.6.1.v20160907-1200,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.platform.doc.user/4.6.1.v20160727-2009/org.eclipse.platform.doc.user-4.6.1.v20160727-2009.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.apache.ant/1.9.6.v201510161327/org.apache.ant-1.9.6.v201510161327.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ui.browser/3.5.1.v20160712-0914/org.eclipse.ui.browser-3.5.1.v20160712-0914.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ui.monitoring/1.1.0.v20160131-1628/org.eclipse.ui.monitoring-1.1.0.v20160131-1628.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ui.net/1.3.0.v20160426-1633/org.eclipse.ui.net-1.3.0.v20160426-1633.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ui.externaltools/3.3.100.v20160518-1858/org.eclipse.ui.externaltools-3.3.100.v20160518-1858.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ui.ide.application/1.1.101.v20160829-0827/org.eclipse.ui.ide.application-1.1.101.v20160829-0827.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ui.views.properties.tabbed/3.7.0.v20160310-0903/org.eclipse.ui.views.properties.tabbed-3.7.0.v20160310-0903.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/work/plugins/org.eclipse.ui.themes_1.1.200.v20160815-0536,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ui.intro.quicklinks/1.0.0.v20160515-0255/org.eclipse.ui.intro.quicklinks-1.0.0.v20160515-0255.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ui.workbench/3.108.1.v20160819-2118/org.eclipse.ui.workbench-3.108.1.v20160819-2118.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.update.configurator/3.3.400.v20160506-0750/org.eclipse.update.configurator-3.3.400.v20160506-0750.jar@3:start,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.rcp/4.6.1.v20160907-1200/org.eclipse.rcp-4.6.1.v20160907-1200.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.tools.templates.core/1.1.0.201611032032/org.eclipse.tools.templates.core-1.1.0.201611032032.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.hamcrest.core/1.3.0.v201303031735/org.hamcrest.core-1.3.0.v201303031735.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.hamcrest.library/1.3.0.v201505072020/org.hamcrest.library-1.3.0.v201505072020.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.hamcrest.integration/1.3.0.v201305210900/org.hamcrest.integration-1.3.0.v201305210900.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.hamcrest.text/1.1.0.v20090501071000/org.hamcrest.text-1.1.0.v20090501071000.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.objenesis/1.0.0.v201505121915/org.objenesis-1.0.0.v201505121915.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/core/org.eclipse.cdt.core.linux.x86_64/target/org.eclipse.cdt.core.linux.x86_64-5.3.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.filesystem.linux.x86_64/1.2.200.v20140124-1940/org.eclipse.core.filesystem.linux.x86_64-1.2.200.v20140124-1940.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.net.linux.x86_64/1.2.0.v20160323-1650/org.eclipse.core.net.linux.x86_64-1.2.0.v20160323-1650.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/work/plugins/org.eclipse.equinox.launcher.gtk.linux.x86_64_1.1.400.v20160518-1444,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.swt.gtk.linux.x86_64/3.105.1.v20160907-0248/org.eclipse.swt.gtk.linux.x86_64-3.105.1.v20160907-0248.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/core/org.eclipse.cdt.core.linux.ppc64/target/org.eclipse.cdt.core.linux.ppc64-5.2.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.filesystem.linux.ppc64/1.4.0.v20140124-1940/org.eclipse.core.filesystem.linux.ppc64-1.4.0.v20140124-1940.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/work/plugins/org.eclipse.equinox.launcher.gtk.linux.ppc64_1.0.400.v20160518-1444,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.swt.gtk.linux.ppc64/3.105.1.v20160907-0248/org.eclipse.swt.gtk.linux.ppc64-3.105.1.v20160907-0248.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/core/org.eclipse.cdt.core.win32/target/org.eclipse.cdt.core.win32-5.4.1-SNAPSHOT.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/work/plugins/org.eclipse.cdt.core.win32.x86_5.4.1.201611250806,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.compare.win32/1.1.0.v20160418-1534/org.eclipse.compare.win32-1.1.0.v20160418-1534.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.swt.win32.win32.x86/3.105.1.v20160907-0248/org.eclipse.swt.win32.win32.x86-3.105.1.v20160907-0248.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.filesystem.win32.x86/1.4.0.v20140124-1940/org.eclipse.core.filesystem.win32.x86-1.4.0.v20140124-1940.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.net.win32.x86/1.1.0.v20160323-1650/org.eclipse.core.net.win32.x86-1.1.0.v20160323-1650.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.resources.win32.x86/3.5.100.v20140124-1940/org.eclipse.core.resources.win32.x86-3.5.100.v20140124-1940.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/work/plugins/org.eclipse.equinox.launcher.win32.win32.x86_1.1.400.v20160518-1444,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.security.win32.x86/1.0.300.v20130327-1442/org.eclipse.equinox.security.win32.x86-1.0.300.v20130327-1442.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ui.win32/3.3.0.v20160505-1310/org.eclipse.ui.win32-3.3.0.v20160505-1310.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/work/plugins/org.eclipse.cdt.core.win32.x86_64_5.4.1.201611250806,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.swt.win32.win32.x86_64/3.105.1.v20160907-0248/org.eclipse.swt.win32.win32.x86_64-3.105.1.v20160907-0248.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.filesystem.win32.x86_64/1.4.0.v20140124-1940/org.eclipse.core.filesystem.win32.x86_64-1.4.0.v20140124-1940.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.net.win32.x86_64/1.1.0.v20160323-1650/org.eclipse.core.net.win32.x86_64-1.1.0.v20160323-1650.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.resources.win32.x86_64/3.5.0.v20140124-1940/org.eclipse.core.resources.win32.x86_64-3.5.0.v20140124-1940.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/work/plugins/org.eclipse.equinox.launcher.win32.win32.x86_64_1.1.400.v20160518-1444,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.security.win32.x86_64/1.0.100.v20130327-1442/org.eclipse.equinox.security.win32.x86_64-1.0.100.v20130327-1442.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/core/org.eclipse.cdt.core.macosx/target/org.eclipse.cdt.core.macosx-5.3.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.filesystem.macosx/1.3.0.v20140124-1940/org.eclipse.core.filesystem.macosx-1.3.0.v20140124-1940.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.workbench.renderers.swt.cocoa/0.11.300.v20160330-1418/org.eclipse.e4.ui.workbench.renderers.swt.cocoa-0.11.300.v20160330-1418.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/work/plugins/org.eclipse.equinox.launcher.cocoa.macosx.x86_64_1.1.400.v20160518-1444,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.swt.cocoa.macosx.x86_64/3.105.1.v20160907-0248/org.eclipse.swt.cocoa.macosx.x86_64-3.105.1.v20160907-0248.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.security.macosx/1.100.200.v20130327-1442/org.eclipse.equinox.security.macosx-1.100.200.v20130327-1442.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.ui.cocoa/1.1.100.v20151202-1450/org.eclipse.ui.cocoa-1.1.100.v20151202-1450.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/core/org.eclipse.cdt.core.aix/target/org.eclipse.cdt.core.aix-5.4.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.filesystem.aix.ppc/1.1.0.v20140124-1940/org.eclipse.core.filesystem.aix.ppc-1.1.0.v20140124-1940.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/work/plugins/org.eclipse.equinox.launcher.gtk.aix.ppc_1.1.300.v20160518-1444,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.swt.gtk.aix.ppc/3.105.1.v20160907-0248/org.eclipse.swt.gtk.aix.ppc-3.105.1.v20160907-0248.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/core/org.eclipse.cdt.core.linux.ppc64le/target/org.eclipse.cdt.core.linux.ppc64le-1.0.0-SNAPSHOT.jar,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.core.filesystem.linux.ppc64le/1.4.0.v20140822-1153/org.eclipse.core.filesystem.linux.ppc64le-1.4.0.v20140822-1153.jar,reference:file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/work/plugins/org.eclipse.equinox.launcher.gtk.linux.ppc64le_1.0.400.v20160518-1444,reference:file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.swt.gtk.linux.ppc64le/3.105.1.v20160907-0248/org.eclipse.swt.gtk.linux.ppc64le-3.105.1.v20160907-0248.jar,reference:file:/home/mengjingshi/.m2/repository/org/eclipse/tycho/org.eclipse.tycho.surefire.osgibooter/0.26.0/org.eclipse.tycho.surefire.osgibooter-0.26.0.jar,reference:file:/home/mengjingshi/.m2/repository/org/eclipse/tycho/org.eclipse.tycho.surefire.junit4/0.26.0/org.eclipse.tycho.surefire.junit4-0.26.0.jar"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-i386/jre/lib/endorsed"/>
+    <property name="osgi.tracefile" value="/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/work/data/.metadata/trace.log"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="eclipse.application" value="org.eclipse.tycho.surefire.osgibooter.headlesstest"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="org.osgi.framework.vendor" value="Eclipse"/>
+    <property name="equinox.init.uuid" value="true"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="osgi.checkConfiguration" value="true"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="user.country" value="CN"/>
+    <property name="osgi.configuration.cascaded" value="false"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-i386/jre"/>
+    <property name="osgi.os" value="linux"/>
+    <property name="eclipse.commands" value="-data&#10;/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/work/data&#10;-install&#10;/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/work&#10;-configuration&#10;/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/work/configuration&#10;-application&#10;org.eclipse.tycho.surefire.osgibooter.headlesstest&#10;-testproperties&#10;/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/surefire.properties&#10;"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="3.19.0-18-generic"/>
+    <property name="osgi.arch" value="x86"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.45-b02"/>
+    <property name="org.osgi.supports.framework.fragment" value="true"/>
+    <property name="osgi.framework.shape" value="jar"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="org.osgi.framework.version" value="1.8.0"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="eclipse.stateSaveDelayInterval" value="30000"/>
+    <property name="osgi.dev" value="file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/work/dev.properties"/>
+    <property name="osgi.install.area" value="file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/work/"/>
+    <property name="osgi.framework" value="file:/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.osgi/3.11.1.v20160708-1632/org.eclipse.osgi-3.11.1.v20160708-1632.jar"/>
+    <property name="user.home" value="/home/mengjingshi"/>
+    <property name="osgi.framework.useSystemProperties" value="true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="osgi.nl" value="zh_CN"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/i386:/usr/lib/i386-linux-gnu/jni:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="osgi.bundlefile.limit" value="100"/>
+    <property name="eclipse.startTime" value="1480062657559"/>
+    <property name="org.osgi.framework.os.version" value="3.19.0"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.class.path" value="/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.launcher/1.3.200.v20160318-1642/org.eclipse.equinox.launcher-1.3.200.v20160318-1642.jar:/usr/share/java/jayatanaag.jar:/home/mengjingshi/.m2/repository/org/jacoco/org.jacoco.agent/0.7.7.201606060606/org.jacoco.agent-0.7.7.201606060606-runtime.jar"/>
+    <property name="sun.java.command" value="/home/mengjingshi/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.launcher/1.3.200.v20160318-1642/org.eclipse.equinox.launcher-1.3.200.v20160318-1642.jar -data /home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/work/data -install /home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/work -configuration /home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/work/configuration -application org.eclipse.tycho.surefire.osgibooter.headlesstest -testproperties /home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/surefire.properties"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="gosh.args" value="--nointeractive"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="eclipse.home.location" value="file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/work/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="i386"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-i386/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="user.dir" value="/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb"/>
+    <property name="org.osgi.supports.framework.requirebundle" value="true"/>
+    <property name="osgi.clean" value="true"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.name" value="OpenJDK Server VM"/>
+    <property name="dsf.gdb.tests.timeout.multiplier" value="1"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="org.osgi.framework.executionenvironment" value="OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JavaSE/compact1-1.8,JavaSE/compact2-1.8,JavaSE/compact3-1.8,JRE-1.1,J2SE-1.2,J2SE-1.3,J2SE-1.4,J2SE-1.5,JavaSE-1.6,JavaSE-1.7,JavaSE-1.8"/>
+    <property name="osgi.configuration.area" value="file:/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/work/configuration/"/>
+    <property name="osgi.logfile" value="/home/mengjingshi/Documents/workspace/org.eclipse.cdt/dsf-gdb/org.eclipse.cdt.tests.dsf.gdb/target/work/data/.metadata/.log"/>
+  </properties>
+  <testcase name="updateBreakpoint_ModifyCondition[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertBreakpoint_InvalidFileNamePending[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="removeBreakpoint_InvalidBreakpoint[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertInvalidBreakpoint_WhileTargetRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="breakpointHit_LineNumber[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertBreakpoint_Duplicate[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertBreakpoint_Address[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertBreakpoint_FunctionName[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertBreakpoint_InvalidFunctionName[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="breakpointHit_WatchpointOutOfScope[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped message="All GDBs seem to have a bug in this situation"/>
+  </testcase>
+  <testcase name="updateWatchpoint_ModifyCondition[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="updateBreakpoint_Enable_WhileTargetRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="updateBreakpoint_AfterRestart[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertWatchpoint_Read[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="breakpointHit_UpdatedCount[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="updateBreakpoint_InvalidBreakpoint[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertBreakpoint_LineNumber[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertWatchpoint_Access[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="updateBreakpoint_ModifyCount_WhileTargetRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertBreakpoint_InvalidContext[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertBreakpoint_InvalidFunctionNamePending[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="updateBreakpoint_AddCount[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="breakpointHit_WriteWatchpoint[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="breakpointHit_Function[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="breakpointHit_AccessWatchpoint[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertBreakpoint_Disabled[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="breakpointHit_Condition[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertBreakpoint_InvalidFileName[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="breakpointHit_Count[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertBreakpoint_InvalidLineNumberPending[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertBreakpoint_Condition[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="breakpointHit_watchpointUpdateCondition[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="updateBreakpoint_AddCondition[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="updateBreakpoint_Enable[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertInvalidBreakpoint_WhileTargetRunningPending[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="breakpointHit_watchpointUpdateCount[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertBreakpoint_InvalidLineNumber[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="updateBreakpoint_RemoveCondition[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="updateBreakpoint_ModifyCount[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertBreakpoint_WhileTargetRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="removeBreakpoint_MixedCase[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="updateBreakpoint_Disable[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertBreakpoint_MultipleBreakpoints[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="updateWatchpoint_RemoveCondition[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="updateBreakpoint_ModifyCondition_WhileTargetRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertBreakpoint_InvalidAddress[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="removeBreakpoint_WhileTargetRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="updateBreakpoint_Disable_WhileTargetRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertWatchpoint_Write[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertBreakpoint_IgnoreCnt[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="updateBreakpoint_RemoveCount[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="breakpointHit_ReadWatchpoint[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="breakpointHit_UpdatedCondition[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="updateWatchpoint_AddCondition[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="removeBreakpoint_SimpleCase[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertWatchpoint_WhileTargetRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIBreakpointsTest" time="0">
+    <skipped message="Not supported because the frame where we stop does not contain the expression"/>
+  </testcase>
+  <testcase name="updateCatchpoint_ModifyCondition[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MICatchpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="updateCatchpoint_WhileTargetRunning1[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MICatchpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="updateCatchpoint_WhileTargetRunning2[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MICatchpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertCatchpoint_Simple[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MICatchpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="updateCatchpoint_AddCondition[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MICatchpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="removeCatchpoint_SimpleCase[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MICatchpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="updateCatchpoint_ModifyCount[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MICatchpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="removeCatchpoint_WhileTargetRunning1[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MICatchpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="removeCatchpoint_WhileTargetRunning2[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MICatchpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertCatchpoint_Condition[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MICatchpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="removeCatchpoint_InvalidBreakpoint[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MICatchpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertCatchpoint_InvalidContext[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MICatchpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="updateCatchpoint_RemoveCount[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MICatchpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="catchpointConversions[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MICatchpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="updateCatchpoint_Disable[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MICatchpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="updateCatchpoint_AddCount[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MICatchpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="removeCatchpoint_MixedOrder[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MICatchpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertCatchpoint_IgnoreCnt[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MICatchpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="updateCatchpoint_RemoveCondition[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MICatchpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertCatchpoint_WhileTargetRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MICatchpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertCatchpoint_Duplicate[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MICatchpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="insertCatchpoint_MultipleCatchpoints[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MICatchpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="resolveTargetRegisterGroup[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRegistersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="frameSpecificValues[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRegistersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="canNotEditRootRegisterGroup[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRegistersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getRegisterGroupsData[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRegistersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="canRestoreRegisterGroups[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRegistersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="writeRegisterFromUserGroup[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRegistersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="resolveTargetRegistersLength[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRegistersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="writeRegisterBinaryFormat[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRegistersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="writeRegisterOctalFormat[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRegistersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="canEditRegisterGroup[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRegistersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="restoreRegisterGroups[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRegistersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="canNotEditUnknownRegisterGroup[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRegistersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="writeRegisterNaturalFormat[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRegistersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getModelDataForRegisterDataValueInDifferentNumberFormats[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRegistersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="removeRegisterGroups[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRegistersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="editRegisterGroup[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRegistersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getRegisters[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRegistersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="writeRegisterHEXFormat[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRegistersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="canAddRegisterGroup[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRegistersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="canRemoveRegisterGroup[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRegistersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="compareRegisterForMultipleExecutionContexts[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRegistersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="addRegisterGroups[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRegistersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="saveAndReadRegisterGroupData[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRegistersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="removeRegisterGroupsWithRoot[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRegistersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getRegisterNames[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRegistersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDisplayAsArrayWithPartition[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testLargeDoubleArray[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testChildren[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDeleteChildren[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCastToTypeOfArray[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSubBlock[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped message="Sublocks do not work with GDB"/>
+  </testcase>
+  <testcase name="testWriteCache[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGlobalVariables[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testThreadContext[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCastToType[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDisplayComplexReturnValueForStepReturn[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testUpdateIssue[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDisplaySimpleReturnValueForStepReturn[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testWriteVariable[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testChildrenCount[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testRTTI[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testNamingSameDepth[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testChildNamingSameMethod[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSmallDoubleArray[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testHasChildrenInExpressionData[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testNoReturnValueForEmptyStepReturn[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDisplayAsArrayAndCastToType[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDisplayAsArray[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testUpdateGDBBug[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testUpdateIssue2[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testNamingSameMethod[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testLiteralIntegerExpressions[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testConcurrentReadWriteChildren[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDisplayAsArrayAndCastToTypeWithPartition[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testConcurrentReadWrite[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testConcurrentReadAndUpdateChild[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testExplicitChildCreation[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testConcurrentUpdateOutOfScopeChildThenParent[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCanWrite[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testExistingChild[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testLiteralFloatingPointExpressions[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testUpdateOfPointer[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testArrays[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testConcurrentReadChildrenCount[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testLocalVariables[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testUpdatingChildren[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testExprAddress[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDeleteChildren_7_3[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testRTTI_7_5[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCanWriteLValue[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testWriteErrorFormat[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testBaseChildrenBug[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testConcurrentReadChildren[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testNestedBaseChildrenBug[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testConcurrentReads[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCastToTypeWithPartition[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSourceDefaultGdbInit[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testClearingAndSettingEnvironment[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSettingEnvironmentRestart[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testExitCodeSet[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStopAtOtherWithReverseRestart[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped message="Fails. Investigate what it needs to wait for."/>
+  </testcase>
+  <testcase name="testNoStopAtMainWithReverse[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped message="TODO: this is not working because it does not insert the breakpoint propertly"/>
+  </testcase>
+  <testcase name="testNoStopAtMainRestart[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testClearingEnvironmentRestart[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSettingWorkingDirectory[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testClearingAndSettingEnvironmentRestart[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testClearingEnvironment[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSourceInvalidGdbInit[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSettingArgumentsRestart[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSourceGdbInitRestart[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStopAtMainWithReverse[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testNoStopAtMain[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStopAtMainRestart[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStopAtMainWithReverseRestart[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSettingEnvironment[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSettingArguments[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testNoStopAtMainWithReverseRestart[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStopAtOther[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testPendingBreakpointSetting[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStopAtMain[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSourceGdbInit[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStopAtOtherWithReverse[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStopAtOtherRestart[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.LaunchConfigurationAndRestartTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceSubstituteBreakpointsAC[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceSubstituteBreakpointsAN[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceSubstituteBreakpointsRC[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceSubstituteBreakpointsRN[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceMappingBreakpointsAC[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceMappingBreakpointsAN[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped message="Not supported because GDB does not handle non-canonical paths. See Bug 477057"/>
+  </testcase>
+  <testcase name="sourceMappingBreakpointsRC[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceMappingBreakpointsRN[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped message="Not supported because GDB does not handle non-canonical paths. See Bug 477057"/>
+  </testcase>
+  <testcase name="sourceMappingAC[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceMappingAN[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceMappingRC[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceMappingRN[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceFinderSubstituteAC_TerminatedLaunch[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceFinderMappingAC_CommonLocator[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceFinderMappingAC_LaunchConfig[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceFinderMappingAC_TerminatedLaunch[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceFinderMappingAC_ActiveLaunch[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceMappingChanges[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceSubstituteChanges[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceFinderSubstituteAC_LaunchConfig[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceSubstituteAdded[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceFinderSubstituteAC_ActiveLaunch[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceSubstituteAC[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceSubstituteAN[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceSubstituteRC[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceSubstituteRN[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="twoLaunchesTerminate[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceFinderSubstituteAC_CommonLocator[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceFinder[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="defaultSourceLookup[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sourceMappingAdded[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="directorySource[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="noExplicitSourceContainers[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="twoMappersSecondValid[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="twoMappersFirstValid[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.SourceLookupTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="atDoubleMethodShalowCall[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.StepIntoSelectionTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="atLaterLineSkipBreakpoints[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.StepIntoSelectionTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="atDoubleMethodDeepCall[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.StepIntoSelectionTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="atDoubleMethodStopAtBreakpoint[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.StepIntoSelectionTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="atDoubleMethodSkipBreakpoint[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.StepIntoSelectionTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="atLaterLineThatIsNotHit[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.StepIntoSelectionTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="recursiveMethod[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.StepIntoSelectionTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="atDoubleMethodStopAtBreakpointFunctionEntry[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.StepIntoSelectionTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="atLaterLine[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.StepIntoSelectionTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="diffMethodByArgsNumber2[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.StepIntoSelectionTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="atSameLine[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.StepIntoSelectionTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="diffMethodByArgsNumber[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.StepIntoSelectionTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="atLaterLineOnDifferentFile[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.StepIntoSelectionTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="atDoubleMethodSkipBreakpointFunctionEntry[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.StepIntoSelectionTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="atLaterLineStopAtBreakpoint[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.StepIntoSelectionTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="atPreviousLine[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.StepIntoSelectionTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="terminateWhileTargetRunningKillGDB[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.OperationsWhileTargetIsRunningTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="restartWhileTargetRunningGDBAlive[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.OperationsWhileTargetIsRunningTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="detachWhileTargetRunningKillGDB[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.OperationsWhileTargetIsRunningTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="restartWhileTargetRunningKillGDB[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.OperationsWhileTargetIsRunningTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="terminateWhileTargetRunningKeepGDBAlive[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.OperationsWhileTargetIsRunningTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="detachWhileTargetRunningGDBAlive[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.OperationsWhileTargetIsRunningTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getModelDataForThread[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getModelDataForThreadWhenStep[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getExecutionContexts[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="resume[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="runToLine[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getExecutionContext[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="resumeContainerContext[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getExecutionContextsForInvalidContainerDMC[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cacheAfterContainerSuspendEvent[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="interruptRunningTarget[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getModelDataForThreadWhenBreakpoint[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getModelDataForContainer[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="executeSingleStepSingleOpWhileTargetRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRunControlTargetAvailableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="executeMultiStepSingleOpWhileTargetRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRunControlTargetAvailableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="executeSingleStepSingleOpWhileTargetStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRunControlTargetAvailableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="executeSingleStepConcurrentAndDependentOpWhileTargetRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRunControlTargetAvailableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="executeMultiStepSingleOpWhileTargetStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRunControlTargetAvailableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="executeSingleStepConcurrentButDelayedOpWhileTargetRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRunControlTargetAvailableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="executeMultiStepSingleOpWhileTargetRunningWithError[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRunControlTargetAvailableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="executeSingleStepConcurrentOpWhileTargetRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRunControlTargetAvailableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="executeSingleStepConcurrentAndDependentOpWhileTargetStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRunControlTargetAvailableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="executeSingleStepConcurrentButDelayedOpWhileTargetStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRunControlTargetAvailableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="executeSingleStepConcurrentOpWhileTargetStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRunControlTargetAvailableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="executeMultiStepSingleOpWhileTargetStoppedWithError[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIRunControlTargetAvailableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchArrayWithSingleLetterRange[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchSingleLocal[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchArraysWithCommaSeparatedIndices[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchVarWithQuestionMark[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGroupSubExprRange[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchArrayWithSingleNumberRange[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGroupExpressionAddressData[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGroupOneLocalMatchedLocals[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchAllLocalsOtherFrame[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchSingleReg[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchArraysWithCommaSeparatedOverlappingRanges[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGroupAllLocalsAllRegs[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGroupExpressionData[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSemiColonSeparation[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testExpressionWithCommand[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchRegWithOneDigitRange[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchRegWithLetterRange[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSingleReg[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchArraysWithCommaSeparatedUnsortedRanges[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGroupGetSubExpressions[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchNonArrayWithNumberRange[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchAllLocals[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchRegWithNumberRange[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGroupExpressionNotModifiable[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGroupExpressionAvailableFormats[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchRegWithQuestionMark[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGroupSemiColonEmptyTerm[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMultiplyReg[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMultiplyVar[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testVarWithConditionalOperator[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testArrayWithSubtraction[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchRegWithStar[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGroupOneLocalAllReg[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchArraysWithCommaSeparatedNumberRanges[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testUniqueWhenOverlapLocal[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSeparatlySorted[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchRegWithComplexLetterRange[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testExtraSpaces[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchArrayWithLetterRange2[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchAllArraysAndNumberRange[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchArrayWithSameNumberRange[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testRegWithConditionalOperator[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchArraysWithCommaSeparatedInvalidRanges[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchArrayWithLetterRange[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchVarWithStarBefore[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchArrayWithQuestionMarkAndNumberRange[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSortedAllReg[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchArrayWithInvalidNumberRange[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testUniqueWhenOverlapReg[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchAllRegs[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchArrayWithNumberRange[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDerefVar[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchRegWithOneLetterRange[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGroupAllRegsAllLocals[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchVarWithStarAfter[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testArraySorting[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSingleLocal[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSortedAllLocals[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMatchArrayWithWildCardAndNumberRange[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGroupExpressionValue[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBPatternMatchingExpressionsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStateProcessTwoThreadsStoppedAndRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testResumeOneThreadStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSuspendProcessThreadsTwoThreadsStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStepProcessThreadNotImplemented[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStateProcessThreadsTwoThreadsStoppedAndRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStateOneThreadStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSuspendProcessTwoThreadsStoppedAndRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSuspendTwoThreadsRunningSuspendOne[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSuspendTwoThreadsRunningSuspendTwo[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSuspendProcessTwoThreadsStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSuspendProcessThreadOneThreadStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSuspendProcessThreadsTwoThreadsStoppedAndRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStateProcessThreadOneThreadRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testResumeProcessOneThreadRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStateProcessThreadTwoThreadsStoppedAndRunning_1[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStateProcessThreadTwoThreadsStoppedAndRunning_2[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSuspendProcessThreadTwoThreadsStoppedAndRunning_1[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSuspendProcessThreadTwoThreadsStoppedAndRunning_2[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStateProcessOneThreadRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStateProcessThreadsTwoThreadsRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStepProcessNotImplemented[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSuspendProcessThreadTwoThreadsRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSuspendOneThreadRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testResumeProcessThreadOneThreadRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testResumeTwoThreadsStoppedAndRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testResumeTwoThreadsStoppedResumeOne[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testResumeTwoThreadsStoppedResumeTwo[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStateProcessThreadOneThreadStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testResumeProcessOneThreadStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testResumeProcessTwoThreadsStoppedAndRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStateProcessOneThreadStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStateProcessThreadsTwoThreadsStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testResumeProcessThreadTwoThreadsRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStateTwoThreadsRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testResumeProcessThreadsTwoThreadsStoppedAndRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSuspendProcessThreadTwoThreadsStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSuspendOneThreadStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testResumeProcessThreadOneThreadStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSuspendProcessOneThreadRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStateProcessTwoThreadsRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testResumeTwoThreadsRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSuspendTwoThreadsStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testResumeProcessThreadTwoThreadsStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStateTwoThreadsStoppedAndRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStateTwoThreadsStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStateProcessThreadTwoThreadsRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSuspendProcessOneThreadStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testResumeProcessTwoThreadsRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testResumeProcessThreadsTwoThreadsRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStepNotImplemented[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSuspendTwoThreadsStoppedAndRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStateProcessTwoThreadsStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testResumeOneThreadRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSuspendProcessThreadsTwoThreadsRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStateOneThreadRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testResumeProcessThreadTwoThreadsStoppedAndRunning_1[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testResumeProcessThreadTwoThreadsStoppedAndRunning_2[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSuspendProcessTwoThreadsRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStateProcessThreadTwoThreadsStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSuspendProcessThreadOneThreadRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testResumeProcessTwoThreadsStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testResumeProcessThreadsTwoThreadsStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.GDBMultiNonStopRunControlTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testAccessWatchpoints[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBConsoleBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testValidFunctionBreakpoints[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBConsoleBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testInvalidFunctionBreakpoints[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBConsoleBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testAddressBreakpointsAtZeroAddress[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBConsoleBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testValidAddressBreakpoints[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBConsoleBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testInvalidLineBreakpoints[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBConsoleBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testWriteWatchpoints[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBConsoleBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testValidLineBreakpoints[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBConsoleBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testReadWatchpoints[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBConsoleBreakpointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checknothing[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIRunControlNonStopTargetAvailableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="executeSingleStepSingleOpWhileTargetRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIRunControlNonStopTargetAvailableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="executeMultiStepSingleOpWhileTargetRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIRunControlNonStopTargetAvailableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="executeSingleStepSingleOpWhileTargetStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIRunControlNonStopTargetAvailableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="executeSingleStepConcurrentAndDependentOpWhileTargetRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIRunControlNonStopTargetAvailableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="executeMultiStepSingleOpWhileTargetStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIRunControlNonStopTargetAvailableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="executeSingleStepConcurrentButDelayedOpWhileTargetRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIRunControlNonStopTargetAvailableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="executeMultiStepSingleOpWhileTargetRunningWithError[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIRunControlNonStopTargetAvailableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="executeSingleStepConcurrentOpWhileTargetRunning[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIRunControlNonStopTargetAvailableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="executeSingleStepConcurrentAndDependentOpWhileTargetStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIRunControlNonStopTargetAvailableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="executeSingleStepConcurrentButDelayedOpWhileTargetStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIRunControlNonStopTargetAvailableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="executeSingleStepConcurrentOpWhileTargetStopped[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIRunControlNonStopTargetAvailableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="executeMultiStepSingleOpWhileTargetStoppedWithError[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIRunControlNonStopTargetAvailableTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDisplayAsArrayWithPartition[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testLargeDoubleArray[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testChildren[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDeleteChildren[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCastToTypeOfArray[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSubBlock[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped message="Sublocks do not work with GDB"/>
+  </testcase>
+  <testcase name="testWriteCache[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGlobalVariables[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testThreadContext[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCastToType[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDisplayComplexReturnValueForStepReturn[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testUpdateIssue[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDisplaySimpleReturnValueForStepReturn[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testWriteVariable[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testChildrenCount[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testRTTI[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testNamingSameDepth[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testChildNamingSameMethod[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSmallDoubleArray[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testHasChildrenInExpressionData[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testNoReturnValueForEmptyStepReturn[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDisplayAsArrayAndCastToType[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDisplayAsArray[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testUpdateGDBBug[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testUpdateIssue2[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testNamingSameMethod[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testLiteralIntegerExpressions[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testConcurrentReadWriteChildren[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDisplayAsArrayAndCastToTypeWithPartition[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testConcurrentReadWrite[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testConcurrentReadAndUpdateChild[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testExplicitChildCreation[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testConcurrentUpdateOutOfScopeChildThenParent[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCanWrite[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testExistingChild[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testLiteralFloatingPointExpressions[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testUpdateOfPointer[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testArrays[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testConcurrentReadChildrenCount[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testLocalVariables[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testUpdatingChildren[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testExprAddress[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDeleteChildren_7_3[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testRTTI_7_5[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCanWriteLValue[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testWriteErrorFormat[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testBaseChildrenBug[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testConcurrentReadChildren[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testNestedBaseChildrenBug[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testConcurrentReads[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCastToTypeWithPartition[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.MIExpressionsNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checknothing[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.OperationsWhileTargetIsRunningNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="terminateWhileTargetRunningKillGDB[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.OperationsWhileTargetIsRunningNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="restartWhileTargetRunningGDBAlive[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.OperationsWhileTargetIsRunningNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="detachWhileTargetRunningKillGDB[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.OperationsWhileTargetIsRunningNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="restartWhileTargetRunningKillGDB[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.OperationsWhileTargetIsRunningNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="terminateWhileTargetRunningKeepGDBAlive[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.OperationsWhileTargetIsRunningNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="detachWhileTargetRunningGDBAlive[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.OperationsWhileTargetIsRunningNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checknothing[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.StepIntoSelectionNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="atDoubleMethodShalowCall[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.StepIntoSelectionNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="atLaterLineSkipBreakpoints[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.StepIntoSelectionNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="atDoubleMethodDeepCall[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.StepIntoSelectionNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="atDoubleMethodStopAtBreakpoint[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.StepIntoSelectionNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="atDoubleMethodSkipBreakpoint[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.StepIntoSelectionNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="atLaterLineThatIsNotHit[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.StepIntoSelectionNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="recursiveMethod[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.StepIntoSelectionNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="atDoubleMethodStopAtBreakpointFunctionEntry[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.StepIntoSelectionNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="atLaterLine[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.StepIntoSelectionNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="diffMethodByArgsNumber2[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.StepIntoSelectionNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="atSameLine[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.StepIntoSelectionNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="diffMethodByArgsNumber[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.StepIntoSelectionNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="atLaterLineOnDifferentFile[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.StepIntoSelectionNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="atDoubleMethodSkipBreakpointFunctionEntry[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.StepIntoSelectionNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="atLaterLineStopAtBreakpoint[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.StepIntoSelectionNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="atPreviousLine[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.StepIntoSelectionNonStopTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tracepointActions[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBRemoteTracepointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="enableTracepoints[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBRemoteTracepointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checkTraceInitialStatus[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBRemoteTracepointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tracepointActionsWithCollectStrings[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBRemoteTracepointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="disableTracepoints[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBRemoteTracepointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="createTracepointEnabledWithCommandsConditionPasscount[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBRemoteTracepointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="createTracepointDisabledWithCommandsConditionPasscount[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBRemoteTracepointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="createTracepointDisabled[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBRemoteTracepointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="createTracepointWithPasscount[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBRemoteTracepointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="createTracepointWithCondition[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBRemoteTracepointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="createTracepointWithMultipleCommands[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBRemoteTracepointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="deleteTracepoints[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBRemoteTracepointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tracepointPasscount[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBRemoteTracepointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tracepointCondition[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBRemoteTracepointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="createTracepoints[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBRemoteTracepointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="createTracepointWithCommand[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBRemoteTracepointsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCreateTraceFile[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.TraceFileTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testTraceFile[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.TraceFileTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testTraceFileWithExistingTracepoints[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.TraceFileTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testEnableRecord[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBConsoleSynchronizingTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSettingVariableWithSet[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBConsoleSynchronizingTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSettingVariableWithPrint[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBConsoleSynchronizingTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSettingMemory[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBConsoleSynchronizingTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDisableRecord[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBConsoleSynchronizingTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSettingVariableWithSetWithMemory[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBConsoleSynchronizingTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="writePatternVaryingAddress[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIMemoryTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="fillWithInvalidCount[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIMemoryTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="readCharVaryingBaseAddress[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIMemoryTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="readWithInvalidWordSize[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIMemoryTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="writeWithInvalidWordSize[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIMemoryTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="writeWithInvalidAddress[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIMemoryTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="writeWithNullContext[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIMemoryTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="readCharArray[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIMemoryTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="fillWithInvalidWordSize[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIMemoryTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="readWithInvalidAddress[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIMemoryTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="writeCharArray[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIMemoryTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="asynchronousReadWrite[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIMemoryTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="writeWithInvalidBuffer[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIMemoryTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="writePatternVaryingOffset[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIMemoryTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="fillWithNullContext[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIMemoryTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="writeWithInvalidCount[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIMemoryTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="readCharVaryingOffset[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIMemoryTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="readWithInvalidCount[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIMemoryTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="readWithNullContext[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIMemoryTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="writeCharVaryingAddress[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIMemoryTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="fillWithInvalidAddress[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIMemoryTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="writePatternCountTimes[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIMemoryTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="writeCharVaryingOffset[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIMemoryTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="fillWithInvalidPattern[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIMemoryTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="memoryCacheRead[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIMemoryTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="readMixedWithValidAddress[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIDisassemblyTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="readWithInvalidLineNumber[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIDisassemblyTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="readMixedWithLineCount[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIDisassemblyTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="readWithValidAddress[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIDisassemblyTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="readWithNullAddress[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIDisassemblyTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="readWithValidFilename[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIDisassemblyTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="readWithInvalidAddress[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIDisassemblyTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="readWithLineCount[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIDisassemblyTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="readWithNullContext[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIDisassemblyTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="readWithInvalidFilename[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.MIDisassemblyTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getThreadData[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBProcessesTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getProcessData[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.GDBProcessesTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testRelativeCoreFilePathMissing[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.PostMortemCoreTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testAbsoluteInitialPath[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.PostMortemCoreTest" time="0">
+    <skipped message="Can&apos;t test without the UI"/>
+  </testcase>
+  <testcase name="testAbsoluteCoreFilePath[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.PostMortemCoreTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testRelativeCoreFilePathInvalid[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.PostMortemCoreTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testLiteralIntegerExpressions[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.PostMortemCoreTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCoreFilePathWithVariable[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.PostMortemCoreTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testAbsoluteCoreFilePathMissing[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.PostMortemCoreTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testLiteralFloatingPointExpressions[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.PostMortemCoreTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testEmptyInitialPath[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.PostMortemCoreTest" time="0">
+    <skipped message="Can&apos;t test without the UI"/>
+  </testcase>
+  <testcase name="readMemoryArray[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.PostMortemCoreTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testRelativeInitialPath[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.PostMortemCoreTest" time="0">
+    <skipped message="Can&apos;t test without the UI"/>
+  </testcase>
+  <testcase name="testLocalVariables[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.PostMortemCoreTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testInitialPathWithVariable[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.PostMortemCoreTest" time="0">
+    <skipped message="Can&apos;t test without the UI"/>
+  </testcase>
+  <testcase name="testAbsoluteInitialPathInvalid[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.PostMortemCoreTest" time="0">
+    <skipped message="Can&apos;t test without the UI"/>
+  </testcase>
+  <testcase name="testAbsoluteCoreFilePathInvalid[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.PostMortemCoreTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testRelativeCoreFilePath[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.PostMortemCoreTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testRelativeInitialPathInvalid[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.PostMortemCoreTest" time="0">
+    <skipped message="Can&apos;t test without the UI"/>
+  </testcase>
+  <testcase name="commandTimedOutDuringLaunch[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.CommandTimeoutTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="commandTimedOutDuringSession[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.CommandTimeoutTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGdbSyncServiceCanSwitchGDBThread[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.ThreadStackFrameSyncTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testChangingCurrentThreadCLINotification[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.ThreadStackFrameSyncTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGdbSyncServiceCanSwitchGDBStackFrame[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.ThreadStackFrameSyncTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testChangingCurrentFrameCLINotification[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.nonstop.ThreadStackFrameSyncTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSettingArgumentsWithTabs[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.CommandLineArgsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSettingArgumentsWithQuotes[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.CommandLineArgsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSettingArgumentsWithSymbols[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.CommandLineArgsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSettingArguments[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.CommandLineArgsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSettingArgumentsWithSpecialSymbols[gdb.7.12]" classname="org.eclipse.cdt.tests.dsf.gdb.tests.CommandLineArgsTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

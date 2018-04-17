@@ -1,0 +1,20 @@
+11:46:09 **** Build of configuration Debug for project Test21CXX ****
+make all 
+Building file: ../Functions/Func1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions/Func1.d" -MT"Functions/Func1.o" -o "Functions/Func1.o" "../Functions/Func1.cpp"
+Finished building: ../Functions/Func1.cpp
+ 
+Building file: ../main.c
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Test21CXX
+Invoking: GCC C++ Linker
+g++  -o "Test21CXX"  ./Functions/Func1.o  ./main.o   
+Finished building target: Test21CXX
+ 
+
+11:46:09 Build Finished (took 106ms)
+

@@ -1,0 +1,45 @@
+11:46:37 **** Build of configuration Debug for project test1DepCalc3 ****
+make all 
+Building file: ../Sources/sub sources/func 3.c
+Invoking: GCC C Compiler
+gcc -DFUN3 -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0 -o "Sources/sub sources/func 3.o" "../Sources/sub sources/func 3.c" && \
+echo -n 'Sources/sub sources/func 3.d' Sources/ sources/ ./ > 'Sources/sub sources/func 3.d' && \
+gcc -MM -MG -P -w -DFUN3 -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0   "../Sources/sub sources/func 3.c" >> 'Sources/sub sources/func 3.d'
+Finished building: ../Sources/sub sources/func 3.c
+ 
+Building file: ../Sources/func1.c
+Invoking: GCC C Compiler
+gcc -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0 -o "Sources/func1.o" "../Sources/func1.c" && \
+echo -n 'Sources/func1.d' Sources/ > 'Sources/func1.d' && \
+gcc -MM -MG -P -w -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0   "../Sources/func1.c" >> 'Sources/func1.d'
+Finished building: ../Sources/func1.c
+ 
+Building file: ../Sources/func2.c
+Invoking: GCC C Compiler
+gcc -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0 -o "Sources/func2.o" "../Sources/func2.c" && \
+echo -n 'Sources/func2.d' Sources/ > 'Sources/func2.d' && \
+gcc -MM -MG -P -w -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0   "../Sources/func2.c" >> 'Sources/func2.d'
+Finished building: ../Sources/func2.c
+ 
+Building file: ../Sources/func4.c
+Invoking: GCC C Compiler
+gcc -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0 -o "Sources/func4.o" "../Sources/func4.c" && \
+echo -n 'Sources/func4.d' Sources/ > 'Sources/func4.d' && \
+gcc -MM -MG -P -w -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0   "../Sources/func4.c" >> 'Sources/func4.d'
+Finished building: ../Sources/func4.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0 -o "main.o" "../main.c" && \
+echo -n 'main.d' ./ > 'main.d' && \
+gcc -MM -MG -P -w -I../Headers -I../Sources/sub\ sources -O0 -g3 -Wall -c -fmessage-length=0   "../main.c" >> 'main.d'
+Finished building: ../main.c
+ 
+Building target: test1DepCalc3
+Invoking: GCC C Linker
+gcc  -o "test1DepCalc3"  ./Sources/sub\ sources/func\ 3.o  ./Sources/func1.o ./Sources/func2.o ./Sources/func4.o  ./main.o   
+Finished building target: test1DepCalc3
+ 
+
+11:46:37 Build Finished (took 152ms)
+

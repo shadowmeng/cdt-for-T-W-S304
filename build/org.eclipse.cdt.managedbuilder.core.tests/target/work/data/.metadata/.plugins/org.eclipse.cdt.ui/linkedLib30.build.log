@@ -1,0 +1,6 @@
+11:46:18 **** Build of configuration MBS30ConfigName.Dbg for project linkedLib30 ****
+make -k all 
+subdir.mk:26: *** target pattern contains no '%'。 停止。
+
+11:46:18 Build Finished (took 54ms)
+
